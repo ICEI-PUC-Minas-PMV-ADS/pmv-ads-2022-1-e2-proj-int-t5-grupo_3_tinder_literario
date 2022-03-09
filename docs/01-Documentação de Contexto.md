@@ -16,13 +16,14 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver uma aplicação web que aproxime as pessoas por seus gostos literários e, simultaneamente, promova a construção do conhecimento por meio da troca de experiências e vivências literárias. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos, propomos: 
+
+> Fornecer funcionalidades que permitam a interação entre pessoas a partir de seus gostos literários; 
+> Construir uma aplicação interativa de acordo com os requisitos funcionais e não funcionais de acordo com o perfil do público-alvo; 
+> Permitir a criação de comunidades com base em gêneros e subgêneros literários. 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
