@@ -13,9 +13,9 @@ Desenvolver uma aplicação web que aproxime as pessoas por seus gostos literár
 
 Como objetivos específicos, propomos: 
 
-> - Fornecer funcionalidades que permitam a interação entre pessoas a partir de seus gostos literários; 
-> - Construir uma aplicação interativa de acordo com os requisitos funcionais e não funcionais de acordo com o perfil do público-alvo; 
-> - Permitir a criação de comunidades com base em gêneros e subgêneros literários. 
+- Fornecer funcionalidades que permitam a interação entre pessoas a partir de seus gostos literários; 
+- Construir uma aplicação interativa de acordo com os requisitos funcionais e não funcionais de acordo com o perfil do público-alvo; 
+- Permitir a criação de comunidades com base em gêneros e subgêneros literários. 
  
 ## Justificativa
 
