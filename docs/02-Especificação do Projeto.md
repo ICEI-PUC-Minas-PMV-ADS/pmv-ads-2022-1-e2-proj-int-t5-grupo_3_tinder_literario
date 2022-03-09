@@ -7,27 +7,27 @@ A definição do problema e os pontos mais relevantes a serem tratados neste pro
 ## Personas
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas que se seguem. 
 
-![Persona 1](docs/img/personas/persona1.PNG)| **Camila Silva**  
+<img src="img/personas/persona1.PNG" width="150" height="150" />| **Camila Silva**  
 ---|---
 **Idade:** 19 **Ocupação:** Estudante **Hobbies:** Literatura|**Aplicativos:** Instagram, Skoob, Apps bancários, Netflix, WhatsApp, Telegram  
 **Motivações:** Gosta de ler livros. Gostaria de aumentar seu círculo de amizades. Quer melhorar sua habilidade de comunicação.|**Frustrações:** Sofre com a dificuldade de estabelecer interações com pessoas. É muito tímida e se sente tensa durante diálogos por não saber o que dizer.
 
-![Persona 2](docs/img/personas/persona2.PNG)| **Carlos Santos** 
+<img src="img/personas/persona2.PNG" width="150" height="150" />| **Carlos Santos** 
 --- | ---
 **Idade:** 71 **Ocupação:** Aposentado **Hobbies:** Literatura|**Aplicativos:** Facebook, Aplicativos de bancos, Whatsapp
 **Motivações:** Gosta de literatura. Gosta de sair para encontrar pessoas e conversar.|**Frustrações:** Se sente solitário e triste devido ao isolamento social provocado pela pandemia de Covid-19. 
 
-![Persona 3](docs/img/personas/persona3.PNG)| **Maria Ferreira** 
+<img src="img/personas/persona3.PNG" width="150" height="150" />| **Maria Ferreira** 
 --- | ---
 **Idade:** 39 **Ocupação:** Escritora iniciante **Hobbies:** Literatura, Escrita criativa |**Aplicativos:** Facebook, Instagram, Whatsapp, Aplicativos de bancos 
 **Motivações:** Gosta de ler romances. Quer escrever seu próprio livro.|**Frustrações:** Não consegue encontrar alguém para compartilhar os capítulos já escritos de seu romance e obter um feedback. Possui muitas tarefas para realizar diariamente. 
 
-![Persona 4](docs/img/personas/persona4.PNG)| **Ana Oliveira** 
+<img src="img/personas/persona4.PNG" width="150" height="150" />| **Ana Oliveira** 
 --- | ---
 **Idade:** 57 **Ocupação:** Aposentada **Hobbies:** Literatura |**Aplicativos:** Whatsapp, Youtube 
 **Motivações:** Passa a maior parte do tempo escutando audiolivros em casa. Gostaria de encontrar novas recomendações de livros.  |**Frustrações:** Sente dificuldade de interagir com a tecnologia. Possui baixa visão e precisa do auxílio de ferramentas leitoras de tela. 
 
-![Persona 5](docs/img/personas/persona5.PNG)| **Miguel Lima** 
+<img src="img/personas/persona5.PNG" width="150" height="150" />| **Miguel Lima** 
 --- | ---
 **Idade:** 26 **Ocupação:** Afastado do emprego **Hobbies:** Literatura |**Aplicativos:** Instagram, Skoob, Apps bancários, Netflix, WhatsApp, Telegram  
 **Motivações:** Gostaria de voltar a frequentar clubes de literatura. Gosta de conversar sobre livros |**Frustrações:** Devido a um acidente, desenvolveu dificuldade de mobilidade. Não sai de casa tanto quanto gostaria.
