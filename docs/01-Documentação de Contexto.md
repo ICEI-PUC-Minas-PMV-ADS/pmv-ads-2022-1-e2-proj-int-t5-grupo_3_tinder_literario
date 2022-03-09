@@ -3,16 +3,9 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Algumas pessoas sentem dificuldade para desenvolver relações e o motivo para tal dificuldade nem sempre é o mesmo. Isso não necessariamente evoca, de forma específica, questões como relacionamentos amorosos, por exemplo, mas, sim, as relações humanas de forma geral. A timidez, a impossibilidade de deslocamento, causada por questões de acessibilidade e/ou provocada pelo isolamento social, a preferência por mundos virtuais e o interesse específico pela ênfase em determinados gêneros literários são alguns motivos que podem contribuir ou causar a adversidade que aqui mencionamos. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Assim, este projeto busca mitigar essa dificuldade ao proporcionar a possibilidade de interação entre usuários, por meio de combinações entre perfis e por meio do estabelecimento de uma comunidade literária, levando em consideração o interesse de leitura de cada membro como ponto de partida. Além disso, essa possível interseção literária fornece uma diversificada gama de assuntos a serem discutidos, afinal, a literatura, como toda linguagem, tem alçada para refletir assuntos mundanos. 
 
 ## Objetivos
 
@@ -20,9 +13,9 @@ Desenvolver uma aplicação web que aproxime as pessoas por seus gostos literár
 
 Como objetivos específicos, propomos: 
 
-> Fornecer funcionalidades que permitam a interação entre pessoas a partir de seus gostos literários; 
-> Construir uma aplicação interativa de acordo com os requisitos funcionais e não funcionais de acordo com o perfil do público-alvo; 
-> Permitir a criação de comunidades com base em gêneros e subgêneros literários. 
+> - Fornecer funcionalidades que permitam a interação entre pessoas a partir de seus gostos literários; 
+> - Construir uma aplicação interativa de acordo com os requisitos funcionais e não funcionais de acordo com o perfil do público-alvo; 
+> - Permitir a criação de comunidades com base em gêneros e subgêneros literários. 
  
 ## Justificativa
 
