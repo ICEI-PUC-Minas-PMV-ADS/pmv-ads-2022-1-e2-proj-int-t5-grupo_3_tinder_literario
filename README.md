@@ -1,25 +1,25 @@
-# TÍTULO DO PROJETO
+# TINDER LITERÁRIO
 
-`CURSO`
+`CURSO DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`DISCIPLINA PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA, TURMA 05`
 
-`SEMESTRE`
+`1º 2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto Tinder Literário objetiva desenvolver um website com ênfase na linguagem C# e SQL, o qual permite aproximação das pessooas por gostos literários, além de permitir a troca de experiências e vivências literárias através de match, cadastro e interação dos usuário e inserção de dados do livro como comentários, imagens da capa.
 
 ## Integrantes
 
-* Cristiano Ridolfi
+* Cristiano Garcia Ridolfi
 * Kelly Cesário de Oliveira
-* Luis Galdino
-* Michelle Leal
-* Pedro Daniel
-* Renata Diniz
+* Luis Galdino de Almeida da Silva
+* Michelle Leal Rodrigues
+* Pedro Daniel Jardim
+* Renata Diniz Guimarães de Oliveira
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 ## Instruções de utilização
 
