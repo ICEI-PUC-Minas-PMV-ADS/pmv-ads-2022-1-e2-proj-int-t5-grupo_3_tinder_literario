@@ -10,8 +10,9 @@ BERMAN, Marshall. **Tudo que é sólido desmancha no ar**: a aventura da moderni
 
 DIAS, C. **Usabilidade na Web**: criando portais mais acessíveis. 2.ed. Rio de Janeiro: Alta Books, 2007. 
 
-FUKUSHIMA, Fernanda. **Livros do Booktok**: os títulos mais famosos da rede social. 18 jan. 2022. Opiniões certificadas. Disponível em: https://opinioescertificadas.com.br/livros-booktok/. Acesso em: 25 fev. 2022. 
+FUKUSHIMA, Fernanda. **Livros do booktok**: os títulos mais famosos da rede social. Maringá: Opiniões certificadas, 18 jan. 2022. Disponível em: https://opinioescertificadas.com.br/livros-booktok/. Acesso em: 25 fev. 2022. 
+
+GO2WEB. Tinder comemora a marca de 10 milhões de usuários no Brasil. *In*: GO2WEB. Nosso blog. Rio de Janeiro, [2014?] . Disponível em: http://www.go2web.com.br/pt-BR/blog/tinder-comemora-a-marca-de-10-milhoes-de-usuarios-no-brasil.html#:~:text=Com%20100%20milh%C3%B5es%20de%20pessoas,perfis%20de%20usu%C3%A1rios%20no%20total. Acesso em: 25 fev. 2022.
 
 MARIA, Luzia de. **O clube do livro**: ser leitor - que diferença faz? São Paulo: Global Editora, 2016. *E-book*. 
 
-TINDER comemora a marca de 10 milhões de usuários no brasil. *In* NOSSO BLOG. Go2Web. Disponível em: http://www.go2web.com.br/pt-BR/blog/tinder-comemora-a-marca-de-10-milhoes-de-usuarios-no-brasil.html#:~:text=Com%20100%20milh%C3%B5es%20de%20pessoas,perfis%20de%20usu%C3%A1rios%20no%20total. Acesso em: 25 fev. 2022.
