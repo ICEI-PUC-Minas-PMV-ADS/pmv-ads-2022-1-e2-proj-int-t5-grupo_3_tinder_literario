@@ -5,7 +5,7 @@
 A definição do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados com base nas experiências pessoais, relacionadas ao tema, compartilhada por alguns membros do grupo. A partir desses relatos, inferimos outros possíveis problemas dos usuários. Os detalhes levantados nesse processo foram organizados em personas e histórias de usuários. 
 
 ## Personas
-As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas que se seguem. 
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas que se seguem:  
 
 <img src="img/personas/persona1.PNG" width="150" height="150" />| **Camila Silva**  
 ---|---
@@ -25,39 +25,30 @@ As personas levantadas durante o processo de entendimento do problema são apres
 <img src="img/personas/persona4.PNG" width="150" height="150" />| **Ana Oliveira** 
 --- | ---
 **Idade:** 57 **Ocupação:** Aposentada **Hobbies:** Literatura |**Aplicativos:** Whatsapp, Youtube 
-**Motivações:** Passa a maior parte do tempo escutando audiolivros em casa. Gostaria de encontrar novas recomendações de livros.  |**Frustrações:** Sente dificuldade de interagir com a tecnologia. Possui baixa visão e precisa do auxílio de ferramentas leitoras de tela. 
+**Motivações:** Passa a maior parte do tempo escutando audiolivros em casa. |**Frustrações:** Sente dificuldade de interagir com a tecnologia. Possui baixa visão e precisa do auxílio de ferramentas leitoras de tela. 
 
 <img src="img/personas/persona5.PNG" width="150" height="150" />| **Miguel Lima** 
 --- | ---
 **Idade:** 26 **Ocupação:** Afastado do emprego **Hobbies:** Literatura |**Aplicativos:** Instagram, Skoob, Apps bancários, Netflix, WhatsApp, Telegram  
-**Motivações:** Gostaria de voltar a frequentar clubes de literatura. Gosta de conversar sobre livros |**Frustrações:** Devido a um acidente, desenvolveu dificuldade de mobilidade. Não sai de casa tanto quanto gostaria.
+**Motivações:** Gostaria de voltar a frequentar clubes de literatura. Quer encontrar novas recomendações de livros. |**Frustrações:** Devido a um acidente, desenvolveu dificuldade de mobilidade. Não sai de casa tanto quanto gostaria.
 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas identificadas para o projeto, foram formuladas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Camila Silva | Criar uma conta com meus dados pessoais que devem permanecer salvos e que possam ser alterados | Para ter um perfil de acesso ao utilizar a aplicação |
+|Camila Silva | Expor em meu perfil assuntos que me interessem dentro do escopo da literatura | Para facilitar durante a busca de pessoas com interesses em comum |
+|Camila Silva | Visualizar pessoas com interesses em comum e estabelecer uma conexão com elas | Para que o interesse em comum facilite a interação e eventualmente melhore minhas habilidades de comunicação |
+Carlos Santos | Acessar um chat para conversar na aplicação | Para interagir com as pessoas on-line ou marcar encontros pessoalmente |
+Maria Ferreira | Usar a aplicação tanto no computador quanto no celular | Para acessar em diferentes contextos de sua rotina |
+Ana Oliveira | Um sistema com interface simples e intuitiva | Para interagir com a aplicação, mesmo tendo dificuldade com o uso da tecnologia |
+Ana Oliveira | Um sistema bem adaptado para leitores de tela | Para que a baixa visão não atrapalhe a experiência de uso |
+Miguel Lima | Montar ou pesquisar grupos com interesses literários em comum | Para que possa se conectar com atividades que gosta de forma simples e remota |
+Miguel Lima | Comentar e avaliar livros lidos por mim | Para que possa expor minha opinião, ler a de outros e descobrir novos livros |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
