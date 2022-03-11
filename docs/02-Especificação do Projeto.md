@@ -58,15 +58,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil e efetuar login, sendo o login endereço de e-mail.       | ALTA | 
+|RF-002| O site deve ter um chat para conversação para os usuários interagirem entre si. | MÉDIA |
+|RF-003| O site deve permitir salvar as informações dos usuários respeitando a LGPD.  | MÉDIA |
+|RF-004| O site deve possuir uma tela simples e intuitiva, com base nos pressupostos do Design de Interação, para que pessoas com dificuldades em tecnologias possam utilizá-lo.  | ALTA |
+|RF-005| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar pessoas com os mesmos gêneros literários. | ALTA |
+|RF-006| O site deve possuir a opção de remover informações. | ALTA |
+|RF-007| O site deve possuir opção de edição de informações na conta. | ALTA|
+|RF-008| O site deve possuir as opções de inserir listas de livros e de salvá-las. | ALTA |
+|RF-009| O site deve possuir um sistema adaptado para pessoas com deficiências visuais. | ALTA|
+|RF-010| O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de mesmos gêneros literários. | BAIXA |
+|RF-011| O site deve permitir um sistema simples para pesquisas de livros. | BAIXA |
+|RF-012| O site deve permitir a função match, quando um usuário se identificou com outro usuário. | ALTA |
+|RF-013| O site deve permitir que usuários façam comentários e avaliações sobre os livros. | MÉDIA |
+|RF-014| O site deve listar e reunir os matches por áreas da literárias para ajudar na recuperação de informações. | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA | 
+|RNF-002| O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada. | ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | MÉDIA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
+|RNF-005| O site deve possuir leitores de tela, para que pessoas com deficiência possam utilizar nossa plataforma. | MÉDIA |
 
 ## Restrições
 
