@@ -74,8 +74,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de back-end        |
+|RE-01 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de #26/06/2022.   |
+|RE-02 | O aplicativo deve utilizar conhecimentos de SQL e Modelagem de Dados, Engenharia de Requisitos de Software, Programação Modular, Algoritmos e Estruturas de Dados, Desenvolvimento Web Back-End e Front-End e Fundamentos de Redes de Computadores.          |
+|RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho.        |
 
 
 ## Diagrama de Casos de Uso
