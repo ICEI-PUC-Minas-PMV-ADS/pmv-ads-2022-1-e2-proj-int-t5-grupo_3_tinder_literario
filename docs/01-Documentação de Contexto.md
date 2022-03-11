@@ -43,7 +43,7 @@ Além dos pressupostos principais os quais foram citados acima, houve também a 
 
 O artigo citado abaixo explica alguns fatores que podem estar associados às dificuldade de algumas pessoas se relacionarem, independentemente do âmbito que esta relação se dá. Ainda em relação ao artigo, um dos fatores que mais afeta essa dificuldade nos relacionamentos seria justamente os meios tecnológicos que, segundo a autora, substitui as relações que, até alguns anos atrás, eram consideradas como insubstituiveis. 
 
-Partindo deste princípio ficam aqui mais duas lacunas que queremos preencher: (iv) A restituição deste relacionamento não necessariamente afetivo e (v) esta relação será feita sim de forma tecnologia, afim de que pessoas com diversos tipos de comportamentos sejam contempladas com esta solução, seja atraves dos matchs, dos chats e quem sabe à evolução de encontros pessoais, grupos de leitura, feiras literárias e convenções.
+Partindo desse princípio, ficam aqui mais duas lacunas que queremos preencher: (iv) a restituição desse relacionamento não necessariamente afetivo e (v) essa relação será feita, sim, de forma tecnológica, a fim de que pessoas com diversos tipos de comportamentos sejam contempladas com esta solução, seja por meio das combinações, dos chats e, quem sabe, por meio da evolução para encontros presenciais, grupos de leitura, feiras literárias e convenções.
 
 FONTANA FOSSÁ, Dirlei. "Dificuldade em se Relacionar nos Tempos atuais: O que Fazer?". Site: Psicanalise Clínica, 2019. Disponível em: https://www.psicanaliseclinica.com/dificuldade-em-se-relacionar/. Acesso em: 11 de Março de 2022.
 
