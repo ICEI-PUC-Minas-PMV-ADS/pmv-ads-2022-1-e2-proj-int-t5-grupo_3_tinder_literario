@@ -2,12 +2,9 @@
 
 A leitura é uma forma de aprimorarmos nosso conhecimento, pois fornece subsídios para o pensamento crítico e a formação de opinião, desenvolvendo conceitos, valores e ideais individuais e, também, ideais coletivos. O prazer de ler leva o leitor ao encontro do que vai existir, mas que ninguém sabe o que será. De acordo com Maria, "[a] leitura aproxima as pessoas, conclama-as ao diálogo, oferece provisões, palavras e mais palavras, instigações, sentidos novos e cambiantes, promovendo interação" (MARIA, 2016). Além disso, acrescentamos que a leitura tem a capacidade de aproximar as pessoas, provocando um sentimento de igualdade, companheirismo e cumplicidade. 
 
-
 Com a chegada das Tecnologias Digitais da Informação e Comunicação (TDICs), a interação entre pessoas ganhou um novo cenário, a internet. Segundo Dias (2007), a interação com a web faz parte da sociedade atual e a acessibilidade das pessoas a ela proporciona facilidade e rapidez na resolução de várias de suas necessidades, como a utilização de serviços, produtos e informação, permitindo uma melhora na qualidade de vida. Desde que as redes digitais nos empossaram de recursos para outras maneiras de interagir, sejam interações de consumo, foro pessoal ou busca por contato profissional, os espaços digitais são, assim sendo, fontes de enunciados que simulam uma persona que interage com outras personas.  
 
-
 Estas interações passaram a serem feitas por sites e aplicativos como o Tinder como espaços de interação entre as pessoas, levando em consideração o estilo de vida e relacionamentos, ou seja, a procura pelo outro tendo como o principal modo de operar a imagem de si no meio virtual é pela vitrine de perfis postos para a circulação. É por essa vitrine que os usuários se descrevem e buscam o que desejam encontrar em um par para se relacionar. Por conseguinte, o objetivo do aplicativo é aproximar e conectar pessoas que desejam interagir. A aplicação, ainda por cima, atua como um mediador e facilitador das possíveis conexões interpessoais afetivas e sexuais. 
-
  
 Além das interações pessoais proporcionadas pelos sites e aplicativos, um outro fator importante é o uso da tecnologia de geolocalização em tempo real, o qual passar a suprir o espaço físico dentro da rede virtual e possibilita que as pessoas interajam a partir do match (combinação), o qual proporciona a interação on-line e midiatizada. A interação é parte do propósito da rede social e a empresa que produziu o aplicativo, a Match Group, apropriou-se da importância diminuta de ocupar o mesmo tempo e espaço para desenvolver serviços e produtos de encontros mediados por plataformas digitais, um mundo virtual, sem preocupações com o espaço terrestre/físico. 
 
@@ -30,12 +27,15 @@ Como objetivos específicos, propomos:
  
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Na sociedade moderna, “as conexões são estabelecidas e cortadas por escolha” (BAUMAN, 2004, p.12). De acordo com Bauman (2011), o homem do mundo líquido procura viver de contatos, e esses contatos são indispensáveis para a boa interação entre os homens. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Percebe-se, assim, que ser moderno, viver em meio à modernidade, é se encontrar mergulhado em um ambiente dotado de aventuras e alegrias, crescimentos e autotransformações e, ao mesmo tempo, se encontrar imerso em grandes ameaças de destruição de tudo o que se é e o que se tem, como afirmou Berman (1986). A experiência ambiental da modernidade anula todas as fronteiras geográficas e raciais, de classe e nacionalidade, de religião e ideologia: nesse sentido, pode-se dizer que a modernidade une a espécie humana. Porém, é uma unidade paradoxal, uma unidade de desunidade: ela nos despeja a todos num turbilhão de permanente desintegração e mudança, de luta e contradição, de ambiguidade e angústia.  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O surgimento de aplicativos, como o próprio Tinder, já mencionado neste projeto, focam sua dinâmica no encontro de relações românticas, mas, nem sempre, procura-se esse tipo de relação. Segundo Go2Web (2014?), o Tinder possui mais de 10 milhões de usuários brasileiros ativos com crescimento de 2% ao dia. O que nos leva a considerar que esse meio de conexão está em alta e nos permite trabalhar a partir de suas lacunas, como a proposta de um match voltado para interações mediadas pela literatura. 
+
+A leitura, além do mais, é considerada uma atividade solitária, pois muitas pessoas leem sozinhas, mas essa atividade pode ser transformada numa experiência coletiva quando as impressões são compartilhadas. Hoje, há uma gama de sites e comunidades com ênfase no universo literário, como o Booktok, um perfil no aplicativo TikTok dedicado à produção de conteúdo especificamente sobre livros e notícias literárias - “[a] hashtag #booktok tem mais de 33 bilhões de visualizações no app” (FUKUSHIMA, 2022). Há, além destes, o Skoob, uma rede social com o propósito parecido com o da nossa aplicação, mas que não conta com a proposta de reunir usuários mediante suas escolhas literárias listas previamente. Assim sendo, percebemos que há mais lacunas nas aplicações além da que sinalizamos com o Tinder. 
+
+Dessa forma, tomando como pressupostos (i) o número de usuários que buscam por aplicativos com o objetivo de interagir; (ii) as lacunas encontradas nas aplicações já existentes e (iii) as especificidades que tornam dificultosa o ato de interagir, o presente projeto justifica-se pela necessidade de diversificar as possibilidades de relações humanas, pautadas nas tecnologias comunicativas, promovendo a aproximação de pessoas mediante a seus gostos literários e culturais, proporcionando uma troca de experiencia que vai além do digital. 
 
 ## Público-Alvo
 
