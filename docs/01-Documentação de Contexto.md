@@ -40,9 +40,3 @@ Dessa forma, tomando como pressupostos (i) o número de usuários que buscam por
 ## Público-Alvo
 
 A faixa etária do público-alvo se inicia aos 18 anos e se estende a qualquer pessoa que goste de literatura e deseja se conectar com outros que compartilhem desse mesmo interesse e que possam se beneficiar com as funcionalidades desenvolvidas na aplicação.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
