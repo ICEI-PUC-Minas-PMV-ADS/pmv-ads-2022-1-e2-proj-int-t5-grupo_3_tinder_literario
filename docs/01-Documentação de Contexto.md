@@ -42,6 +42,7 @@ Dessa forma, tomando como pressupostos (i) o número de usuários que buscam por
 Além dos pressupostos principais os quais foram citados acima, houve também a necessidade de reinventar as formas de interações para que elas sejam íntimas e pessoais ao mesmo tempo que estejam distantes, por conta de distanciamento social, pandemia SARS COV ou até mesmo respeitando as características indivíduais dos seres que possuem certa dificuldade em se relacionar.
 
 O artigo citado abaixo, explica alguns fatores que podem estar associados com a dificuldade de algumas pessoas se relacionarem, independentemente do âmbito que esta relação se dá, ainda em relação ao artigo um dos fatores que mais afetam esta dificuldade nos relacionamentos, seriam justamente os meios tecnológicos que segundo a autora, substitui as relações que até alguns anos atrás eram consideradas como insubstituiveis. 
+
 Partindo deste princípio fica aqui uma outra lacuna que queremos preencher: (iv) A restituição deste relacionamento não necessariamente afetivo e (v) esta relação será feita sim de forma tecnologia, afim de que pessoas com diversos tipos de comportamentos sejam contempladas com esta solução, seja atraves dos matchs, dos chats e quem sabe à evolução de encontros pessoais, grupos de leitura, feiras literárias e convenções.
 
 FONTANA FOSSÁ, Dirlei. "Dificuldade em se Relacionar nos Tempos atuais: O que Fazer?". Site: Psicanalise Clínica, 2019. Disponível em: https://www.psicanaliseclinica.com/dificuldade-em-se-relacionar/. Acesso em: 11 de Março de 2022.
