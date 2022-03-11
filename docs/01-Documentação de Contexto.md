@@ -25,7 +25,7 @@ Como objetivos específicos, propomos:
 - Construir uma aplicação interativa de acordo com os requisitos funcionais e não funcionais de acordo com o perfil do público-alvo; 
 - Permitir a criação de comunidades com base em gêneros e subgêneros literários. 
  
-### Justificativa
+## Justificativa
 
 Na sociedade moderna, “as conexões são estabelecidas e cortadas por escolha” (BAUMAN, 2004, p.12). 
 De acordo com Bauman (2011), o homem do mundo líquido procura viver de contatos, e esses contatos são indispensáveis para a boa interação entre os homens. 
