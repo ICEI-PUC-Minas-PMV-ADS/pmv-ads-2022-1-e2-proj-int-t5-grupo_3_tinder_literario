@@ -18,7 +18,7 @@ A gestão de código fonte ou controle de versões diz respeito ao monitoramento
 Com isso, para gestão do código fonte utilizaremos o Git Flow, um modelo de organização de branches, o qual dita que tipos de ramificações configurar e como fazer merge. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Main, Hotfix, Release, Develop e Feature, ou seja, um modelo de ramificação de manutenção que permite corrigir com rapidez lançamentos de produção mantendo uma linha de desenvolvimento dedicada para atualização de segurança, permitindo que a equipe trabalhe com problemas sem interromper o fluxo do trabalho ou esperar o próximo ciclo de lançamento. Segue figura 1: 
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/90404960/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
+ <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/ccd161aa97c05e0679292ed27ad24e1ab9eab121/docs/img/134491247-67b5f225-afb2-4de2-a698-ff9bf310af3d.png" width="700px" />
  
  **Figura 1 - Fluxo de controle do código fonte no repositório github**  
 </div> 
