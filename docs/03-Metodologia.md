@@ -50,25 +50,50 @@ etiquetas:
 
 ## Gerenciamento de Projeto
 
+A metodologia escolhida pela equipe para o gerenciamento de projeto foi o Scrum, um método ágil que proporciona eficiência e qualidade na construção do projeto ao estabelecer ciclos de entregas, ou Sprints, que asseguram a rapidez do desenvolvimento e facilita a adaptação a mudanças.
+
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe está organizada da seguinte maneira:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+**Scrum Master:** Pedro Daniel Jardim
+
+**Product Owner:** Kelly Cesário de Oliveira
+
+**Equipe de Desenvolvimento:**
+ -	Cristiano Garcia Ridolfi
+ - Kelly Cesário de Oliveira
+- Luis Galdino de Almeida da Silva
+ -	Michelle Leal Rodrigues
+ -	Pedro Daniel Jardim
+ - Renata Diniz Guimarães de Oliveira
+
+**Design:**	Michelle Leal Rodrigues
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe utilizará o Projects (ferramenta do github), onde foi elaborado um Quadro Kanban que estrutura o desenvolvimento nas seguintes colunas:
 
+**To Do:** Nessa coluna, estão alocadas as tarefas estabelecidas para a Sprint atual e que ainda não foram iniciadas, assim como os membros da equipe responsáveis por cada item. <br>
+
+**In progress:** Tarefas que já foram iniciadas mas ainda não finalizadas, são acompanhadas rotineiramente seguindo os ritos da metodologia ágil.<br>
+
+**Done:** Tarefas concluídas e aprovadas no teste de qualidade.
+
+O quadro kanban do projeto no Github está disponível na [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/projects/2) e é apresentado, no estado atual, na Figura 2.
+
+<div align="center">
+ <img src="img/kanban.PNG" width="700px" />
+ 
+ **Figura 2 - Quadro Kanban no dia 19/03/2022**  
+</div>
+
+A tarefas também são etiquetadas em função da natureza da atividade, seguindo o seguinte esquema de categorias:
+-	Documentation (Documentação)
+-	Bug
+-	Enhacement (Nova Feature/Pedido)
+ 
+ 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
