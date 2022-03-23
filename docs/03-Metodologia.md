@@ -84,6 +84,8 @@ Para organização e distribuição das tarefas do projeto, a equipe utilizará 
 
 **Test Return:** Coluna para sinalizar tarefas que de alguma maneira não passaram no teste de qualidade e sendo necessário um retrabalho para passar no teste de qualidade.<br>
 
+**Waiting Deploy:** Quando uma tarefa tiver sido iniciada e finalizada, é movida para a coluna de waiting deploy, para que o responsável revise o código feito e aprove para as branch de teste.<br>
+
 **Done:** Tarefas concluídas e aprovadas no teste de qualidade.
 
 O quadro kanban do projeto no Github está disponível na [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/projects/2) e é apresentado, no estado atual, na Figura 2.
