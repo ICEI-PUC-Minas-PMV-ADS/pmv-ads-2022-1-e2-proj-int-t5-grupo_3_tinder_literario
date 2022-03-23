@@ -91,9 +91,9 @@ Para organização e distribuição das tarefas do projeto, a equipe utilizará 
 O quadro kanban do projeto no Github está disponível na [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/projects/2) e é apresentado, no estado atual, na Figura 2.
 
 <div align="center">
- <img src="img/kanban.PNG" width="700px" />
+ <img src="img/board_tinder_lict.PNG" width="700px" />
  
- **Figura 2 - Quadro Kanban no dia 19/03/2022**  
+ **Figura 2 - Quadro Kanban no dia 23/03/2022**  
 </div>
 
 A tarefas também são etiquetadas em função da natureza da atividade, seguindo o seguinte esquema de categorias:
