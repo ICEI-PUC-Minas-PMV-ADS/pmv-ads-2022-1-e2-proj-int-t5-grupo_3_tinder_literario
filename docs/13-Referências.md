@@ -15,7 +15,7 @@ FONTANA FOSSÁ, Dirlei. "Dificuldade em se Relacionar nos Tempos atuais: O que F
 FUKUSHIMA, Fernanda. **Livros do booktok**: os títulos mais famosos da rede social. Maringá: Opiniões certificadas, 18 jan. 2022. Disponível em: https://opinioescertificadas.com.br/livros-booktok/. Acesso em: 25 fev. 2022. 
 
 GO2WEB. Tinder comemora a marca de 10 milhões de usuários no Brasil. *In*: GO2WEB. **Nosso blog**. Rio de Janeiro, [2014?] . Disponível em: http://www.go2web.com.br/pt-BR/blog/tinder-comemora-a-marca-de-10-milhoes-de-usuarios-no-brasil.html#:~:text=Com%20100%20milh%C3%B5es%20de%20pessoas,perfis%20de%20usu%C3%A1rios%20no%20total. Acesso em: 25 fev. 2022.
-NEILPATEL. 
+ 
 MARIA, Luzia de. **O clube do livro**: ser leitor - que diferença faz? São Paulo: Global Editora, 2016. *E-book*. 
 
 PATEL, Neil. Teste de Usabilidade: O que é e como fazer passo a passo. *In*: PATEL, Neil. **Blog Neil Patel**. c2022. Disponível em: https://neilpatel.com/br/blog/teste-de-usabilidade/. Acesso em: 27 mar. 2022.
