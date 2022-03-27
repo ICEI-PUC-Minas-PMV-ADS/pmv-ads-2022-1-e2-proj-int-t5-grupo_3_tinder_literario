@@ -1,11 +1,34 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. Por meio dele, são recolhidos dados sobre comportamento, medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação M@tchbook.
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Os requisitos para realização dos testes de software são:
+
+Site publicado na internet;
+Navegador da internet - Chrome, Firefox ou Edge;
+Conectividade de internet para acesso às plataformas.
+
+Metodo Utilizado: Medição e Avaliação
+
+Para cada tarefa do participante é possível medir:
+
+Concretização da tarefa;
+O total de erros cometidos;
+Quantos erros de cada tipo ocorreram;
+Quanto tempo foi necessário para conclui-la.
+
+### Modelo de teste:
+
+- Teste de Usabilidade remoto e não moderado
+  > Os participantes realizaram os estudos diretamente em seus próprios dispositivos, como: tablets, smartphones e notebooks; sem acompanhamento de moderador.
+
+### Objetivos do teste:
+
+- Descoberta de problemas
+  > Seu objetivo é identificar e corrigir eventuais problemas existentes na plataforma e averiguar quais são os obstáculos para a fluida utilização da aplicação.
+- Teste de aprendizado
+  > O modelo adotado será o de teste de experimentação, por meio do qual, para realizar uma tarefa específica, uma pessoa que lida com a ferramenta pela primeira vez terá que começar do zero.
+
+
