@@ -69,7 +69,7 @@ Para cada tarefa do participante é possível medir:
 
 <table>
  <tr><th>Caso de Teste</th>
- <th>CTU-03 – Editar informações de perfil/th></tr>
+ <th>CTU-03 – Editar informações de perfil</th></tr>
  <tr><th>Perfil</th>
  <th>Usuário</th></tr>
  <tr><th>Objetivo do Teste</th>
@@ -171,7 +171,7 @@ Clicar no botão ‘Cadastrar’.</th></tr>
 <tr><th>Caso de Teste</th>
 <th>CTU-09 - Atualização da “Lista de livros”</th></tr>
 <tr><th>Perfil</th>
-<th>Usuário/th></tr>
+<th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a usabilidade da Lista de livros</th></tr>
 <tr><th>Passos</th>
