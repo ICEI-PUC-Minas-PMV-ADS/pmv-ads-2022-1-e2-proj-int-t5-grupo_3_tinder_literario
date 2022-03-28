@@ -69,9 +69,26 @@ Para cada tarefa do participante é possível medir:
 
 <table>
  <tr><th>Caso de Teste</th>
-<th>CTU-03 – Tela Funcionalidades</th></tr>
+ <th>CTU-03 – Editar informações de perfil/th></tr>
+ <tr><th>Perfil</th>
+ <th>Usuário</th></tr>
+ <tr><th>Objetivo do Teste</th>
+ <th>Analisar a função de edição e alteração de informações. Verificar a requisição de update no banco de dados.>Analisar a função de edição e alteração de informações. Verificar a requisição de update no banco de dados.</th></tr>
+ <tr><th>Ações necessárias</th>
+ <th>Acessar o Navegador;
+ Informar o endereço do Site;a
+ Realizar o login;
+ Abrir o campo de “minha conta”;
+ Selecionar a opção de editar informações pessoais;
+ Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;
+ Clicar em salvar</th></tr>
+</table>
+
+<table>
+ <tr><th>Caso de Teste</th>
+<th>CTU-04 – Tela Funcionalidades</th></tr>
 <tr><th>Perfil</th>
-<th>Usuárioo</th></tr>
+<th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de funcionalidades do usuário</th></tr>
  <tr><th>Passos</th>
@@ -80,12 +97,12 @@ Informar o endereço do Site
 Visualizar a página principal
 Clicar em Login
 Preencher o e-mail e a senha
-Verificar a página principal do perfil</th></tr>
+Verificar a página principal do perfil em Minha Conta.</th></tr>
 </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-04 – Tela Funcionalidades</th></tr>
+<th>CTU-05 – Tela Funcionalidades</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -93,7 +110,7 @@ Verificar a página principal do perfil</th></tr>
 <tr><th>Passos</th>
 <th>Acessar o Navegador
 Informar o endereço do Site
-  Visualizar a página principal
+Visualizar a página principal
 Clicar em Login
 Preencher o CPF e a senha
 Verificar a página principal do perfil</th></tr>
@@ -101,7 +118,7 @@ Verificar a página principal do perfil</th></tr>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-05 – Criação de lista de livros</th></tr>
+<th>CTU-06 – Criação de lista de livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -118,7 +135,23 @@ Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-06 – Cadastro de livros na lista</th></tr>
+<th>CTU-07 – Pesquisa de livros</th></tr>
+<tr><th>Perfil</th>
+<th>Usuário</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar pesquisar livros na lista pré-existente</th></tr>
+<tr><th>Passos</th>
+<th>Acessar o Navegador;
+Informar o endereço do Site;
+Realizar o login;
+Na tela Funcionalidades do Usuário, clicar no botão “Livros”;
+Na tela Livros, clicar no botão Buscar Livros;
+Na tela de Buscar Livros, pesquise o título, autor desejado./th></tr>
+ </table>
+
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-08 – Cadastro de livros na lista</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -136,7 +169,7 @@ Clicar no botão ‘Cadastrar’.</th></tr>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-07 - Atualização da “Lista de livros”</th></tr>
+<th>CTU-09 - Atualização da “Lista de livros”</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário/th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -152,7 +185,7 @@ Clicar em salvar</th></tr>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-08 – Comentar Livros</th></tr>
+<th>CTU-10 – Comentar Livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -169,7 +202,7 @@ Clicar em ENVIAR</th></tr>
  
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-09 – Avaliar Livros</th></tr>
+<th>CTU-11 – Avaliar Livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -186,8 +219,7 @@ Clicar em ENVIAR</th></tr>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-10 – Avaliar match</th></tr>
-<tr><th>Perfil</th>
+<th>CTU-12 Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar se a aplicação está realizando as combinações de perfis</th></tr>
@@ -199,6 +231,21 @@ Clicar no botão “Perfil”;
 Verificar se existe alguma combinação com seu perfil;
 Entrar em contato com o perfil combinado;
 Iniciar uma conversa com o usuário do perfil.</th></tr>
+</table>
+
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-13 – Verificar se o sistema é responsivo/th></tr>
+<tr><th>Perfil</th>
+<th>Usuário</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar se a aplicação é responsiva nos navegadores Chrome, Firefox, Edge, Safari e smartphones android e IOS</th></tr>
+<tr><th> Passos</th>
+<th>Acessar o navegador
+Informar o endereço do Site;
+Realizar o login;
+Percorrer as páginas e funcionalidades da aplicação;
+Verificar se as informações estão ordenadas de uma forma clara na tela.</th></tr>
 </table>
 
 
