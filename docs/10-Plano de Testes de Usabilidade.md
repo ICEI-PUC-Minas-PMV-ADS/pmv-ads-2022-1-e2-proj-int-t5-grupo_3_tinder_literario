@@ -47,7 +47,7 @@ Para cada tarefa do participante é possível medir:
  <th>Acessar a primeira tela do site pelo browser, conforme CTU-01;
  Clicar na opção “Cadastro”;
  Preencher os campos necessários do formulário;
- Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar.
+ Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar";
  Ou acessar com login e senha do Google.</th></tr>
 </table>
 
@@ -76,7 +76,7 @@ Para cada tarefa do participante é possível medir:
  <th>Analisar a função de edição e alteração de informações. Verificar a requisição de update no banco de dados.>Analisar a função de edição e alteração de informações. Verificar a requisição de update no banco de dados.</th></tr>
  <tr><th>Ações necessárias</th>
  <th>Acessar o Navegador;
- Informar o endereço do Site;a
+ Informar o endereço do Site;
  Realizar o login;
  Abrir o campo de “minha conta”;
  Selecionar a opção de editar informações pessoais;
@@ -92,11 +92,11 @@ Para cada tarefa do participante é possível medir:
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de funcionalidades do usuário</th></tr>
  <tr><th>Passos</th>
-<th>Acessar o Navegador
-Informar o endereço do Site
-Visualizar a página principal
-Clicar em Login
-Preencher o e-mail e a senha
+<th>Acessar o Navegador;
+Informar o endereço do Site;
+Visualizar a página principal;
+Clicar em Login;
+Preencher o e-mail e a senha;
 Verificar a página principal do perfil em Minha Conta.</th></tr>
 </table>
 
@@ -108,11 +108,11 @@ Verificar a página principal do perfil em Minha Conta.</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de exibiçao dos livros/th></tr>
 <tr><th>Passos</th>
-<th>Acessar o Navegador
-Informar o endereço do Site
-Visualizar a página principal
-Clicar em Login
-Preencher o CPF e a senha
+<th>Acessar o Navegador;
+Informar o endereço do Site;
+Visualizar a página principal;
+Clicar em Login;
+Preencher o CPF e a senha;
 Verificar a página principal do perfil</th></tr>
  </table>
 
@@ -128,8 +128,8 @@ Verificar a página principal do perfil</th></tr>
 Informar o endereço do Site;
 Realizar o login;
 Na tela Funcionalidades do Usuário, clicar no botão “Criar Lista”;
-Na tela Lista, clicar no botão “Nova Lista”
-Selecionar o ‘Genero da lista’
+Na tela Lista, clicar no botão “Nova Lista”;
+Selecionar o ‘Genero da lista’;
 Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
 </table>
 
@@ -175,12 +175,12 @@ Clicar no botão ‘Cadastrar’.</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a usabilidade da Lista de livros</th></tr>
 <tr><th>Passos</th>
-<th>Acessar o navegador
+<th>Acessar o navegador;
 Informar o endereço do Site;
 Realizar o login;
 Acessar a seção "Meus livros";
-Selecionar o livro desejado e clicar em “Adicionar”
-Clicar em salvar</th></tr>
+Selecionar o livro desejado e clicar em “Adicionar”;
+Clicar em salvar,</th></tr>
  </table>
 
 <table>
@@ -208,13 +208,13 @@ Clicar em ENVIAR</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar algum livro existente na lista da aplicação</th></tr>
 <tr><th> Passos</th>
-<th>Acessar o navegador
+<th>Acessar o navegador;
 Informar o endereço do Site;
 Realizar o login;
 Clicar no botão “Lista”;
 Selecionar o livro desejado;
 Selecionar a quantidade de estrelas para sua avaliaçao do livro selecionado;
-Clicar em ENVIAR</th></tr>
+Clicar em ENVIAR.</th></tr>
 </table>
 
 <table>
@@ -241,11 +241,9 @@ Iniciar uma conversa com o usuário do perfil.</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar se a aplicação é responsiva nos navegadores Chrome, Firefox, Edge, Safari e smartphones android e IOS</th></tr>
 <tr><th> Passos</th>
-<th>Acessar o navegador
+<th>Acessar o navegador;
 Informar o endereço do Site;
 Realizar o login;
 Percorrer as páginas e funcionalidades da aplicação;
 Verificar se as informações estão ordenadas de uma forma clara na tela.</th></tr>
 </table>
-
-
