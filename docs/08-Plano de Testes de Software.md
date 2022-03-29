@@ -41,3 +41,26 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
   
  </th></tr>
 </table>
+
+<table>
+ <tr><th>Caso de Teste</th>
+ <th>CT-02 – Gerenciar listas</th></tr>
+ <tr><th>Requisito Associado</th>
+ <th> RF-006 - O site deve possuir as opções de inserir listas de livros e de salvá-las.</th></tr>
+ <tr><th>Objetivo do Teste</th>
+ <th>Verificar se o usuário consegue se cadastrar, efetuar login, remover e editar informações em seu perfil</th></tr>
+ <tr><th>Passos</th>
+<th>
+ 
+  -
+  -
+ 
+ </th></tr>
+ <tr><th>Critérios de Êxito</th>
+ <th>
+  
+  -
+  -
+    
+ </th></tr>
+</table>
