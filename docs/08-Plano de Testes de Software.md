@@ -10,7 +10,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  
 <table>
  <tr><th>Caso de Teste</th>
- <th>CT-01 – Gerenciar perfil</th></tr>
+ <th>**CT-01 – Gerenciar perfil**</th></tr>
  <tr><th>Requisitos Associados</th>
  <th> 
   - RF-001 - O site deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil e efetuar login, sendo o login endereço de e-mail.	
@@ -22,12 +22,12 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  <tr><th>Passos</th>
 <th>
   <ul>
-   <li>1. Acessar o navegador</li>
-   <li>2. Informar o endereço do site</li>
-   <li>3. Criar um novo perfil para a realização do teste</li>
-   <li>4. Efetuar login</li>
-   <li>5. Remover alguma informação do perfil</li>
-   <li>6. Editar alguma informação do perfil</li>
+   <li>Acessar o navegador</li>
+   <li>Informar o endereço do site</li>
+   <li>Criar um novo perfil para a realização do teste</li>
+   <li>Efetuar login</li>
+   <li>Remover alguma informação do perfil</li>
+   <li>Editar alguma informação do perfil</li>
   </ul>
  </th></tr>
  <tr><th>Critérios de Êxito</th>
