@@ -21,12 +21,12 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  <th>Verificar se o usuário consegue se cadastrar, efetuar login, remover e editar informações em seu perfil</th></tr>
  <tr><th>Passos</th>
  <th>
-  1) Acessar o navegador
-  2) Informar o endereço do site
-  3) Criar um novo perfil para a realização do teste
-  4) Efetuar login 
-  5) Remover alguma informação do perfil
-  6) Editar alguma informação do perfil 
+  1. Acessar o navegador
+  2. Informar o endereço do site
+  3. Criar um novo perfil para a realização do teste
+  4. Efetuar login 
+  5. Remover alguma informação do perfil
+  6. Editar alguma informação do perfil 
   </th></tr>
  <tr><th>Critérios de Êxito</th>
  <th>
