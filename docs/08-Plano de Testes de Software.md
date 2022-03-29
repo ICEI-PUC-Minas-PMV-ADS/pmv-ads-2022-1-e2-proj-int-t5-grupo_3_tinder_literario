@@ -13,9 +13,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  <th>CT-01 – Gerenciar perfil</th></tr>
  <tr><th>Requisitos Associados</th>
  <th> 
-  - RF-001 - O site deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil e efetuar login, sendo o login endereço de e-mail.\
+  - RF-001 - O site deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil e efetuar login, sendo o login endereço de e-mail.
   
-  - RF-004 - O site deve possuir a opção de remover informações.\
+  - RF-004 - O site deve possuir a opção de remover informações.
   
   - RF-005 - O site deve possuir opção de edição de informações na conta.	
   </th></tr>
