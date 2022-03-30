@@ -117,17 +117,17 @@ Para cada tarefa do participante é possível medir:
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-06 – Tela Funcionalidades</th></tr>
+<th>CTU-06 – Tela Funcionalidades + Exibição da lista preexistente</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Avaliar a tela de exibiçao dos livros/th></tr>
+<th>Avaliar a tela de exibição dos livros/th></tr>
 <tr><th>Passos</th>
 <th>1. Acessar o Navegador;<br>
 2. Informar o endereço do Site;<br>
 3. Visualizar a página principal;<br>
 4. Clicar em Entrar;<br>
-5. Verificar se a página exibe uma lista de livros pré-existente.</th></tr>
+5. Verificar se a página exibe uma lista de livros preeexistente.</th></tr>
  </table>
 
 <table>
@@ -154,7 +154,7 @@ Para cada tarefa do participante é possível medir:
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Buscar/pesquisar livros na lista pré-existente</th></tr>
+<th>Buscar/pesquisar livros na lista preexistente</th></tr>
 <tr><th>Passos</th>
 <th>1. Acessar o Navegador;<br>
 2. Informar o endereço do Site;<br>
@@ -203,9 +203,10 @@ Para cada tarefa do participante é possível medir:
 9. Clicar em salvar.</th></tr>
  </table>
  
-<table>
+ <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-11 Perfil</th>
+<th>CTU-11 - Atualização da “Lista de livros”</th></tr>
+<th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar se a aplicação está realizando as combinações de perfis</th></tr>
@@ -215,73 +216,91 @@ Para cada tarefa do participante é possível medir:
 3. Visualizar a página principal;<br>
 4. Clicar em Entrar;<br>
 5. Acessar a seção "Buscar Usuários";<br>
-Verificar se existe alguma combinação com seu perfil;
-Entrar em contato com o perfil combinado;
+6. Verificar se existe alguma combinação com seu perfil;<br>
+Entrar em contato com o perfil combinado;<br>
 Iniciar uma conversa com o usuário do perfil.</th></tr>
 </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-13 – Comentar Livros</th></tr>
+<th>CTU-12 – Comentar Livros </th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Comentar algum livro existente na lista da aplicação</th></tr>
+<th>Comentar algum livro existente na lista da aplicação, ou na lista de outro usuário ou na sua própria lista</th></tr>
 <tr><th> Passos</th>
-<th>Acessar o navegador
-Informar o endereço do Site;
-Realizar o login;
-Clicar no botão “Lista”;
-Selecionar o livro desejado;
-Ir na seção de comentários e inserir o seu comentário do livro;
-Clicar em ENVIAR</th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Clicar no botão “Lista”;<br>
+6. Selecionar o livro desejado;<br>
+7. Ir na seção de comentários e inserir o seu comentário do livro;<br>
+8. Clicar em ENVIAR</th></tr>
  </table>
  
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-11 – Avaliar Livros</th></tr>
+<th>CTU-13 – Avaliar Livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar algum livro existente na lista da aplicação</th></tr>
 <tr><th> Passos</th>
-<th>Acessar o navegador;
-Informar o endereço do Site;
-Realizar o login;
-Clicar no botão “Lista”;
-Selecionar o livro desejado;
-Selecionar a quantidade de estrelas para sua avaliaçao do livro selecionado;
-Clicar em ENVIAR.</th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Clicar no botão “Lista”;<br>
+6. Selecionar o livro desejado;<br>
+7. Selecionar a quantidade de estrelas para sua avaliaçao do livro selecionado;<br>
+8. Clicar em ENVIAR.</th></tr>
 </table>
-
+ 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-12 Perfil</th>
+<th>CTU-14 Match</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Avaliar se a aplicação está realizando as combinações de perfis</th></tr>
+<th>Efetuar o Match das listas</th></tr>
 <tr><th> Passos</th>
 <th>1. Acessar o Navegador;<br>
 2. Informar o endereço do Site;<br>
 3. Visualizar a página principal;<br>
 4. Clicar em Entrar;<br>
 5. Acessar a seção "Buscar Usuários";<br>
-Verificar se existe alguma combinação com seu perfil;
-Entrar em contato com o perfil combinado;
-Iniciar uma conversa com o usuário do perfil.</th></tr>
+6. Selecionar a lista deste usuário;<br>
+7. Efetuar o Match através das opções livro fechado vermelho (*unlike*) e livro aberto verde (like)</th></tr>
 </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-13 – Verificar se o sistema é responsivo/th></tr>
+<th>CTU-15 Visualização de Match e início do chat</th>
+<th>Usuário</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>visualizar e o Match das listas e iniciar uma conversa através de chat</th></tr>
+<tr><th> Passos</th>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Acessar a seção "Buscar Usuários";<br>
+6. Verificar se existe alguma combinação com seu perfil;<br>
+7. Entrar em contato com o perfil combinado através de chat;<br>
+8. Iniciar uma conversa com o usuário do perfil.</th></tr>
+</table>
+
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-16 – Verificar se o sistema é responsivo/th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar se a aplicação é responsiva nos navegadores Chrome, Firefox, Edge, Safari e smartphones android e IOS</th></tr>
 <tr><th> Passos</th>
-<th>Acessar o navegador;
-Informar o endereço do Site;
-Realizar o login;
-Percorrer as páginas e funcionalidades da aplicação;
-Verificar se as informações estão ordenadas de uma forma clara na tela.</th></tr>
+<th>1. Acessar o navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Realizar o login;<br>
+4. Percorrer as páginas e funcionalidades da aplicação;<br>
+5. Verificar se as informações estão ordenadas de uma forma clara na tela.</th></tr>
 </table>
