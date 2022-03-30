@@ -20,7 +20,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RF-006 - O site deve possuir as opções de inserir listas de livros e de salvá-las. |
 |Objetivo do Teste | Verificar se o usuário consegue cadastrar e editar listas de seus livros favoritos |
 |Passos | -  |
-|Critério de Êxito | - O usuário consegue cadastras listas <br>
+|Critério de Êxito | - O usuário consegue cadastrar listas <br>
 - O usuário consegue editar suas listas (acrescentando e alterarando livros) |
 
 | Caso de Teste | CT-03 – Sistema de combinação (Match) |
