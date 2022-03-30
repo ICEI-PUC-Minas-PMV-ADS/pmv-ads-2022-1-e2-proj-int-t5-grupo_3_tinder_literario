@@ -18,41 +18,41 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste | CT-02 – Gerenciar listas |
 |------------------|----------------------------------------------------|
 |Requisito Associado | RF-006 - O site deve possuir as opções de inserir listas de livros e de salvá-las. |
-|Objetivo do Teste | Verificar x |
+|Objetivo do Teste | Verificar se o usuário consegue cadastrar e editar listas de seus livros favoritos |
 |Passos | -  |
 |Critérios de Êxito | - |
 
 | Caso de Teste | CT-03 – Sistema de combinação (Match) |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-010 - O site deve permitir a função match quando um usuário se identificou com outro usuário.<br> RF-012 - O site deve listar e reunir os matches por áreas da literárias para ajudar na recuperação de informações.	 |
-|Objetivo do Teste | Verificar x |
+|Objetivo do Teste | Verificar se o sistema realiza o match entre o usuário e se os matches são organizados por áreas literárias |
 |Passos | -  |
 |Critérios de Êxito | - |
 
 | Caso de Teste | CT-04 – Navegação entre perfis |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-003 - O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar pessoas com os mesmos gêneros literários.<br> RF-008 - O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de mesmos gêneros literários.	|
-|Objetivo do Teste | Verificar x |
+|Objetivo do Teste | Verificar se o usuário consegue pesquisar pessoas com listas preenchidas com os mesmos gêneros literários |
 |Passos | -  |
 |Critérios de Êxito | - |
 
 | Caso de Teste | CT-05 – Interação entre usuários |
 |------------------|----------------------------------------------------|
 |Requisito Associado |RF-002 - O site deve ter um chat para conversação para os usuários interagirem entre si.	|
-|Objetivo do Teste | Verificar x |
+|Objetivo do Teste | Verificar se o chat consegue ser utilizado por usuários combinados |
 |Passos | -  |
 |Critérios de Êxito | - |
 
 | Caso de Teste | CT-06 – Pesquisa e avaliação de livros |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários e avaliações sobre os livros.	|
-|Objetivo do Teste | Verificar x |
+|Objetivo do Teste | Verificar se o usuário consegue pesquisar, comentar e avaliar livros |
 |Passos | -  |
 |Critérios de Êxito | - |
 
 | Caso de Teste | CT-07 – Atender a mais de um público |
 |------------------|----------------------------------------------------|
 |Requisito Associado | RF-007 O site deve possuir um sistema adaptado para pessoas com deficiências visuais.	|
-|Objetivo do Teste | Verificar x |
+|Objetivo do Teste | Verificar se usuários com deficiências visuais conseguem utilizar todas as ferramentas do site |
 |Passos | -  |
 |Critérios de Êxito | - |
