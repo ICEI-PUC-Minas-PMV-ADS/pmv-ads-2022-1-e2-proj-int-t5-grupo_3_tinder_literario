@@ -47,7 +47,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários e avaliações sobre os livros.	|
 |Objetivo do Teste | Verificar se o usuário consegue pesquisar, comentar e avaliar (classificar) livros |
-|Passos | -  |
+|Passos | - Acessar a aplicação <br> - Digitar o nome de um livro <br> - Visualizar o resultado da busca <br> - Realizar um comentário no espaço apropriado <br> - Avaliar o livro (em até 5 estrelas) |
 |Critérios de Êxito | - O usuário consegue pesquisar livros <br> - O usuário consegue comentar/fazer uma resenha sobre livros <br> - O usuário consegue avaliar (classificar) livros |
 
 | Caso de Teste | CT-07 – Atender a mais de um público |
