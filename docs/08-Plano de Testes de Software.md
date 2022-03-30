@@ -46,19 +46,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-001 - O site deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil e efetuar login, sendo o login endereço de e-mail. <br> RF-004 - O site deve possuir a opção de remover informações. <br> RF-005 - O site deve possuir opção de edição de informações na conta. |
 |Objetivo do Teste | Verificar se o usuário consegue se cadastrar, efetuar login, remover e editar informações em seu perfil |
-| Passos | - Acessar o navegador
-- Informar o endereço do site
-- Criar um novo perfil para a realização do teste
-- Efetuar login
-- Remover alguma informação do perfil
-- Editar alguma informação do perfil |
-|Critérios de Êxito | - O cadastro foi realizado com sucesso
-- O login foi realizado com sucesso
-- Foi possível remover alguma informação do perfil
-- Foi possível editar alguma informação do perfil |
-
-
-
+| Passos | - Acessar o navegador, - Informar o endereço do site, - Criar um novo perfil para a realização do teste, - Efetuar login, - Remover alguma informação do perfil, - Editar alguma informação do perfil |
+|Critérios de Êxito | - O cadastro foi realizado com sucesso, - O login foi realizado com sucesso, - Foi possível remover alguma informação do perfil, - Foi possível editar alguma informação do perfil |
 
 <table>
  <tr><th>Caso de Teste</th>
