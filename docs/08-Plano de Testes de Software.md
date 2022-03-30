@@ -18,18 +18,16 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste | CT-02 – Gerenciar listas |
 |------------------|----------------------------------------------------|
 |Requisito Associado | RF-006 - O site deve possuir as opções de inserir listas de livros e de salvá-las. |
-|Objetivo do Teste | Verificar se o usuário consegue cadastrar e editar listas de seus livros favoritos |
-|Passos | -  |
-|Critério de Êxito | - O usuário consegue cadastrar listas <br>
-- O usuário consegue editar suas listas (acrescentando e alterarando livros) |
+|Objetivo do Teste | - Verificar se o usuário consegue cadastrar e editar listas de seus livros favoritos. |
+|Passos | - Acessar Lista criada. <br> - Incluir ou remover títulos de sua lista. <br> - Excluir sua lista inteira de títulos.|
+|Critério de Êxito | - O usuário consegue cadastrar listas <br> - O usuário consegue editar suas listas (acrescentando e alterarando livros) |
 
 | Caso de Teste | CT-03 – Sistema de combinação (Match) |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-010 - O site deve permitir a função _match_ quando um usuário se identificou com outro usuário.<br> RF-012 - O site deve listar e reunir _os matches_ por áreas da literatura para ajudar na recuperação de informações.	 |
-|Objetivo do Teste | Verificar se o sistema realiza a combinação (_match_) entre o usuário e se as combinações são organizados por gêneros literários |
-|Passos | -  |
-|Critérios de Êxito | - A combinação entre usuários é realizada <br>
-- O usuário consegue visualizar suas listas de combinações por gêneros literários  |
+|Objetivo do Teste | - Verificar se o sistema realiza a combinação (_match_) entre o usuário e se as combinações são organizados por gêneros literários |
+|Passos | - Acessar área de listas compartilhadas. <br> - Navegar dentre as listas existentes ou filtrar de acordo com determinado gênero literário, título, autor... <br> - Clicar para efetivar a combinação (Match) da nossa parte <br> - Iniciar uma interação quando a combinação for correspondida. <br> - Opção de excluir o Match e a combinação, bem como, bloquear determinado usuário. |
+|Critérios de Êxito | - A combinação entre usuários é realizada <br> - O usuário consegue visualizar suas listas de combinações por gêneros literários  |
 
 | Caso de Teste | CT-04 – Navegação entre perfis |
 |------------------|----------------------------------------------------|
