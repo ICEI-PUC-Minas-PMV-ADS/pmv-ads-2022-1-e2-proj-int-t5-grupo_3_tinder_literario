@@ -56,7 +56,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 | Caso de Teste | CT-07 – Atender a mais de um público |
 |------------------|----------------------------------------------------|
-|Requisito Associado | RF-007 O site deve possuir um sistema adaptado para pessoas com deficiências visuais.	|
+|Requisito Associado | RF-007 - O site deve possuir um sistema adaptado para pessoas com deficiências visuais.	|
 |Objetivo do Teste | Verificar se usuários com deficiências visuais conseguem utilizar todas as ferramentas do site |
 |Passos | -  |
 |Critério de Êxito | - Os usuários com deficiências visuais conseguem utilizar a aplicação |
