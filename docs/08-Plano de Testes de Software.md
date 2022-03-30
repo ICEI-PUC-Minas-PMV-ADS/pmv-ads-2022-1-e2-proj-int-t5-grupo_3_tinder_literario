@@ -19,21 +19,21 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------------------|----------------------------------------------------|
 |Requisito Associado | RF-006 - O site deve possuir as opções de inserir listas de livros e de salvá-las. |
 |Objetivo do Teste | - Verificar se o usuário consegue cadastrar e editar listas de seus livros favoritos. |
-|Passos | - Acessar Lista criada. <br> - Incluir ou remover títulos de sua lista. <br> - Excluir sua lista inteira de títulos.|
+|Passos | - Acessar a lista criada <br> - Incluir ou remover títulos de sua lista <br> - Excluir sua lista inteira de títulos |
 |Critério de Êxito | - O usuário consegue cadastrar listas <br> - O usuário consegue editar suas listas (acrescentando e alterarando livros) |
 
 | Caso de Teste | CT-03 – Sistema de combinação (Match) |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-010 - O site deve permitir a função _match_ quando um usuário se identificou com outro usuário.<br> RF-012 - O site deve listar e reunir _os matches_ por áreas da literatura para ajudar na recuperação de informações.	 |
 |Objetivo do Teste | - Verificar se o sistema realiza a combinação (_match_) entre o usuário e se as combinações são organizados por gêneros literários |
-|Passos | - Acessar área de listas compartilhadas. <br> - Navegar dentre as listas existentes ou filtrar de acordo com determinado gênero literário, título, autor... <br> - Clicar para efetivar a combinação (Match) da nossa parte <br> - Iniciar uma interação quando a combinação for correspondida. <br> - Opção de excluir o Match e a combinação, bem como, bloquear determinado usuário. |
+|Passos | - Acessar a área de listas compartilhadas <br> - Navegar entre as listas existentes ou filtrar de acordo com determinado gênero literário, título, autor... <br> - Clicar para efetivar a combinação (_match_) da nossa parte <br> - Iniciar uma interação quando a combinação for correspondida <br> - Opção de excluir o _match_ bem como bloquear determinado usuário |
 |Critérios de Êxito | - A combinação entre usuários é realizada <br> - O usuário consegue visualizar suas listas de combinações por gêneros literários  |
 
 | Caso de Teste | CT-04 – Navegação entre perfis |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-003 - O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar pessoas com os mesmos gêneros literários.<br> RF-008 - O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de mesmos gêneros literários.	|
 |Objetivo do Teste | Verificar se o usuário consegue pesquisar pessoas com listas preenchidas com os mesmos gêneros literários |
-|Passos | -  |
+|Passos | - Acessar a aplicação <br> - Digitar o nome de um livro, um autor ou um usuário <br> - Visualizar o resultado da busca |
 |Critério de Êxito | - O usuário consegue pesquisar e localizar pessoas com os mesmos gêneros literários |
 
 | Caso de Teste | CT-05 – Interação entre usuários |
@@ -47,7 +47,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários e avaliações sobre os livros.	|
 |Objetivo do Teste | Verificar se o usuário consegue pesquisar, comentar e avaliar (classificar) livros |
-|Passos | -  |
+|Passos | - Acessar a aplicação <br> - Acessar a lista de usuários combinados <br> - Selecionar um usuário combinado para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
 |Critérios de Êxito | - O usuário consegue pesquisar livros <br>
 - O usuário consegue comentar/fazer uma resenha sobre livros <br>
 - O usuário consegue avaliar (classificar) livros |
