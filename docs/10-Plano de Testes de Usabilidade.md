@@ -44,148 +44,185 @@ Para cada tarefa do participante é possível medir:
  <tr><th>Objetivo do Teste</th>
  <th>Avaliar a tela de cadastro de novo usuário</th></tr>
  <tr><th>Ações necessárias</th>
- <th>Acessar a primeira tela do site pelo browser, conforme CTU-01;
- Clicar na opção “Cadastro”;
- Preencher os campos necessários do formulário;
- Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar";
+ <th>
+ 1. Acessar a primeira tela do site pelo browser, conforme CTU-01;<br>
+ 2. Clicar na opção “Criar Conta”;<br>
+ 3. Preencher os campos necessários do formulário;<br>
+ 4. Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar".</th></tr>
  Ou acessar com login e senha do Google.</th></tr>
 </table>
 
 <table>
  <tr><th>Caso de Teste</th>
- <th>CTU-02 – Login de usuário</th></tr>
+ <th>CTU-02 – Cadastro/Login de usuário</th></tr>
+ <tr><th>Perfil</th>
+ <th>Usuário</th></tr>
+ <tr><th>Objetivo do Teste</th>
+ <th>Avaliar a tela de cadastro/login de novo usuário utilizando Login Social</th></tr>
+ <tr><th>Ações necessárias</th>
+ <th>
+ 1. Acessar a primeira tela do site pelo browser, conforme CTU-01;<br>
+ 2. Clicar na opção Entrar com conta Google.</th></tr>
+</table>
+
+
+<table>
+ <tr><th>Caso de Teste</th>
+ <th>CTU-03 – Login de usuário</th></tr>
  <tr><th>Perfil</th>
  <th>Usuário</th></tr>
  <tr><th>Objetivo do Teste</th>
  <th>Avaliar a usabilidade da tela de Login</th></tr>
  <tr><th>Ações necessárias</th>
- <th>Acessar o Navegador;
- Informar o endereço do Site;
- Visualizar a página de login;
- Preencher e-mail no campo indicado
- Preencher senha no campo indicado;
- Clicar em ‘Login’.</th></tr>
+ <th>1. Acessar o Navegador;<br>
+ 2. Informar o endereço do Site;<br>
+ 3. Visualizar a página de login;<br>
+ 4. Preencher e-mail no campo indicado;<br>
+ 5. Preencher senha no campo indicado;<br>
+ 6. Clicar em ‘Entrar’.</th></tr>
 </table>
 
 <table>
  <tr><th>Caso de Teste</th>
- <th>CTU-03 – Editar informações de perfil</th></tr>
+ <th>CTU-04 – Editar informações de perfil</th></tr>
  <tr><th>Perfil</th>
  <th>Usuário</th></tr>
  <tr><th>Objetivo do Teste</th>
  <th>Analisar a função de edição e alteração de informações. Verificar a requisição de update no banco de dados.>Analisar a função de edição e alteração de informações. Verificar a requisição de update no banco de dados.</th></tr>
  <tr><th>Ações necessárias</th>
- <th>Acessar o Navegador;
- Informar o endereço do Site;
- Realizar o login;
- Abrir o campo de “minha conta”;
- Selecionar a opção de editar informações pessoais;
- Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;
- Clicar em salvar</th></tr>
+ <th>1. Acessar o Navegador;<br>
+ 2. Informar o endereço do Site;<br>
+ 3. Realizar o login;<br>
+ 4. Abrir o campo de “Minha Conta”;<br>
+ 5. Selecionar a opção "Editar Perfil";<br>
+ 6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>
+ 7. Clicar em salvar</th></tr>
 </table>
 
 <table>
  <tr><th>Caso de Teste</th>
-<th>CTU-04 – Tela Funcionalidades</th></tr>
+<th>CTU-05 – Tela Funcionalidades</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de funcionalidades do usuário</th></tr>
  <tr><th>Passos</th>
-<th>Acessar o Navegador;
-Informar o endereço do Site;
-Visualizar a página principal;
-Clicar em Login;
-Preencher o e-mail e a senha;
-Verificar a página principal do perfil em Minha Conta.</th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Preencher o e-mail e a senha ou login Social;<br>
+6. Verificar a página principal do perfil em Minha Conta.</th></tr>
 </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-05 – Tela Funcionalidades</th></tr>
+<th>CTU-06 – Tela Funcionalidades</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a tela de exibiçao dos livros/th></tr>
 <tr><th>Passos</th>
-<th>Acessar o Navegador;
-Informar o endereço do Site;
-Visualizar a página principal;
-Clicar em Login;
-Preencher o CPF e a senha;
-Verificar a página principal do perfil</th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Verificar se a página exibe uma lista de livros pré-existente.</th></tr>
  </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-06 – Criação de lista de livros</th></tr>
+<th>CTU-07 – Criação de lista de livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a funcionalidade de criação de lista de livros</th></tr>
 <tr><th>Passos</th>
-<th>Acessar o Navegador;
-Informar o endereço do Site;
-Realizar o login;
-Na tela Funcionalidades do Usuário, clicar no botão “Criar Lista”;
-Na tela Lista, clicar no botão “Nova Lista”;
-Selecionar o ‘Genero da lista’;
-Clicar no botão ‘Enviar’ para salvar o cadastro.</th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Na tela Funcionalidades do Usuário, clicar no botão “Criar Lista”;<br>
+6. Nomear a lista de livros criada;<br>
+7. Selecionar o ‘Genero da lista’;<br>
+8. Clicar no botão ‘Salvar’.</th></tr>
 </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-07 – Pesquisa de livros</th></tr>
+<th>CTU-08 – Pesquisa/Busca de livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Avaliar pesquisar livros na lista pré-existente</th></tr>
+<th>Buscar/pesquisar livros na lista pré-existente</th></tr>
 <tr><th>Passos</th>
-<th>Acessar o Navegador;
-Informar o endereço do Site;
-Realizar o login;
-Na tela Funcionalidades do Usuário, clicar no botão “Livros”;
-Na tela Livros, clicar no botão Buscar Livros;
-Na tela de Buscar Livros, pesquise o título, autor desejado./th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Na tela Funcionalidades do Usuário, clicar no botão “Buscar Livros”;<br>
+6. Na tela de Buscar Livros, pesquise o título, autor desejado./th></tr>
  </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-08 – Cadastro de livros na lista</th></tr>
+<th>CTU-09 – Cadastro de livros na lista</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
-<th>Avaliar o cadastro de livros na lista</th></tr>
+<th>Efetuar o cadastro de livros na lista</th></tr>
 <tr><th>Passos</th>
-<th>Acessar o Navegador;
-Informar o endereço do Site;
-Realizar o login;
-Na tela Funcionalidades do Usuário, clicar no botão “Meus livros”;
-Na tela Lista, clicar no botão da lista criada ou criar outra conforme CTU-06;
-Na tela de Cadastro de Livro, clicar no botão “cadastro de livro”.
-Selecionar o livro desejado a partir da lista existente;
-Clicar no botão ‘Cadastrar’.</th></tr>
+<th>>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Na tela Funcionalidades do Usuário, clicar no botão “Lista";<br>
+6. Na tela Lista, clicar no botão da lista criada ou criar outra conforme CTU-07;<br>
+7. Realizar a busca do livro desejado;<br>
+8. Selecionar o livro desejado a partir da lista existente;<br>
+9. Adicionar o livro desejado à lista;<br>
+10. Clicar no botão ‘Salvar’.</th></tr>
  </table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-09 - Atualização da “Lista de livros”</th></tr>
+<th>CTU-10 - Atualização da “Lista de livros”</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar a usabilidade da Lista de livros</th></tr>
 <tr><th>Passos</th>
-<th>Acessar o navegador;
-Informar o endereço do Site;
-Realizar o login;
-Acessar a seção "Meus livros";
-Selecionar o livro desejado e clicar em “Adicionar”;
-Clicar em salvar,</th></tr>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Acessar a seção "Meus livros";<br>
+6. Selecionar a lista desejada;<br>
+7. Selecionar o livro desejado e clicar em Editar;<br>
+8. Realizar os acertos necessários como inclusão (CTU-09), Exclusão;<br>
+9. Clicar em salvar.</th></tr>
  </table>
+ 
+<table>
+<tr><th>Caso de Teste</th>
+<th>CTU-11 Perfil</th>
+<th>Usuário</th></tr>
+<tr><th>Objetivo do Teste</th>
+<th>Avaliar se a aplicação está realizando as combinações de perfis</th></tr>
+<tr><th> Passos</th>
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Acessar a seção "Buscar Usuários";<br>
+Verificar se existe alguma combinação com seu perfil;
+Entrar em contato com o perfil combinado;
+Iniciar uma conversa com o usuário do perfil.</th></tr>
+</table>
 
 <table>
 <tr><th>Caso de Teste</th>
-<th>CTU-10 – Comentar Livros</th></tr>
+<th>CTU-13 – Comentar Livros</th></tr>
 <tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
@@ -224,10 +261,11 @@ Clicar em ENVIAR.</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Avaliar se a aplicação está realizando as combinações de perfis</th></tr>
 <tr><th> Passos</th>
-<th>Acessar o navegador
-Informar o endereço do Site;
-Realizar o login;
-Clicar no botão “Perfil”;
+<th>1. Acessar o Navegador;<br>
+2. Informar o endereço do Site;<br>
+3. Visualizar a página principal;<br>
+4. Clicar em Entrar;<br>
+5. Acessar a seção "Buscar Usuários";<br>
 Verificar se existe alguma combinação com seu perfil;
 Entrar em contato com o perfil combinado;
 Iniciar uma conversa com o usuário do perfil.</th></tr>
