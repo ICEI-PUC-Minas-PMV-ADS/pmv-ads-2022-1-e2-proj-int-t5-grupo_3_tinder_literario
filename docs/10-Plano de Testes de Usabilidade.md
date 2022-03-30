@@ -260,6 +260,7 @@ Iniciar uma conversa com o usuário do perfil.</th></tr>
 <table>
 <tr><th>Caso de Teste</th>
 <th>CTU-14 Match</th>
+<tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>Efetuar o Match das listas</th></tr>
@@ -276,6 +277,7 @@ Iniciar uma conversa com o usuário do perfil.</th></tr>
 <table>
 <tr><th>Caso de Teste</th>
 <th>CTU-15 Visualização de Match e início do chat</th>
+<tr><th>Perfil</th>
 <th>Usuário</th></tr>
 <tr><th>Objetivo do Teste</th>
 <th>visualizar e o Match das listas e iniciar uma conversa através de chat</th></tr>
