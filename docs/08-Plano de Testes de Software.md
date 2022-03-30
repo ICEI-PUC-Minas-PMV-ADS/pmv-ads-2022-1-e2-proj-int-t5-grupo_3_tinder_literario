@@ -40,17 +40,15 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |------------------|----------------------------------------------------|
 |Requisito Associado |RF-002 - O site deve ter um chat para conversação para os usuários interagirem entre si.	|
 |Objetivo do Teste | Verificar se o chat consegue ser utilizado por usuários combinados |
-|Passos | -  |
+|Passos | -  Acessar a aplicação <br> - Acessar a lista de usuários combinados <br> - Selecionar um usuário combinado para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
 |Critério de Êxito | - Os usuários combinados são capazes de interagir no chat da aplicação |
 
 | Caso de Teste | CT-06 – Pesquisa e avaliação de livros |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários e avaliações sobre os livros.	|
 |Objetivo do Teste | Verificar se o usuário consegue pesquisar, comentar e avaliar (classificar) livros |
-|Passos | - Acessar a aplicação <br> - Acessar a lista de usuários combinados <br> - Selecionar um usuário combinado para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
-|Critérios de Êxito | - O usuário consegue pesquisar livros <br>
-- O usuário consegue comentar/fazer uma resenha sobre livros <br>
-- O usuário consegue avaliar (classificar) livros |
+|Passos | -  |
+|Critérios de Êxito | - O usuário consegue pesquisar livros <br> - O usuário consegue comentar/fazer uma resenha sobre livros <br> - O usuário consegue avaliar (classificar) livros |
 
 | Caso de Teste | CT-07 – Atender a mais de um público |
 |------------------|----------------------------------------------------|
