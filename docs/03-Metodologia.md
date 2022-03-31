@@ -9,7 +9,7 @@ Nossa ferramenta principal para gerir os tópicos citados acima, será o GitHub,
 
 Para arquivos visuais e sonoros, bem como, formulários de pesquisas, análises de requisitos, casos de uso, utilizaremos o Google Drive para a equipe envolvida no desenvolvimento da aplicação, seja através da forma técnica ou gerencial.
 
-O Projeto de interface e wireframes foi desenvolvido através dos sites Canva e Flowmapp, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma pratica e elegante.
+O Projeto de interface e wireframes foi desenvolvido através dos sites Canva, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma prática.
 
 ## Controle de Versão
 
@@ -91,7 +91,7 @@ Para organização e distribuição das tarefas do projeto, a equipe utilizará 
 O quadro kanban do projeto no Github está disponível na [URL](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/projects/2) e é apresentado, no estado atual, na Figura 2.
 
 <div align="center">
- <img src="img/board_tinder_lict.PNG" width="700px" />
+ <img src="img/board_tinder_lict.png" width="700px" />
  
  **Figura 2 - Quadro Kanban no dia 23/03/2022**  
 </div>
@@ -114,4 +114,4 @@ As ferramentas empregadas no projeto são:
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas, utilizamos essas ferramentas por melhor captarem as necessidades da nossa solução.
 
 - Ferramenta de criação de casos de uso (Lucidchart).
-- Ferramenta de criação do diagrama de fluxo (Drawio).
+- Ferramenta de criação de diagramas (Drawio).
