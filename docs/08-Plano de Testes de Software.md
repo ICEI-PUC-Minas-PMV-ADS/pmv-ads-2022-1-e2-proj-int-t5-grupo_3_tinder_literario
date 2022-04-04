@@ -22,33 +22,33 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos | - Acessar a lista criada <br> - Incluir ou remover títulos de sua lista <br> - Excluir sua lista inteira de títulos |
 |Critério de Êxito | - O usuário consegue cadastrar listas <br> - O usuário consegue editar suas listas (acrescentando e alterarando livros) |
 
-| Caso de Teste | CT-03 – Sistema de combinação (_Match_) |
+| Caso de Teste | CT-03 – Sistema de curtidas (_Match_) |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-010 - O site deve permitir a função _match_ quando um usuário se identificou com outro usuário.<br> RF-012 - O site deve listar e reunir _os matches_ por áreas da literatura para ajudar na recuperação de informações.	 |
-|Objetivo do Teste | - Verificar se o sistema realiza a combinação (_match_) entre o usuário e se as combinações são organizados por gêneros literários |
-|Passos | - Acessar a área de listas compartilhadas <br> - Navegar entre as listas existentes ou filtrar de acordo com determinado gênero literário, título, autor... <br> - Clicar para efetivar a combinação (_match_) da nossa parte <br> - Iniciar uma interação quando a combinação for correspondida <br> - Opção de excluir o _match_ bem como bloquear determinado usuário |
-|Critérios de Êxito | - A combinação entre usuários é realizada <br> - O usuário consegue visualizar suas listas de combinações por gêneros literários  |
+|Objetivo do Teste | - Verificar se o sistema realiza a curtida (_match_) entre o usuário |
+|Passos | - Acessar a área de listas compartilhadas <br> - Navegar entre as listas existentes ou filtrar de acordo com determinado gênero literário, título, autor... <br> - Clicar para efetivar a curtida (_match_) da nossa parte <br> - Iniciar uma interação quando a curtida for correspondida <br> - Opção de excluir o _match_ bem como bloquear determinado usuário |
+|Critérios de Êxito | - A curtida entre usuários é realizada |
 
 | Caso de Teste | CT-04 – Navegação entre perfis |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-003 - O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar pessoas com os mesmos gêneros literários.<br> RF-008 - O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de mesmos gêneros literários.	|
 |Objetivo do Teste | Verificar se o usuário consegue pesquisar pessoas com listas preenchidas com os mesmos gêneros literários |
 |Passos | - Acessar a aplicação <br> - Digitar o nome de um livro, um autor ou um usuário <br> - Visualizar o resultado da busca |
-|Critério de Êxito | - O usuário consegue pesquisar e localizar pessoas com os mesmos gêneros literários |
+|Critério de Êxito | - O usuário consegue pesquisar e localizar pessoas que têm os mesmos gêneros literários |
 
 | Caso de Teste | CT-05 – Interação entre usuários |
 |------------------|----------------------------------------------------|
 |Requisito Associado |RF-002 - O site deve ter um chat para conversação para os usuários interagirem entre si.	|
-|Objetivo do Teste | Verificar se o chat consegue ser utilizado por usuários combinados |
-|Passos | -  Acessar a aplicação <br> - Acessar a lista de usuários combinados <br> - Selecionar um usuário combinado para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
-|Critério de Êxito | - Os usuários combinados são capazes de interagir no chat da aplicação |
+|Objetivo do Teste | Verificar se o chat consegue ser utilizado pelos usuários |
+|Passos | -  Acessar a aplicação <br> - Acessar a lista de usuários curtidos <br> - Selecionar um usuário para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
+|Critério de Êxito | - Os usuários são capazes de interagir no chat da aplicação |
 
 | Caso de Teste | CT-06 – Pesquisa de livros |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários sobre os livros.	|
 |Objetivo do Teste | Verificar se o usuário consegue pesquisar e comentar livros |
 |Passos | - Acessar a aplicação <br> - Digitar o nome de um livro <br> - Visualizar o resultado da busca <br> - Realizar um comentário no espaço apropriado |
-|Critérios de Êxito | - O usuário consegue pesquisar livros <br> - O usuário consegue comentar/fazer uma resenha sobre livros <br> - O usuário consegue avaliar (classificar) livros |
+|Critérios de Êxito | - O usuário consegue pesquisar livros <br> - O usuário consegue comentar/fazer uma resenha sobre livros |
 
 | Caso de Teste | CT-07 – Atender a mais de um público |
 |------------------|----------------------------------------------------|
