@@ -22,7 +22,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos | - Acessar a lista criada <br> - Incluir ou remover títulos de sua lista <br> - Excluir sua lista inteira de títulos |
 |Critério de Êxito | - O usuário consegue cadastrar listas <br> - O usuário consegue editar suas listas (acrescentando e alterarando livros) |
 
-| Caso de Teste | CT-03 – Sistema de combinação (Match) |
+| Caso de Teste | CT-03 – Sistema de combinação (_Match_) |
 |------------------|----------------------------------------------------|
 |Requisitos Associados | RF-010 - O site deve permitir a função _match_ quando um usuário se identificou com outro usuário.<br> RF-012 - O site deve listar e reunir _os matches_ por áreas da literatura para ajudar na recuperação de informações.	 |
 |Objetivo do Teste | - Verificar se o sistema realiza a combinação (_match_) entre o usuário e se as combinações são organizados por gêneros literários |
@@ -43,11 +43,11 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos | -  Acessar a aplicação <br> - Acessar a lista de usuários combinados <br> - Selecionar um usuário combinado para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
 |Critério de Êxito | - Os usuários combinados são capazes de interagir no chat da aplicação |
 
-| Caso de Teste | CT-06 – Pesquisa e avaliação de livros |
+| Caso de Teste | CT-06 – Pesquisa de livros |
 |------------------|----------------------------------------------------|
-|Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários e avaliações sobre os livros.	|
-|Objetivo do Teste | Verificar se o usuário consegue pesquisar, comentar e avaliar (classificar) livros |
-|Passos | - Acessar a aplicação <br> - Digitar o nome de um livro <br> - Visualizar o resultado da busca <br> - Realizar um comentário no espaço apropriado <br> - Avaliar o livro (em até 5 estrelas) |
+|Requisitos Associados | RF-009 - O site deve permitir um sistema simples para pesquisas de livros.	<br> RF-011 - O site deve permitir que usuários façam comentários sobre os livros.	|
+|Objetivo do Teste | Verificar se o usuário consegue pesquisar e comentar livros |
+|Passos | - Acessar a aplicação <br> - Digitar o nome de um livro <br> - Visualizar o resultado da busca <br> - Realizar um comentário no espaço apropriado |
 |Critérios de Êxito | - O usuário consegue pesquisar livros <br> - O usuário consegue comentar/fazer uma resenha sobre livros <br> - O usuário consegue avaliar (classificar) livros |
 
 | Caso de Teste | CT-07 – Atender a mais de um público |
