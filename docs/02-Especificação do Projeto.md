@@ -68,7 +68,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de mesmos gêneros literários. | BAIXA |
 |RF-009| O site deve permitir um sistema simples para pesquisas de livros. | BAIXA |
 |RF-010| O site deve permitir a função match quando um usuário se identificou com outro usuário. | ALTA |
-|RF-011| O site deve permitir que usuários façam comentários e avaliações sobre os livros. | MÉDIA |
+|RF-011| O site deve permitir que usuários façam comentários sobre os livros.	 | MÉDIA |
 |RF-012| O site deve listar e reunir os matches por áreas literárias para ajudar na recuperação de informações. | BAIXA |
 
 
