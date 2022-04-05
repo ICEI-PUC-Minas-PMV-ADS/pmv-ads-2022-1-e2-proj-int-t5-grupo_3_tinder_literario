@@ -19,7 +19,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
-![Exemplo de Esquema Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Modelo-Esquema-Relacional%20(1).drawio.png)
+![Exemplo de Modelo ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Modelo-Esquema-Relacional%20(1).drawio.png)
 
 ## Esquema Relacional
 
@@ -28,6 +28,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+![Exemplo de Esquema Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/fluxo_DER%202.drawio.png)
 
 ## Tecnologias Utilizadas
 
