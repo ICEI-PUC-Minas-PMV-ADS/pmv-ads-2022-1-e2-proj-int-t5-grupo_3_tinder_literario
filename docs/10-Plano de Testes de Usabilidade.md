@@ -97,12 +97,12 @@ Para cada tarefa do participante é possível medir:
 | **Objetivo do Teste** 	| Comentar algum livro existente na lista da aplicação, ou na lista de outro usuário ou na sua própria lista 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Clicar no botão “Lista”;<br>6. Selecionar o livro desejado;<br>7. Ir na seção de comentários e inserir o seu comentário do livro;<br>8. Clicar em ENVIAR 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-13 Curtir/Match nas Listas de Livros** 	|
+| **Caso de Teste** 	| **CTU-13 - Curtir/Match nas Listas de Livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Efetuar a curtida/Match ou não das listas 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Listas";<br>6. Selecionar ou buscar as listas dos usuário;<br>7. Efetuar a curtida/Match através ou não das listas:<br>ícones: Livro fechado vermelho (Não curtir) e livro aberto verde (Curtir) 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-14 Visualização de Match e início do chat** 	|
+| **Caso de Teste** 	| **CTU-14 - Visualização de Match e início do chat** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Visualizar o Match das listas e iniciar uma conversa através de chat 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Chat";<br>6. Verificar se existe alguma combinação através da Lista de curtidas;<br>7. Entrar em contato com o perfil combinado através de chat;<br>8. Iniciar uma conversa com o usuário do perfil. 	|
