@@ -9,12 +9,8 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 Abaixo o diagrama de fluxo com o caminho a ser percorrido pelo usuário final do site.
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+![Exemplo de Diagrama de Fluxo](img/diagramafluxo.drawio.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
