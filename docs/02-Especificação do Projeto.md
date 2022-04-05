@@ -5,32 +5,30 @@
 A definição do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados com base nas experiências pessoais, relacionadas ao tema, compartilhada por alguns membros do grupo. A partir desses relatos, inferimos outros possíveis problemas dos usuários. Os detalhes levantados nesse processo foram organizados em personas e histórias de usuários. 
 
 ## Personas
-As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas que se seguem:  
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas tabelas que se seguem:
 
-<img src="img/personas/persona1.PNG" width="150" height="150" />| **Camila Silva**  
+Persona | 1
 ---|---
+<img src="img/personas/persona1.PNG" width="150" height="150" />| **Camila Silva**  
 **Idade:** 19 **Ocupação:** Estudante **Hobbies:** Literatura|**Aplicativos:** Instagram, Skoob, Apps bancários, Netflix, WhatsApp, Telegram  
 **Motivações:** Gosta de ler livros. Gostaria de aumentar seu círculo de amizades. Quer melhorar sua habilidade de comunicação.|**Frustrações:** Sofre com a dificuldade de estabelecer interações com pessoas. É muito tímida e se sente tensa durante diálogos por não saber o que dizer.
-
+**Persona** | **2** 
 <img src="img/personas/persona2.PNG" width="150" height="150" />| **Carlos Santos** 
---- | ---
 **Idade:** 71 **Ocupação:** Aposentado **Hobbies:** Literatura|**Aplicativos:** Facebook, Aplicativos de bancos, Whatsapp
 **Motivações:** Gosta de literatura. Gosta de sair para encontrar pessoas e conversar.|**Frustrações:** Se sente solitário e triste devido ao isolamento social provocado pela pandemia de Covid-19. 
-
+**Persona** | **3**
 <img src="img/personas/persona3.PNG" width="150" height="150" />| **Maria Ferreira** 
---- | ---
 **Idade:** 39 **Ocupação:** Escritora iniciante **Hobbies:** Literatura, Escrita criativa |**Aplicativos:** Facebook, Instagram, Whatsapp, Aplicativos de bancos 
 **Motivações:** Gosta de ler romances. Quer escrever seu próprio livro.|**Frustrações:** Não consegue encontrar alguém para compartilhar os capítulos já escritos de seu romance e obter um feedback. Possui muitas tarefas para realizar diariamente. 
-
+**Persona** | **4**
 <img src="img/personas/persona4.PNG" width="150" height="150" />| **Ana Oliveira** 
---- | ---
 **Idade:** 57 **Ocupação:** Aposentada **Hobbies:** Literatura |**Aplicativos:** Whatsapp, Youtube 
 **Motivações:** Passa a maior parte do tempo escutando audiolivros em casa. |**Frustrações:** Sente dificuldade de interagir com a tecnologia. Possui baixa visão e precisa do auxílio de ferramentas leitoras de tela. 
-
+**Persona** | **5**
 <img src="img/personas/persona5.PNG" width="150" height="150" />| **Miguel Lima** 
---- | ---
 **Idade:** 26 **Ocupação:** Afastado do emprego **Hobbies:** Literatura |**Aplicativos:** Instagram, Skoob, Apps bancários, Netflix, WhatsApp, Telegram  
 **Motivações:** Gostaria de voltar a frequentar clubes de literatura. Quer encontrar novas recomendações de livros. |**Frustrações:** Devido a um acidente, desenvolveu dificuldade de mobilidade. Não sai de casa tanto quanto gostaria.
+
 
 
 ## Histórias de Usuários
@@ -46,8 +44,7 @@ Carlos Santos | Acessar um chat para conversar na aplicação | Para interagir c
 Maria Ferreira | Usar a aplicação tanto no computador quanto no celular | Para acessar em diferentes contextos de sua rotina |
 Ana Oliveira | Um sistema com interface simples e intuitiva | Para interagir com a aplicação, mesmo tendo dificuldade com o uso da tecnologia |
 Ana Oliveira | Um sistema bem adaptado para leitores de tela | Para que a baixa visão não atrapalhe a experiência de uso |
-Miguel Lima | Montar ou pesquisar grupos com interesses literários em comum | Para que possa se conectar com atividades que gosta de forma simples e remota |
-Miguel Lima | Comentar e avaliar livros lidos por mim | Para que possa expor minha opinião, ler a de outros e descobrir novos livros |
+Miguel Lima | Visualizar e comentar livros| Para que possa expor a opinião, ler a de outros, descobrir novos livros, e com isso se conctar a atividades que gosta de forma simples e remota |
 
 
 ## Requisitos
@@ -99,4 +96,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-<img src="https://user-images.githubusercontent.com/81396458/157950178-ccef1fec-fc98-44a4-a541-b8887d015d38.png" />
+<img src="https://user-images.githubusercontent.com/81396458/157950178-ccef1fec-fc98-44a4-a541-b8887d015d38.png" width="70%"/>
