@@ -4,8 +4,21 @@ Testes de funcionalidades e regras de negócios avaliam o funcionamento da ferra
 
 O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa, utilizandi uma avaliação por observação. Por meio dele, são recolhidos dados sobre comportamento, medindo e considerando as reações dos usuários diante de diferentes layouts e funcionalidades. Após sua realização, uma análise de usabilidade e das principais dificuldades é efetuada para realizar melhorias na plataforma, proporcionando uma melhor experiência ao usuário.
 
-
 O planejamento dos testes de usabilidade a serem realizados com usuários são descritos a seguir: Requisitos do teste; Método utilizado; Ojetivos do teste de usabilidade;  Roteiro detalhado das tarefas que foram desempenhadas pelos usuários. A seguir, estão listados os parâmetros do Plano de Teste de Usabilidade adotado para aplicação M@tchbook.
+
+Para o projeto em questão, realizaremos o modelo de Testes Remotos Não Moderados de Usabilidade.
+
+### Testes Remotos Moderados de Usabilidade
+
+Esse é o tipo de teste de usabilidade que costuma ser realizado online. Por conta disso, o investimento também é menor. Nele os participantes realizam os estudos diretamente em seus próprios dispositivos, como tablets, smartphones e notebooks.
+
+### Vantagens em fazer testes de usabilidade à distância
+
+A velocidade do desenvolvimento não é prejudicado, principalmente quando o time trabalha com ciclos contínuos de entrega, a flexibilidade do teste remoto facilita a cadência de entregas:
+•	Conseguir fazer testes de usabilidade mesmo de home office.
+•	O custo de retribuição oferecido é menor pois o entrevistado não terá custo e nem perde tempo no deslocamento.
+•	O entrevistado continua no seu ambiente natural.
+•	Conseguir testar 100% dos projetos até pequenas melhorias, trazer pessoas até a empresa para testar uma única funcionalidade.
 
 ### Objetivos do teste:
 
@@ -49,10 +62,18 @@ Os participantes terão como responsabilidade, analisar da forma mais eficiente 
 
 Para cada tarefa do participante é possível medir:
 
-- Concretização da tarefa;
-- O total de erros cometidos;
-- Quantos erros de cada tipo ocorreram;
-- Quanto tempo foi necessário para conclui-la.
+- Eficácia
+> Conclusão de tarefas sem erro<br>
+> Conclusão de tarefa com erro (não crítico)<br>
+> Erros críticos<br>
+> Quantidade de cliques ou toques errados<br>
+> Freqüência de pedido de ajuda<br>
+- Eficiência
+> Tempo de execução da tarefa<br>
+> Tempo utilizado na primeira tentativa x segunda tentativa<br>
+- Satisfação - serão avaliados através de escala 1 a 5
+> Satisfação ao realizar uma tarefa<br>
+> Satisfação geral do teste
 
 ### Tarefas a serem observadas**: Observação direta, medição e Avaliação
 
@@ -124,7 +145,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Efetuar a curtida/Match ou não das listas 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Listas";<br>6. Selecionar ou buscar as listas dos usuário;<br>7. Efetuar a curtida/Match através ou não das listas:<br>ícones: Livro fechado vermelho (Não curtir) e livro aberto verde (Curtir) 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-14 - Visualização de Match e início do chat** 	|
+| **Caso de Teste** 	| **CTU-14 - Navegação entre perfis e início do chat** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Visualizar o Match das listas e iniciar uma conversa através de chat 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Chat";<br>6. Verificar se existe alguma combinação através da Lista de curtidas;<br>7. Entrar em contato com o perfil combinado através de chat;<br>8. Iniciar uma conversa com o usuário do perfil. 	|
@@ -133,3 +154,24 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar se a aplicação é responsiva nos navegadores Chrome, Firefox, Edge, Safari e smartphones android e IOS 	|
 | **Passos** 	| 1. Acessar o navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Percorrer as páginas e funcionalidades da aplicação;<br>5. Verificar se as informações estão ordenadas de uma forma clara na tela. 	|
+
+
+## Análise do teste e resultados
+
+A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
+
+| **Usuário** 	| **CTU 1** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** |
+| --- 	| --- 	| --- | ---  | --- | --- |
+| Usuário 1	| --- 	| --- | ---  | --- | --- |
+| Usuário 2 | --- 	| --- | ---  | --- | --- |
+| Usuário 3	| --- 	| --- | ---  | --- | --- |
+| Usuário 4	| --- 	| --- | ---  | --- | --- |
+| Usuário 5	| --- 	| --- | ---  | --- | --- |
+
+| **Usuário** 	| **CTU 2** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** |
+| --- 	| --- 	| --- | ---  | --- | --- |
+| Usuário 1	| --- 	| --- | ---  | --- | --- |
+| Usuário 2 | --- 	| --- | ---  | --- | --- |
+| Usuário 3	| --- 	| --- | ---  | --- | --- |
+| Usuário 4	| --- 	| --- | ---  | --- | --- |
+| Usuário 5	| --- 	| --- | ---  | --- | --- |
