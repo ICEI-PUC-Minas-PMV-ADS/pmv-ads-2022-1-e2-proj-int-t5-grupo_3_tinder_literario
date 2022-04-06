@@ -33,7 +33,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 As tecnologias que serão ultilizadas são HTML5, CSS3, JavaScript, C#, SQL server. As quais são base do desenvolvimento web front-end moderno devido sua popularidade e sua versatilidade que permitem interações de usuário e de api externas.
 
-![Diagrama de Componentes](
+![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Diagrama%20de%20componentes.png)
 
 A solução implementada conta com os seguintes módulos:
 
