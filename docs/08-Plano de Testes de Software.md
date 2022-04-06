@@ -50,3 +50,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Objetivo do Teste | Verificar se usuários com deficiências visuais conseguem utilizar todas as ferramentas do site |
 |Passos | - Acessar o site com o NVDA ativado <br> - Verificar se há atalho de fácil acesso para o retorno à página inicial <br> - Checar se há descrição não redundantes nas imagens <br> - Verificar o contraste entre as cores |
 |Critério de Êxito | - Os usuários com deficiências visuais conseguem utilizar a aplicação |
+|  	|  	|
+| Caso de Teste | CT-08 – Login com a conta Google e/ou com o Facebook |
+|Requisito Associado |RF-0013 - O site deve permitir que o login seja efetuado com a conta Google e com o Facebook.	|
+|Objetivo do Teste | Verificar se o usuário consegue logar na aplicação com sua conta Google e/ou com sua conta no Facebook |
+|Passos | - Acessar o navegador <br> - Informar o endereço do site <br> - Efetuar login com a conta Google e/ou com o Facebook |
+|Critério de Êxito | - Os usuários são capazes de fazer login com a conta Google e/ou com o Facebook |
