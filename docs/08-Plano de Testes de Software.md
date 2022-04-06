@@ -29,7 +29,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |  	|  	|
 | Caso de Teste | CT-04 – Navegação entre perfis |
 |Requisitos Associados | RF-003 - O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar listas de livros.<br> RF-008 - O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de listas de livros.	|
-|Objetivo do Teste | Verificar se o usuário consegue pesquisar pessoas com listas preenchidas com os mesmos gêneros literários |
+|Objetivo do Teste | Verificar se o usuário consegue pesquisar pessoas e listas preenchidas com livros em comum |
 |Passos | - Acessar a aplicação <br> - Digitar o nome de um livro, um autor ou um usuário <br> - Visualizar o resultado da busca |
 |Critério de Êxito | - O usuário consegue pesquisar e localizar pessoas que têm os mesmos gêneros literários |
 |  	|  	|
