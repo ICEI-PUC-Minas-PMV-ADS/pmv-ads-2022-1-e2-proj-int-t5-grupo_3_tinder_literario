@@ -45,6 +45,6 @@ Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo n
 
 ## Hospedagem
 
-O site utiliza a plataforma do Github como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
+O site utiliza a plataforma do Github e Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL da GitPages e Heroku.
 
 
