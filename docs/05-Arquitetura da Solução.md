@@ -33,14 +33,14 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 As tecnologias que serão ultilizadas são HTML5, CSS3, JavaScript, C#, SQL server. As quais são base do desenvolvimento web front-end moderno devido sua popularidade e sua versatilidade que permitem interações de usuário e de api externas.
 
-![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Diagrama%20de%20componentes.png)
+![Diagrama de Componentes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Hospedagem%2Heroku.png)
 
 A solução implementada conta com os seguintes módulos:
 
 Navegador - Interface básica do sistema
-Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript, React, Bootstrap e imagens que implementam as funcionalidades do sistema.
 Local Storage - local onde serão implementados os bancos de dados em SQL server, utilizando as linguagens C# e Asp.NET.
-API - plataforma que permite a conexão e sincronização da aplicação com o g-mail do usuário e facebook.
+API - plataforma que permite a conexão e sincronização da aplicação com o g-mail do usuário e Facebook.
 Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
 
 ## Hospedagem
