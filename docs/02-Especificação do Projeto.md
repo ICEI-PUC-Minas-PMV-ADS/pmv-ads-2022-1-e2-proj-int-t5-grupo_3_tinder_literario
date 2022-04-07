@@ -74,11 +74,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação  deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages, Heroku). | ALTA | 
-|RNF-002| A aplicação  deverá ser responsivo. | ALTA | 
-|RNF-003| A aplicação  deve ser construída considerando a forma com que os leitores irão ler.. | MÉDIA |
+|RNF-002| A aplicação  deverá ser responsiva. | ALTA | 
+|RNF-003| A aplicação  deve ser construída considerando a forma com que os leitores irão ler. | MÉDIA |
 |RNF-004| A aplicação  deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
-|RNF-005| A aplicação  deve possuir leitores de tela, para que pessoas com deficiência possam utilizar nossa plataforma. | MÉDIA |
-|RNF-006| A aplicação  deve possuir uma tela simples e intuitiva, com base nos pressupostos do Design de Interação, para que pessoas com dificuldades em tecnologias possam utilizá-lo.  | ALTA |
+|RNF-005| A aplicação  deve possuir leitores de tela, para que pessoas com deficiências visuais possam utilizar a plataforma. | MÉDIA |
+|RNF-006| A aplicação  deve possuir uma tela simples e intuitiva, com base nos pressupostos do Design de Interação, para que pessoas com dificuldades em tecnologias possam utilizá-la.  | ALTA |
 |RNF-007| A aplicação  deve permitir salvar as informações dos usuários respeitando a LGPD.  | MÉDIA |
 |RFN-008| A aplicação  deve possuir um sistema adaptado para pessoas com deficiências visuais. | ALTA|
 
