@@ -74,7 +74,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação  deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA | 
+|RNF-001| A aplicação  deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages, Heroku). | ALTA | 
 |RNF-002| A aplicação  deverá ser responsivo, permitindo a visualização em um celular de forma adequada. | ALTA | 
 |RNF-003| A aplicação  deve ter bom nível de contraste entre os elementos da tela em conformidade. | MÉDIA |
 |RNF-004| A aplicação  deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
