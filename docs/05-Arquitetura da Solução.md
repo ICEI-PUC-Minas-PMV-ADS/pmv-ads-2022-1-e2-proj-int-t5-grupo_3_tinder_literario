@@ -2,7 +2,7 @@
 
 A arquitetura de soluções constrói soluções com base nas necessidades da empresa, é responsável por desenhar e implementar recursos e ferramentas de TI para atender as necessidades do cliente, ou seja, definir de forma estruturada quais são so componentes, propriedades e documentações necessárias para que um sistema seja desenvolvido, além de seu relacionamento com outros sistemas.
 
-A arquitetura para a solução em questão será basicamente a hospedagem da página web (HTML, CSS, JS) e integração da mesma com APIs públicas, a fim de agilizar o processo de login e contatos.
+A arquitetura para a solução em questão será basicamente a hospedagem da página web (HTML, CSS, JS, Bootstrap) e integração da mesma com APIs públicas, a fim de agilizar o processo de login e contatos.
 
 Toda codificação é armazenada no Github, o versionamento é controlado via Git Flow, para que todo o processo seja acompanhado e revertido, se preciso for.
 
@@ -38,7 +38,7 @@ As tecnologias que serão ultilizadas são HTML5, CSS3, JavaScript, C#, SQL serv
 A solução implementada conta com os seguintes módulos:
 
 Navegador - Interface básica do sistema
-Páginas Web - Conjunto de arquivos JavaScript, TypeScript,  React e imagens que implementam as funcionalidades do sistema.
+Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript, Bootstrap e imagens que implementam as funcionalidades do sistema.
 Local Storage - local onde serão implementados os bancos de dados em SQL server, utilizando as linguagens C# e Asp.NET.
 API - plataforma que permite a conexão e sincronização da aplicação com o g-mail do usuário e facebook.
 Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
