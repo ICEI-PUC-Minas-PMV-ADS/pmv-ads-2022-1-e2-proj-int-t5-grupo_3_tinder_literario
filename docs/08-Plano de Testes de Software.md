@@ -29,13 +29,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |  	|  	|
 | Caso de Teste | CT-04 – Criar listas |
 |Requisito Associado | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
-|Objetivo do Teste | - Verificar se o usuário consegue criar listas de livros. |
+|Objetivo do Teste | Verificar se o usuário consegue criar listas de livros. |
 |Passos | - Acessar o navegador <br> - Informar o endereço do site <br> - Realizar login com a conta cadastrada <br> - Criar uma lista |
 |Critério de Êxito | - O usuário consegue criar suas listas.  |
 |  	|  	|
 | Caso de Teste | CT-05 – Salvar listas |
 |Requisito Associado | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
-|Objetivo do Teste | - Verificar se o usuário consegue salvar suas listas de livros. |
+|Objetivo do Teste | Verificar se o usuário consegue salvar suas listas de livros. |
 |Passos | - Acessar o navegador <br> - Informar o endereço do site <br> - Realizar login com a conta cadastrada <br> - Acessar uma lista <br> - Fazer alterações (acrescentar e/ou remover livros) |
 |Critério de Êxito | - O usuário consegue salvar suas listas com sucesso. |
 |  	|  	|
@@ -65,19 +65,18 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |  	|  	|
 | Caso de Teste | CT-10 – Sistema de curtidas (_Match_) |
 |Requisito Associado | RF-009 - A aplicação deve permitir a função _match_ quando um usuário se identificou com outro usuário.	 |
-|Objetivo do Teste | - Verificar se o sistema realiza a curtida (_match_) entre os usuários. |
-|Passos | - |
+|Objetivo do Teste | Verificar se o sistema realiza a curtida (_match_) entre os usuários. |
+|Passos | - Fazer login <br> - Visualizar listas de outros usuários <br> - Curtir a lista <br> - Receber a informação de _match_ realizado |
 |Critério de Êxito | - A curtida entre usuários é realizada. |
 |  	|  	|
 | Caso de Teste | CT-11 – Reunir _matches_ |
 |Requisito Associado | RF-011 - A aplicação deve reunir as listas com mais _matches_	 |
-|Objetivo do Teste | -  |
-|Passos | - |
+|Objetivo do Teste | Verificar se as listas com mais _matches_ são disponibilizadas para os usuários |
+|Passos | - Fazer login <br> - Acessar o menu da aplicação <br> - Observar as listas com mais curtidas |
 |Critério de Êxito | - A aplicação reúne as listas com mais _matches_. |
 |  	|  	|
-| Caso de Teste | CT-12 – xxx |
+| Caso de Teste | CT-12 – Ocultar informações cadastrais |
 |Requisito Associado | RF-004 - A aplicação deve possuir a opção de não mostrar todos os dados do usuário.	 |
-|Objetivo do Teste | -  |
-|Passos | - |
-|Critério de Êxito | -  |
-|  	|  	|
+|Objetivo do Teste |  Verificar se informações pessoais não são disponibilizadas publicamente |
+|Passos | - Fazer login <br> - Acessar o perfil de um grupo de usuários <br> - Observar se a foto e o nome desses usuários estão públicos <br> - Observar se o número de telefone e demais dados pessoais cadastrais estão ocultos |
+|Critério de Êxito | -  Dados pessoais cadastrais não estão publicamente expostos para demais usuários do M@tchbook |
