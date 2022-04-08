@@ -15,10 +15,10 @@ Esse é o tipo de teste de usabilidade que costuma ser realizado online. Por con
 ### Vantagens em fazer testes de usabilidade à distância
 
 A velocidade do desenvolvimento não é prejudicado, principalmente quando o time trabalha com ciclos contínuos de entrega, a flexibilidade do teste remoto facilita a cadência de entregas:
-•	Conseguir fazer testes de usabilidade mesmo de home office.
-•	O custo de retribuição oferecido é menor pois o entrevistado não terá custo e nem perde tempo no deslocamento.
-•	O entrevistado continua no seu ambiente natural.
-•	Conseguir testar 100% dos projetos até pequenas melhorias, trazer pessoas até a empresa para testar uma única funcionalidade.
+-	Conseguir fazer testes de usabilidade mesmo de home office.
+-	O custo de retribuição oferecido é menor pois o entrevistado não terá custo e nem perde tempo no deslocamento.
+-	O entrevistado continua no seu ambiente natural.
+-	Conseguir testar 100% dos projetos até pequenas melhorias, trazer pessoas até a empresa para testar uma única funcionalidade.
 
 ### Objetivos do teste:
 
@@ -54,7 +54,7 @@ Os requisitos para realização dos testes são:
 - Disponibilidade do usuário em acessar ferramentas de videoconferência com compartilhamento de tela - Zoom, Google Meet, Teams, Webcam.
 
 
-### Método utilizado**: Observação direta, medição e Avaliação
+### Método utilizado: Observação direta, medição e Avaliação
 
 O teste terá cinco participantes que irão avaliar o desempenho e a interação do site, de acordo com as necessidades que correspondem com a finalidade da aplicação e com sugestões de melhorias.
 
@@ -75,12 +75,11 @@ Para cada tarefa do participante é possível medir:
 > Satisfação ao realizar uma tarefa<br>
 > Satisfação geral do teste
 
-### Tarefas a serem observadas**: Observação direta, medição e Avaliação
+### Tarefas a serem observadas: Observação direta, medição e Avaliação
 
 Seguem as tarefas a serem executadas pelos participantes e observadas
 
 
-|  	|  	|
 | **Caso de Teste** 	| **CTU-01 – Cadastro de novo usuário** 	|
 |:---:	|:---:	|
 | **Perfil** 	| Usuário (todos)	|
@@ -157,7 +156,6 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Avaliar se a aplicação é responsiva nos navegadores Chrome, Firefox, Edge, Safari e smartphones android e IOS 	|
 | **Passos** 	| 1. Acessar o navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Percorrer as páginas e funcionalidades da aplicação;<br>5. Verificar se as informações estão ordenadas de uma forma clara na tela. 	|
 | **Caso de Teste** 	| **CTU-16 – Acessibilidade** 	|
-|:---:	|:---:	|
 | **Perfil** 	| Usuário com deficiência visual	|
 | **Objetivo do Teste** 	| Verificar se usuários com deficiências visuais conseguem utilizar todas as ferramentas do site 	|
 | **Ações necessárias** 	| 1. Ativar NVDA para acessar o site;<br>2. Acessar a primeira tela do site pelo browser;<br>3. Efetuar login na aplicação;<br>4. Verificar se há atalho de fácil acesso para o retorno à página inicial;<br> 5. Checar se há descrição não redundantes nas imagens; <br> 6.Verificar o contraste entre as cores. 	|
