@@ -115,7 +115,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Caso de Teste** 	| **CTU-07 – Criação de lista de livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a funcionalidade de criação de lista de livros 	|
-| **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, acesse Perfil;<br>6. Clicar no botão “Criar Lista”;<br>7. Nomear a lista de livros criada;<br>8. Clicar no botão ‘Salvar’. 	|
+| **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, acesse Minha Conta;<br>6. Clicar no botão “Gerenciar Listas”;<br>7. Clicar em "Criar nova lista"; <br>8. Nomear a lista de livros criada;<br>8. Clicar no botão ‘Salvar lista’. 	|
 |  	|  	|
 | **Caso de Teste** 	| **CTU-08 – Pesquisa/Busca de livros** 	|
 | **Perfil** 	| Usuário 	|
