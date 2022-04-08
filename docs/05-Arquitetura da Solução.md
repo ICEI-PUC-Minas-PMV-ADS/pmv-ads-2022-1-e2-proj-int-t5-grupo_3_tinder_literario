@@ -15,7 +15,7 @@ O diagrama de classes abaixo representará as classes, estruturas e relações d
 O projeto comtempla o CRUD ou seja, as quatro operações básicas utilizadas em bases de dados relacionais (Create, Read, Update e Delete).
 
 
-![Exemplo de Diagrama de classes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/diagrama_classe.png)
+![Exemplo de Diagrama de classes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/diagrama_classe.drawio.png)
 
 ## Modelo ER
 
@@ -27,7 +27,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-![Exemplo de Esquema Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/diagrama_entidade-relacional.png)
+![Exemplo de Esquema Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Modelo-Esquema-Relacional%20(1).drawio.png)
 
 ## Tecnologias Utilizadas
 
@@ -37,11 +37,11 @@ As tecnologias que serão ultilizadas são HTML5, CSS3, JavaScript, C#, SQL serv
 
 A solução implementada conta com os seguintes módulos:
 
-Navegador - Interface básica do sistema
-Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript, React, Bootstrap e imagens que implementam as funcionalidades do sistema.
-Local Storage - local onde serão implementados os bancos de dados em SQL server, utilizando as linguagens C# e Asp.NET.
-API - plataforma que permite a conexão e sincronização da aplicação com o g-mail do usuário e Facebook.
-Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
+>Navegador - Interface básica do sistema
+>Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript, React, Bootstrap e imagens que implementam as funcionalidades do sistema.
+>Local Storage - local onde serão implementados os bancos de dados em SQL server, utilizando as linguagens C# e Asp.NET.
+>API - plataforma que permite a conexão e sincronização da aplicação com o g-mail do usuário e Facebook.
+>Hospedagem - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
 
 ## Hospedagem
 
