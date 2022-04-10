@@ -55,32 +55,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar seu perfil e efetuar login, sendo o login endereço de e-mail.       | ALTA | 
-|RF-002| O site deve ter um chat para conversação para os usuários interagirem entre si. | MÉDIA |
-|RF-003| O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar listas de livros. | ALTA |
-|RF-004| O site deve possuir a opção de remover informações. | ALTA |
-|RF-005| O site deve possuir opção de edição de informações na conta. | ALTA|
-|RF-006| O site deve possuir as opções de inserir listas de livros e de salvá-las. | ALTA |
-|RF-007| O site deve possuir um sistema adaptado para pessoas com deficiências visuais. | ALTA|
-|RF-008| O site deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de listas de livros. | BAIXA |
-|RF-009| O site deve permitir um sistema simples para pesquisas de livros. | BAIXA |
-|RF-010| O site deve permitir a função _match_ quando um usuário se identificou com outro usuário. | ALTA |
-|RF-011| O site deve permitir que usuários façam comentários sobre os livros.	 | MÉDIA |
-|RF-012| O site deve listar e reunir os livros com mais _matches_. | BAIXA |
-|RF-013| O site deve permitir que o login seja efetuado com a conta Google e com o Facebook. |ALTA|
+|RF-001| A aplicação  deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. | ALTA | 
+|RF-002| A aplicação deve ter um chat para conversação para os usuários interagirem entre si. | MÉDIA |
+|RF-003| A aplicação  deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros. | ALTA |
+|RF-004| A aplicação  deve possuir a opção de não mostrar todos os dados do usuário. | ALTA |
+|RF-005| A aplicação  deve possuir opção de fazer login, sendo o login endereço de e-mail. | ALTA|
+|RF-006| A página web  deve possuir as opções de inserir listas de livros e de salvá-las. | ALTA |
+|RF-007| A aplicação  deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de listas de livros. | BAIXA |
+|RF-008| A aplicação  deverá permitir buscar livros previamente cadastrados na base de dados. | BAIXA |
+|RF-009| A aplicação  deve permitir a função _match_ quando um usuário se identificou com outro usuário. | ALTA |
+|RF-010| A aplicação  deve permitir que usuários façam comentários sobre os livros.	 | MÉDIA |
+|RF-011| A aplicação  deve listar e reunir os livros com mais _matches_. | BAIXA |
+|RF-012| A aplicação  deve permitir que o login seja efetuado com a conta Google e com o Facebook. |ALTA|
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA | 
-|RNF-002| O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada. | ALTA | 
-|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | MÉDIA |
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
-|RNF-005| O site deve possuir leitores de tela, para que pessoas com deficiência possam utilizar nossa plataforma. | MÉDIA |
-|RNF-006| O site deve possuir uma tela simples e intuitiva, com base nos pressupostos do Design de Interação, para que pessoas com dificuldades em tecnologias possam utilizá-lo.  | ALTA |
-|RNF-007| O site deve permitir salvar as informações dos usuários respeitando a LGPD.  | MÉDIA |
+|RNF-001| A aplicação  deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages, Heroku). | ALTA | 
+|RNF-002| A aplicação  deverá ser responsiva. | ALTA | 
+|RNF-003| A aplicação  deve ser construída considerando a forma com que os leitores irão ler. | MÉDIA |
+|RNF-004| A aplicação  deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
+|RNF-005| A aplicação  deve possuir leitores de tela, para que pessoas com deficiências visuais possam utilizar a plataforma. | MÉDIA |
+|RNF-006| A aplicação  deve possuir uma tela simples e intuitiva, com base nos pressupostos do Design de Interação, para que pessoas com dificuldades em tecnologias possam utilizá-la.  | ALTA |
+|RNF-007| A aplicação  deve permitir salvar as informações dos usuários respeitando a LGPD.  | MÉDIA |
+|RFN-008| A aplicação  deve possuir um sistema adaptado para pessoas com deficiências visuais. | ALTA|
 
 ## Restrições
 

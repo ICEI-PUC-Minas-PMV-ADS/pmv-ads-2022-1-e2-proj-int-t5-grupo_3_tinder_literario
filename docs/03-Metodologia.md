@@ -5,11 +5,12 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
 
 Para controle do projeto, das pessoas e das tarefas, utilizaremos poucos ambientes de trabalho, a fim de reduzir/anular as possibilidades de redundância ou ausência de informações em determinados ambientes, focando sempre nos nossos requisitos funcionais.
 
-Nossa ferramenta principal para gerir os tópicos citados acima, será o GitHub, que utilizaremos na sua forma típica de repositório, armazenando toda manutenção dos códigos. Paralelo a esta modalidade de repositório, faremos uso do GitHub para os gerenciamentos de backlog do produto, bem como, das sprints individualizadas, este gerenciamento será feito através da aba “Project”.
+Nossa ferramenta principal para gerir os tópicos citados acima, será o GitHub, que utilizaremos na sua forma típica de repositório, armazenando toda manutenção dos códigos. Paralelo a esta modalidade de repositório, também será usado para os gerenciamentos de backlog do produto, e das sprints individualizadas, este gerenciamento será feito através da aba “Project”.
 
 Para arquivos visuais e sonoros, bem como, formulários de pesquisas, análises de requisitos, casos de uso, utilizaremos o Google Drive para a equipe envolvida no desenvolvimento da aplicação, seja através da forma técnica ou gerencial.
 
-O Projeto de interface e wireframes foi desenvolvido através dos sites Canva, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma prática.
+O Projeto de interface e wireframes foi desenvolvido através do site Canva, criado de forma que qualquer eventual alteração ou incrementação seja feita de forma prática.
+
 
 ## Controle de Versão
 
@@ -78,9 +79,7 @@ Para organização e distribuição das tarefas do projeto, a equipe utilizará 
 
 **In progress:** Tarefas que já foram iniciadas mas ainda não finalizadas, são acompanhadas rotineiramente seguindo os ritos da metodologia ágil.<br>
 
-**In progress:** Tarefas que já foram iniciadas mas ainda não finalizadas, são acompanhadas rotineiramente seguindo os ritos da metodologia ágil.<br>
-
-**Test:** Tarefas após iniciada e finalizada, é passada por validações de negócio e de lógica, assim preservando um controle de qualidade e evitando que aconteça bugs inesperados.<br>
+**Test:** Tarefas iniciadas e finalizadas, passam por validações de negócio e de lógica, assim preservando um controle de qualidade e evitando que aconteça bugs inesperados.<br>
 
 **Test Return:** Coluna para sinalizar tarefas que de alguma maneira não passaram no teste de qualidade e sendo necessário um retrabalho para passar no teste de qualidade.<br>
 

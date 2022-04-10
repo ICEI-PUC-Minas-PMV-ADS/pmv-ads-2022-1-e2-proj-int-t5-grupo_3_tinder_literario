@@ -6,7 +6,7 @@
 
 `1º 2022`
 
-O projeto Tinder Literário objetiva desenvolver um website com ênfase na linguagem C# e SQL, o qual permite aproximação das pessooas por gostos literários, além de permitir a troca de experiências e vivências literárias através de match, cadastro e interação dos usuário e inserção de dados do livro como comentários, imagens da capa.
+O projeto M@TCHBOOK objetiva desenvolver um website com ênfase na linguagem C# e SQL, o qual permite aproximação das pessooas por gostos literários, além de permitir a troca de experiências e vivências literárias através de match, cadastro e interação dos usuário e inserção de dados do livro como comentários, imagens da capa.
 
 ## Integrantes
 
