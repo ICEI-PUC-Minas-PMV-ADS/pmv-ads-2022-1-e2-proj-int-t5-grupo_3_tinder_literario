@@ -27,7 +27,8 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-![Exemplo de Esquema Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/Modelo-Esquema-Relacional%20(1).drawio.png)
+![Exemplo de Esquema Relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/docs/img/diagrama_er.drawio.png)
+
 
 ## Tecnologias Utilizadas
 
