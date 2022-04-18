@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="img/lista1/livro1.jpeg" alt=""></div>
+        <div class="item"><img src="img/lista1/livro2.jpeg" alt=""></div>
+        <div class="item"><img src="img/lista1/livro3.jpeg" alt=""></div>
+        <div class="item"><img src="img/lista1/livro4.PNG" alt=""></div>
+        <div class="item"><img src="img/lista1/livro5.PNG" alt=""></div>
+        <div class="item"><img src="img/lista1/livro6.PNG" alt=""></div>
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="img/lista1/livro1.jpeg" alt=""></div>
+        <div class="item"><img src="img/lista1/livro2.jpeg" alt=""></div>
+        <div class="item"><img src="img/lista1/livro3.jpeg" alt=""></div>
+        <div class="item"><img src="img/lista1/livro4.PNG" alt=""></div>
+        <div class="item"><img src="img/lista1/livro5.PNG" alt=""></div>
+        <div class="item"><img src="img/lista1/livro6.PNG" alt=""></div>
+    </div>
+    <input type="curtir" style="border: 0; background: transparent">
+    <img src="img/match.png" width="90" height="90" vertical-align="middle" text-align="center" alt="submit" />
+    </button>
+
+    <script src="lib/jquery/jquery.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
