@@ -37,14 +37,14 @@ Com base na análise das personas identificadas para o projeto, foram formuladas
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Camila Silva | Criar uma conta com meus dados pessoais que devem permanecer salvos e que possam ser alterados | Para ter um perfil de acesso ao utilizar a aplicação |
-|Camila Silva | Expor em meu perfil assuntos que me interessem dentro do escopo da literatura | Para facilitar durante a busca de pessoas com interesses em comum |
-|Camila Silva | Visualizar pessoas com interesses em comum e estabelecer uma conexão com elas | Para que o interesse em comum facilite a interação e eventualmente melhore minhas habilidades de comunicação |
-Carlos Santos | Acessar um chat para conversar na aplicação | Para interagir com as pessoas on-line ou marcar encontros pessoalmente |
-Maria Ferreira | Usar a aplicação tanto no computador quanto no celular | Para acessar em diferentes contextos de sua rotina |
-Ana Oliveira | Um sistema com interface simples e intuitiva | Para interagir com a aplicação, mesmo tendo dificuldade com o uso da tecnologia |
-Ana Oliveira | Um sistema bem adaptado para leitores de tela | Para que a baixa visão não atrapalhe a experiência de uso |
-Miguel Lima | Visualizar e comentar livros| Para que possa expor a opinião, ler a de outros, descobrir novos livros, e com isso se conctar a atividades que gosta de forma simples e remota |
+|Camila Silva | Quero melhorar minha forma de comunicação | Para que eu possa me sentir mais confortável ao conversar e assim, ter mais qualidade de vida |
+|Camila Silva | Quero encontrar pessoas com interesses em comum | Para que isso facilite nossa interação e eu encontre novos amigos |
+|Carlos Santos | Quero encontrar companhia | Para que eu me sinta menos solitário e possa ter boas conversas de forma online ou marcar encontros pessoalmente |
+|Maria Ferreira | Quero ler comentários sobre meu livro, mesmo tendo uma rotina atarefada | Para que eu possa visualizar os feedbacks recebidos durante vários contextos da minha rotina, sem deixar de reaizar alguma tarefa |
+|Ana Oliveira |Quero encontrar novos livros |Para que eu descubra mais opções de entretenimento |
+|Ana Oliveira | Quero acessar mais aplicativos, apesar de ter dificuldade durante o uso | Para que eu me beneficie das funcionalidades oferecidas |
+|Ana Oliveira | Quero encontrar sites bem adaptados para leitores de tela | Para que minha baixa visão não atrapalhe a experiência de uso.|
+|Miguel Lima | Quero realizar atividades que gosto de forma remota| Para que minha dificuldade de mobilidade não proiba minha conexão a assuntos que me fazem bem. |
 
 
 ## Requisitos
