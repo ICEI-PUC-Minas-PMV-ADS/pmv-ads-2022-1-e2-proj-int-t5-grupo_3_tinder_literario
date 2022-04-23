@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "R9jZ+SGS/AJy2ZqrBh/JTI2raenO7Red7EMmmY6J48b7yvQgZYKiu7XLuWJZZy6iGaWzk9uaYhu1kmqT/KOplw==",
+  "dgSpecHash": "IIkd6w1ul7GcY9LW/ZgjOQ+geLVyiwoPIKJow2+PdevXsZE1Yc5pIvNQH0p0e8A+Ii57Utln7346+lHC0lk3GA==",
   "success": true,
   "projectFilePath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.16\\microsoft.aspnetcore.jsonpatch.3.1.16.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.16\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.16.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\pedro\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
