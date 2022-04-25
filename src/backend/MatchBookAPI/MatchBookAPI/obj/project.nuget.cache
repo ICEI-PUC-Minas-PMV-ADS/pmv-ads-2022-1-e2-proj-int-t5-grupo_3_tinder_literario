@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zjJLVIaFvHWxEfbNCbiRmMLUYCBeBeGIaxYBVPHLIk67sDo5Oqro/MvcBuIEpFZukuQS9BeP50O0c3Kx/1/xlA==",
+  "dgSpecHash": "AKMC76OwPtWTKwVGodSc0enX/lDFhINXfe1Mrmsd+NrkFCMf3PQu2bJ9RDTrgvAQ0GIAwIYlXUMjkE2niYuCXw==",
   "success": true,
-  "projectFilePath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
+  "projectFilePath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchbookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pedro\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.16\\microsoft.aspnetcore.jsonpatch.3.1.16.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.16\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.16.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
