@@ -10,6 +10,14 @@ Antes de estabelecer o template da aplicação, foi desenvolvido um guia de esti
 ### Paleta de Cores
 <img src="img/cores.png" width="55%"/> 
 
+As cores análogas em tons terrosos foram escolhidas para representar todo o charme evidenciado pelas estantes e bibliotecas rústicas, tão recorrentes no universo aconchegante da leitura.
+
+O azul, o cinza e o branco são cores escolhidas para representar a inserção do aconchego da leitura no mundo da tecnologia. O azul, em destaque, representa, também, a inovação, algo que buscamos com o M@tchbook. 
+
+Não em vão, essa intenção é vista na combinação das nossas cores, uma vez que os tons terrosos e o azul são cores complementares e, em sequência, o verde e o vermelho são cores meio-complementares.
+
+Por fim, para harmonizar  a nossa aplicação, escolhemos dois pares análogos: (i) vermelho e rosa salmão e (ii) verde e amarelo. Esses pares, somados às outras cores, contribuem para a sensação de tranquilidade vivida em uma biblioteca.
+
 ### Tipografia
 Fontes
 
