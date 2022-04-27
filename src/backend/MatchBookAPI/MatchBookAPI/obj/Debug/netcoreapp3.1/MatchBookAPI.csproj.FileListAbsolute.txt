@@ -23,3 +23,12 @@ D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\bac
 D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchBookAPI\MatchBookAPI\obj\Debug\netcoreapp3.1\MatchBookAPI.pdb
 D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchBookAPI\MatchBookAPI\obj\Debug\netcoreapp3.1\MatchBookAPI.genruntimeconfig.cache
 D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchBookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\libman.json
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.Gmail.v1.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.YouTube.v3.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Facebook.dll

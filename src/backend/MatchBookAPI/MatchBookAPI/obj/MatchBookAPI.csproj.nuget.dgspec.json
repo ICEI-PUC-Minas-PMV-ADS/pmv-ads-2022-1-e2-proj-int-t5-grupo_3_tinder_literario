@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\MatchBookAPI.csproj": {}
+    "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchbookAPI\\MatchBookAPI\\MatchBookAPI.csproj": {}
   },
   "projects": {
-    "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\MatchBookAPI.csproj": {
+    "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchbookAPI\\MatchBookAPI\\MatchBookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
+        "projectUniqueName": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchbookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
         "projectName": "MatchBookAPI",
-        "projectPath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
+        "projectPath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchbookAPI\\MatchBookAPI\\MatchBookAPI.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchBookAPI\\MatchBookAPI\\obj\\",
+        "outputPath": "D:\\PUC\\Eixo 2\\Rep\\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\\src\\backend\\MatchbookAPI\\MatchBookAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,29 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Facebook": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Google.Apis.Gmail.v1": {
+              "target": "Package",
+              "version": "[1.57.0.2650, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.57.0.2665, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.1.16, )"
+            },
+            "Microsoft.Owin.Security.Facebook": {
+              "target": "Package",
+              "version": "[4.2.1, )"
             },
             "Npgsql": {
               "target": "Package",
