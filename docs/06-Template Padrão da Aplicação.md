@@ -8,7 +8,7 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 Antes de estabelecer o template da aplicação, foi desenvolvido um guia de estilos, detalhado nos itens a seguir, que norteou os padrões de design da interface da aplicação. 
 
 ### Paleta de Cores
-
+<img src="img/cores.png" width="55%"/> 
 
 ### Tipografia
 Fontes
