@@ -21,10 +21,11 @@ a {
 }
 
 body {
+    padding-top: 5vh;
     background-size: cover;
-    background-position-y: -200px;
+    background-position-y: -150px;
+    background-color: white;
 }
-
 
 
 /* form */
@@ -37,8 +38,6 @@ body {
     border-radius: 10px;
     padding: 25px;
     box-shadow: 2px 2px 2px 1px #E2A165;
-    margin-top: 10vh;
-
 }
 
 #main-container h1 {
