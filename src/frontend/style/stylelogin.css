@@ -130,3 +130,11 @@ input[type="submit"]:hover {
 #register-container p {
     margin-bottom: 10px;
 }
+#register-container {
+    text-decoration: none
+}
+
+#register-container a:hover {
+    background-color: #AC663E;
+    transition: .5s;
+    }
