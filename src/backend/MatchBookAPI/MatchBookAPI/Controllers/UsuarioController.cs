@@ -21,6 +21,7 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using Microsoft.Owin.Security.Facebook;
 using Microsoft.AspNetCore.Server.HttpSys;
+using MatchBookAPI.Utils;
 
 namespace MatchBookAPI.Controllers
 {
@@ -40,43 +41,58 @@ namespace MatchBookAPI.Controllers
         [HttpPost]
         public JsonResult CriarUsuario(Usuario usuarioModel)
         {
-            string query = @"
+            CadastroStatus cadastroStatus = null;
+            int statusCode = 0;
+
+            try
+            {
+                string query = @"
                 insert into Usuario (id,nome,documento,email,senha,celular) 
                 values (@id,@nome,@documento,@email,@senha,@celular) 
             ";
 
-            DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("DbConnection");
-            NpgsqlDataReader myReader;
-            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
-            {
-                myCon.Open();
-
-                usuarioModel.senha = BCrypt.Net.BCrypt.HashPassword(usuarioModel.senha);
-                using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                DataTable table = new DataTable();
+                string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+                NpgsqlDataReader myReader;
+                using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
                 {
-                    Guid uuid = Guid.NewGuid();
+                    myCon.Open();
 
-                    myCommand.Parameters.AddWithValue("@id", uuid.ToString());
-                    myCommand.Parameters.AddWithValue("@nome", usuarioModel.nome);
-                    myCommand.Parameters.AddWithValue("@documento", usuarioModel.documento);
-                    myCommand.Parameters.AddWithValue("@email", usuarioModel.email);
-                    myCommand.Parameters.AddWithValue("@senha", usuarioModel.senha);
-                    myCommand.Parameters.AddWithValue("@celular", usuarioModel.celular);
+                    usuarioModel.senha = BCrypt.Net.BCrypt.HashPassword(usuarioModel.senha);
+                    using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                    {
+                        Guid uuid = Guid.NewGuid();
 
-                    myReader = myCommand.ExecuteReader();
-                    table.Load(myReader);
+                        myCommand.Parameters.AddWithValue("@id", uuid.ToString());
+                        myCommand.Parameters.AddWithValue("@nome", usuarioModel.nome);
+                        myCommand.Parameters.AddWithValue("@documento", usuarioModel.documento);
+                        myCommand.Parameters.AddWithValue("@email", usuarioModel.email);
+                        myCommand.Parameters.AddWithValue("@senha", usuarioModel.senha);
+                        myCommand.Parameters.AddWithValue("@celular", usuarioModel.celular);
 
-                    myReader.Close();
-                    myCon.Close();
+                        myReader = myCommand.ExecuteReader();
+                        table.Load(myReader);
 
+                        myReader.Close();
+                        myCon.Close();
+
+                    }
                 }
+
+                cadastroStatus = new CadastroStatus("Cadastro feito com sucesso!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
+                statusCode = 202;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                cadastroStatus = new CadastroStatus("Erro na hora de criar cadastro!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                statusCode = 500;
             }
 
-            JsonResult finded = new JsonResult(table);
-            finded.StatusCode = 202;
+            JsonResult response = new JsonResult(cadastroStatus);
+            response.StatusCode = statusCode;
 
-            return new JsonResult("Usuario Criado com sucesso!");
+            return response;
         }
 
         [Route("api/v1/autentica/google")]
@@ -173,9 +189,9 @@ namespace MatchBookAPI.Controllers
         [HttpPost]
         public JsonResult verificarLogin(LoginSeacher searcher)
         {
-            string query = "SELECT usr.nome, usr.senha FROM public.usuario usr ";
+            string query = "SELECT usr.email, usr.senha FROM public.usuario usr ";
 
-            query += " WHERE usr.nome = '" + searcher.nome + "'";
+            query += " WHERE usr.email = '" + searcher.email + "'";
 
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DbConnection");
@@ -199,15 +215,16 @@ namespace MatchBookAPI.Controllers
 
             for (int i = 0; i < table.Rows.Count; i++)
             {
-                findedLogin.nome = table.Rows[i]["nome"].ToString();
+                findedLogin.email = table.Rows[i]["email"].ToString();
                 findedLogin.senha = table.Rows[i]["senha"].ToString();
             }
 
 
 
-             if (findedLogin.nome == null)
+             if (findedLogin.email == null)
             {
-                return new JsonResult("Usuario ou Senha incorreto!");
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                return new JsonResult(tokenAutenticacao);
             }
 
             if (BCrypt.Net.BCrypt.Verify(searcher.senha, findedLogin.senha))
@@ -217,13 +234,15 @@ namespace MatchBookAPI.Controllers
                 byte[] chave = Guid.NewGuid().ToByteArray();
                 string token = Convert.ToBase64String(tempo.Concat(chave).ToArray());
 
-                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao(token, DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture));
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao(token, DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
 
                 return new JsonResult(tokenAutenticacao);
             }
             else
             {
-                return new JsonResult("Usuario ou Senha incorreto!");
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+
+                return new JsonResult(tokenAutenticacao);
             }
 
 

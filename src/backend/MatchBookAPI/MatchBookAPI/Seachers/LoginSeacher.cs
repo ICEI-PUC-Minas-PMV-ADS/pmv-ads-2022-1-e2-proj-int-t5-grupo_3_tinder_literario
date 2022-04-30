@@ -5,7 +5,7 @@ namespace MatchBookAPI.Seachers
 {
     public class LoginSeacher
     {
-        public string nome { get; set; }
+        public string email { get; set; }
         public string senha { get; set; }
 
         public LoginSeacher()
@@ -15,7 +15,7 @@ namespace MatchBookAPI.Seachers
 
         public LoginSeacher(string nome, string senha)
         {
-            this.nome = nome;
+            this.email = nome;
             this.senha = senha;
         }
     }

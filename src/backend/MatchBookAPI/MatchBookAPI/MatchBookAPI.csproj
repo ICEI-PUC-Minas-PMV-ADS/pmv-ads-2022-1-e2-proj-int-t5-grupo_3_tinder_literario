@@ -7,21 +7,27 @@
   <ItemGroup>
     <Compile Remove="NovaPasta\**" />
     <Compile Remove="Repository\**" />
+    <Compile Remove="Seachers\NovaPasta\**" />
     <Compile Remove="Services\**" />
     <Content Remove="NovaPasta\**" />
     <Content Remove="Repository\**" />
+    <Content Remove="Seachers\NovaPasta\**" />
     <Content Remove="Services\**" />
     <EmbeddedResource Remove="NovaPasta\**" />
     <EmbeddedResource Remove="Repository\**" />
+    <EmbeddedResource Remove="Seachers\NovaPasta\**" />
     <EmbeddedResource Remove="Services\**" />
     <None Remove="NovaPasta\**" />
     <None Remove="Repository\**" />
+    <None Remove="Seachers\NovaPasta\**" />
     <None Remove="Services\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="Models\Usuario - Cópia.cs" />
     <Compile Remove="Seachers\CodeFile.cs" />
+    <Compile Remove="Utils\Class.cs" />
+    <Compile Remove="WeatherForecast.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,10 +38,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.16" />
     <PackageReference Include="Microsoft.Owin.Security.Facebook" Version="4.2.1" />
     <PackageReference Include="Npgsql" Version="5.0.7" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Seachers\NovaPasta\" />
   </ItemGroup>
 
 
