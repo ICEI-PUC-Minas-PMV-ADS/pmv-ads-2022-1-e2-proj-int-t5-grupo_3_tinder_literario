@@ -32,3 +32,4 @@ D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\bac
 D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.Gmail.v1.dll
 D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Google.Apis.YouTube.v3.dll
 D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Facebook.dll
+D:\PUC\Eixo 2\Rep\pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario\src\backend\MatchbookAPI\MatchBookAPI\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Facebook.dll

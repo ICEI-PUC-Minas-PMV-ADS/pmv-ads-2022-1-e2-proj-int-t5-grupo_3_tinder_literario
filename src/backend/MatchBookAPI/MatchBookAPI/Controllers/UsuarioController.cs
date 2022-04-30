@@ -41,8 +41,8 @@ namespace MatchBookAPI.Controllers
         public JsonResult CriarUsuario(Usuario usuarioModel)
         {
             string query = @"
-                insert into Usuario (id,nome,documento,permissao,email,senha,celular) 
-                values (@id,@nome,@documento,@permissao,@email,@senha,@celular) 
+                insert into Usuario (id,nome,documento,email,senha,celular) 
+                values (@id,@nome,@documento,@email,@senha,@celular) 
             ";
 
             DataTable table = new DataTable();
@@ -60,7 +60,6 @@ namespace MatchBookAPI.Controllers
                     myCommand.Parameters.AddWithValue("@id", uuid.ToString());
                     myCommand.Parameters.AddWithValue("@nome", usuarioModel.nome);
                     myCommand.Parameters.AddWithValue("@documento", usuarioModel.documento);
-                    myCommand.Parameters.AddWithValue("@permissao", usuarioModel.permissao);
                     myCommand.Parameters.AddWithValue("@email", usuarioModel.email);
                     myCommand.Parameters.AddWithValue("@senha", usuarioModel.senha);
                     myCommand.Parameters.AddWithValue("@celular", usuarioModel.celular);

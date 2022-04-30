@@ -36,6 +36,7 @@
           "Google.Apis.Gmail.v1": "1.57.0.2650",
           "Google.Apis.YouTube.v3": "1.57.0.2665",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.16",
+          "Microsoft.Owin.Security.Facebook": "4.2.1",
           "Npgsql": "5.0.7",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -459,6 +460,17 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Owin.Security.Facebook/4.2.1": {
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.Facebook.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.200.122.20502"
+          }
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.Facebook.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -2268,6 +2280,13 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Owin.Security.Facebook/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PqDIcVHKRaxWm+Mc8jC1ZhUlj3hUryS8ncGCSPMM+lt6SoU3xKkDqH4iOg7nz8bRVD5NSoHQvCAAAptegasUew==",
+      "path": "microsoft.owin.security.facebook/4.2.1",
+      "hashPath": "microsoft.owin.security.facebook.4.2.1.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
