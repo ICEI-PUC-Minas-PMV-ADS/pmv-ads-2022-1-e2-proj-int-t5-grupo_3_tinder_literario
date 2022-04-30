@@ -36,8 +36,8 @@
         <!--
         <div id="social-container">
             <p>Ou entre pelas suas redes sociais</p>
-            <i class="fa fa-facebook-f"></i>
-            <i class="fa fa-google"></i>
+            <i onclick="getFacebookAuth(event)" class="fa fa-facebook-f"></i>
+            <i onclick="getGoogleAuth(event)" class="fa fa-google"></i>
         </div>
         -->
         <div id="register-container">
@@ -57,6 +57,86 @@
 
 </html>
 <script>
+
+async function getGoogleAuth(event) {
+    console.log("Função para processar o formulário de login do google...")
+
+    event.preventDefault();
+
+    var username = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    console.log("Obtem os dados de login e senha a partir do formulário de login...")
+
+    let login = {
+        email: "",
+        senha: "",
+    }
+
+    login.email = username;
+    login.senha = password;
+
+    console.log("Chamando a api para verficar login...")
+    let response = {}
+
+    fetch("http://localhost:32738/api/v1/autentica/google", {
+        method: "POST", 
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+        },
+        body: JSON.stringify(login)
+
+      }).then(res => {
+        this.getResponse(res);
+
+      }).catch(err => {
+        console.log("A resposta da API quebrou...")
+
+        console.log(err)
+    });
+}
+
+async function getFacebookAuth(event) {
+    console.log("Função para processar o formulário de login do facebook...")
+
+    event.preventDefault();
+
+    var username = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    console.log("Obtem os dados de login e senha a partir do formulário de login...")
+
+    let login = {
+        email: "",
+        senha: "",
+    }
+
+    login.email = username;
+    login.senha = password;
+
+    console.log("Chamando a api para verficar login...")
+    let response = {}
+
+    fetch("http://localhost:32738/api/v1/autentica/facebook", {
+        method: "POST", 
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+        },
+        body: JSON.stringify(login)
+
+      }).then(res => {
+        this.getResponse(res);
+
+      }).catch(err => {
+        console.log("A resposta da API quebrou...")
+
+        console.log(err)
+    });
+}
 
 async function processaFormLogin(event) {
     console.log("Função para processar o formulário de login...")
