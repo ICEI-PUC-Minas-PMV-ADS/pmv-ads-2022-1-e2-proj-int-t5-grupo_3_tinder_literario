@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M@TCHBOOK</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="shortcute icon" href="imgs/icones/pena.png">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="shortcute icon" href="img/imgs/icones/pena.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style_menu.css">
@@ -58,21 +58,6 @@
 
     <main>
         <div class="containerlista">
-            <div class="inputslista">
-                <form id="register-form" action="">
-                    <div class="full-box">
-                        <label class="labelnomelista">Nome da Lista</label>
-                        <input type="text" name="text" id="nomelista" placeholder="Digite o nome da sua lista"
-                            data-min-length="2">
-                    </div>
-                    <div class="full-box">
-                        <label class="labelnomelista" for="text">Descrição</label>
-                        <textarea class="form-control" id="descricaolista" rows="2"
-                            placeholder="Digite aqui uma breve descrição sobre sua ista" data-required
-                            data-min-length="3" data-max-length="1000"></textarea>
-                    </div>
-            </div>
-
             <div class="buscarlviro">
                 <div class="input-group mb-3" id="busca">
                     <input type="search" class="form-control" id="caixabusca" placeholder="Buscar Livro"
@@ -84,7 +69,7 @@
                 </div>
             </div>
             <div class="sugestaolivros">
-                <span class="titulo">Livros Sugeridos</span>
+                <span class="titulo">Livros Disponíveis</span>
                 <div class="owl-carousel owl-theme">
                     <div class="item"><img src="img/lista1/livro1.jpeg" alt=""><button
                             class="botaoadicionar">Adicionar</button></div>
@@ -99,34 +84,6 @@
                     <div class="item"><img src="img/lista1/livro6.PNG" alt=""><button
                             class="botaoadicionar">Adicionar</button></div>
                 </div>
-            </div>
-            <div class="livrosadicionados">
-                <span class="titulo">Livros Adicionados</span>
-                <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/lista3/livro1.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro2.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro3.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro4.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro5.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro6.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro7.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro8.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro9.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro10.PNG" alt=""></div>
-                </div>
-            </div>
-
-            <div class="botaosalvarlista">
-                <a href=""><button class="salvarlista">Salvar Lista</button></a>
             </div>
         </div>
     </main>
