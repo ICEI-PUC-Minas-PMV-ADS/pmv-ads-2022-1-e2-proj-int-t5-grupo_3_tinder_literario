@@ -63,26 +63,15 @@
                     <input type="search" class="form-control" id="caixabusca" placeholder="Buscar Livro"
                         aria-label="Buscar Livro" aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn-outline-secondary" type="button"><img class="lupa" src="img/lupa.png"
-                                alt=""></button>
+                        <button class="btn-outline-secondary" type="button"><img class="lupa" src="img/lupa.png" alt=""
+                                onclick="buscaLivro()"></button>
                     </div>
                 </div>
             </div>
             <div class="sugestaolivros">
                 <span class="titulo">Livros Disponíveis</span>
-                <div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/lista1/livro1.jpeg" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro2.jpeg" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro3.jpeg" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro4.PNG" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro5.PNG" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro6.PNG" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
+                <div id="livros" style="margin-top: 10px">
+
                 </div>
             </div>
         </div>
@@ -97,6 +86,163 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("A tela carregou!")
+            getLivros(event);
+        })
+
+        function limpaGrid(){
+
+            let i = 1;
+            while(i <= 6){
+                document.getElementById("carrocel-item-"+i).remove()
+                i++;
+            }
+
+            
+        }
+
+        async function buscaLivro() {
+            event.preventDefault();
+
+            console.log("Função para processar a busca de Livro...");
+
+            let nomeLivro = ""
+
+            try {
+                nomeLivro = document.getElementById("caixabusca").value; 
+            } catch (e) {
+                console.error(e)
+            }
+
+            console.log("Chamando a api para BUSCAR O LIVRO...")
+
+            
+
+            fetch(`http://localhost:32738/api/v1/livro?nomeLivro=${nomeLivro}`, {
+                method: "GET",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                    'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+            }).then(res => {
+                limpaGrid();
+                this.getResponse(res);
+
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+
+                console.log(err)
+            });
+        }
+
+        async function getLivros(event) {
+            console.log("Função para processar o GET de Livros.")
+
+            //event.preventDefault();
+
+
+            console.log("Chamando a api para buscar os livros..")
+            let response = {}
+
+            fetch("http://localhost:32738/api/v1/livro", {
+                method: "GET",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                    'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+            }).then(res => {
+                this.getResponse(res);
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+
+                console.log(err)
+            });
+        }
+
+        function createDiv(){
+
+            let i = 1;
+
+            let principalDiv = document.getElementById('livros')
+
+            while(i <= 6){
+
+                let div = document.createElement("div")
+                div.className = "row"
+                div.id = "carrocel-item-"+i;
+                principalDiv.appendChild(div)
+
+                i++;
+
+            }
+        }
+
+
+        async function getResponse(res) {
+            console.log("Esperando o callback da API... ")
+
+            response = JSON.parse(await res.text());
+            createDiv();
+            let i = 1
+            let principalDiv;
+            for (let livro of response) {
+
+                //let divItem = document.createElement('div')
+                //divItem.className = 'col-lg-4 col-md-12 mb-4 mb-lg-0';
+                //divItem.style = 'display: inline !important;'
+
+                let imageTag = document.createElement('img')
+                imageTag.src = livro.img_link
+                imageTag.alt = ""
+                imageTag.style = "margin-bottom: 10px;"
+
+                imageTag.style = "width: 240px; margin-right: 10px;"
+                //let botaoAdicionar = document.createElement('button')
+                //imageTag.class = 'botaoadicionar'
+
+                //divItem.appendChild(imageTag);
+
+                //divItem.appendChild(botaoAdicionar);
+
+
+
+                if (i / 5 <= 1) {
+                    principalDiv = document.getElementById('carrocel-item-1')
+                }
+
+                if (i / 5 <= 2 && i / 5 > 1) {
+                    principalDiv = document.getElementById('carrocel-item-2')
+                }
+                if (i / 5 <= 3 && i / 5 > 2) {
+                    principalDiv = document.getElementById('carrocel-item-3')
+                }
+                if (i / 5 <= 4 && i / 5 > 3) {
+                    principalDiv = document.getElementById('carrocel-item-4')
+                }
+
+                if (i / 5 <= 5 && i / 5 > 4) {
+                    principalDiv = document.getElementById('carrocel-item-5')
+                }
+
+                if (i / 5 <= 6 && i / 5 > 5) {
+                    principalDiv = document.getElementById('carrocel-item-6')
+                }
+
+                principalDiv.appendChild(imageTag)
+                principalDiv.style = 'margin-bottom: 10px'
+                i++;
+
+            }
+
+            console.log("Callback da API chegou: " + JSON.stringify(response))
+        }
+    </script>
 </body>
 
 </html>

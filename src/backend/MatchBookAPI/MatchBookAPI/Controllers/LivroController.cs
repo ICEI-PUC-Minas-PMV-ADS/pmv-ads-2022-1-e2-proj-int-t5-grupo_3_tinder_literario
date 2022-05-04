@@ -19,9 +19,14 @@ namespace MatchBookAPI.Controllers
         }
 
         [HttpGet]
-        public JsonResult findAllLivros()
+        public JsonResult findAllLivros([FromQuery(Name = "nomeLivro")] string nomeLivro)
         {
-            string query = "SELECT lv.id, lv.titulo, lv.autor, lv.ano_publicacao, lv.sinopse, lv.edicao, lv.editora, lv.isbn, lv.img_link FROM public.livro lv";
+            string query = "SELECT lv.id, lv.titulo, lv.autor, lv.ano_publicacao, lv.sinopse, lv.edicao, lv.editora, lv.isbn, lv.img_link FROM public.livro lv WHERE 1=1 ";
+
+            if (nomeLivro != null)
+            {
+                query += " AND lv.titulo LIKE '%" + nomeLivro + "%'";
+            }
 
             DataTable table = new DataTable();
 
@@ -33,6 +38,7 @@ namespace MatchBookAPI.Controllers
                 myCon.Open();
                 using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
                 {
+                    
                     myReader = myCommand.ExecuteReader();
                     table.Load(myReader);
 
@@ -42,11 +48,6 @@ namespace MatchBookAPI.Controllers
             }
             return new JsonResult(table);
         }
-        
-
-
-
-
 
     }
 }
