@@ -25,7 +25,7 @@ namespace MatchBookAPI.Controllers
 
             if (nomeLivro != null)
             {
-                query += " AND lv.titulo LIKE '%" + nomeLivro + "%'";
+                query += " AND UPPER(lv.titulo) LIKE UPPER('%" + nomeLivro + "%')";
             }
 
             DataTable table = new DataTable();
