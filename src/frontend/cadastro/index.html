@@ -27,42 +27,42 @@
         <h1>Cadastre-se para acessar o M@tchbook</h1>
         <form id="register-form">
             <div class="full-box">
-                <label for="email">E-mail</label>
+                <label for="email" class="required">E-mail</label>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="2"
                     data-email-validate>
             </div>
             <div class="half-box spacing">
-                <label for="name">Nome</label>
+                <label for="name" class="required">Nome</label>
                 <input type="text" name="name" id="name" placeholder="Digite seu nome" data-required data-min-length="3"
                     data-max-length="16">
             </div>
             <div class="half-box">
-                <label for="lastname">Sobrenome</label>
+                <label for="lastname" class="required">Sobrenome</label>
                 <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" data-required
                     data-only-letters>
             </div>
             <div class="half-box spacing">
-                <label for="phoneNumber">Celular</label>
+                <label for="phoneNumber" class="required">Celular</label>
                 <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Digite o número do seu celular"
                     data-required data-min-length="3" data-max-length="16">
             </div>
             <div class="half-box">
-                <label for="cpf">CPF:</label>
+                <label for="cpf" class="required">CPF:</label>
                 <input type="text" name="cpf" id="cpf" placeholder="Digite o seu CPF" data-required data-only-letters>
             </div>
             <div class="half-box spacing">
-                <label for="lastname">Senha</label>
+                <label for="lastname" class="required">Senha</label>
                 <input type="password" name="password" id="password" placeholder="Digite sua senha"
                     data-password-validate data-required>
             </div>
             <div class="half-box">
-                <label for="passconfirmation">Confirmação de senha</label>
+                <label for="passconfirmation" class="required">Confirmação de senha</label>
                 <input type="password" name="passconfirmation" id="passwordconfirmation"
                     placeholder="Digite novamente sua senha" data-equal="password">
             </div>
             <div>
                 <input type="checkbox" name="agreement" id="agreement">
-                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="termodeuso.html" target="_blank">termos de uso</a></label>
+                <label for="agreement" id="agreement-label" class="required">Eu li e aceito os <a href="termodeuso.html" target="_blank">termos de uso</a></label>
             </div>
             <div class="full-box" onclick="RealizeRegistry(event)">
                 <input id="btn-submit" type="submit" value="Registrar">
