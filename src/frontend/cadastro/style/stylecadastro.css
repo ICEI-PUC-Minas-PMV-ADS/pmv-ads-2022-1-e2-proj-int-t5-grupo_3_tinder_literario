@@ -116,3 +116,7 @@ input[type="submit"]:hover {
 .template {
     display: none;
 }
+.required:after {
+    content: " *";
+    color: red;
+}
