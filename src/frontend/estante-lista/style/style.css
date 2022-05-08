@@ -1,3 +1,6 @@
+body {
+    background-color: #fdfaf0;
+}
 /*Carrossel*/
 
 .owl-carousel {
@@ -99,6 +102,11 @@
     border-color: #AC663E;
     box-shadow: 0 0 0 0.1rem #AC663E;
 } 
+
+#caixabusca:focus {
+    border-color: #AC663E;
+    box-shadow: 0 0 0 0.1rem #AC663E;
+}
 #caixabusca {
     max-width: 200px;
     border-radius: 10px; 
@@ -106,6 +114,11 @@
     color: gray;
     font-style: italic;
     font-size: .8rem;
+}
+
+#botaobusca:focus {
+    border: none;
+    box-shadow: none;
 }
 .btn-outline-secondary:hover {
     background-color: transparent;
