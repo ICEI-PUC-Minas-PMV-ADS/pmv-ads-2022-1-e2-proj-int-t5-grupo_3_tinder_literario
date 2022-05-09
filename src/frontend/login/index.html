@@ -80,11 +80,12 @@ async function getGoogleAuth(event) {
     console.log("Chamando a api para verficar login...")
     let response = {}
 
-    fetch("http://localhost:32738/api/v1/autentica/google", {
+    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica/google", {
         method: "POST", 
         headers: {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
             'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
             'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
         },
@@ -120,11 +121,12 @@ async function getFacebookAuth(event) {
     console.log("Chamando a api para verficar login...")
     let response = {}
 
-    fetch("http://localhost:32738/api/v1/autentica/facebook", {
+    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica/facebook", {
         method: "POST", 
         headers: {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
             'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
             'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
         },
@@ -160,11 +162,12 @@ async function processaFormLogin(event) {
     console.log("Chamando a api para verficar login...")
     let response = {}
 
-    fetch("http://localhost:32738/api/v1/autentica-usuario", {
+    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica-usuario", {
         method: "POST", 
         headers: {
             'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
             'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
             'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
         },

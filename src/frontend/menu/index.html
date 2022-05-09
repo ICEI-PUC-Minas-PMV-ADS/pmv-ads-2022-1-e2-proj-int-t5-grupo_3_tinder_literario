@@ -75,13 +75,14 @@
         console.log("Chamando a api para buscar os livros..")
         let response = {}
     
-        fetch("http://localhost:32738/api/v1/livro", {
+        fetch("https://matchbookapi.herokuapp.com/api/v1/livro", {
             method: "GET", 
             headers: {
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
-                'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
             },    
           }).then(res => {
             this.getResponse(res);
