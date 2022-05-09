@@ -120,7 +120,7 @@
 
             
 
-            fetch(`http://localhost:32738/api/v1/livro?nomeLivro=${nomeLivro}`, {
+            fetch(`https://matchbookapi.herokuapp.com/api/v1/livro?nomeLivro=${nomeLivro}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',
@@ -148,7 +148,7 @@
             console.log("Chamando a api para buscar os livros..")
             let response = {}
 
-            fetch("http://localhost:32738/api/v1/livro", {
+            fetch("https://matchbookapi.herokuapp.com/api/v1/livro", {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',
