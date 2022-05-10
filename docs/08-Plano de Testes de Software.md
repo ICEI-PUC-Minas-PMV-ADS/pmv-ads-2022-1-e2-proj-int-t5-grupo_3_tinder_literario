@@ -18,7 +18,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste 	| CT-02 – Efetuar login	|
 |Requisito Associado | RF-005	- A aplicação deve possuir opção de fazer login, sendo o login endereço de e-mail. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Realizar login com a conta cadastrada |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  	|  	|
 | Caso de Teste | CT-03 – Login com a conta Google e/ou com o Facebook |
