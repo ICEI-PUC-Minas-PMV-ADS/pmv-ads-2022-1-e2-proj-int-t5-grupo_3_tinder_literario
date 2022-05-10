@@ -138,3 +138,10 @@ input[type="submit"]:hover {
     background-color: #AC663E;
     transition: .5s;
     }
+@media screen and (max-width: 500px) {
+    #login-container {
+        width: auto;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
