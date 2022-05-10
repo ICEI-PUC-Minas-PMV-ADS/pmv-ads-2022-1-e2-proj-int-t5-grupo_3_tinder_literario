@@ -152,7 +152,7 @@
 
         if (response.status) {
             alert('Cadastro realizado com sucesso!');
-            window.location.href = '/src/frontend/login/index.html'
+            window.location.href = window.location.href.replace('/src/frontend/cadastro/index.html','/src/frontend/login/index.html')
         } else {
             alert('Erro ao realizar cadastro!');
         }
