@@ -19,19 +19,28 @@ Não em vão, essa intenção é vista na combinação das nossas cores, uma vez
 Por fim, para harmonizar  a nossa aplicação, escolhemos dois pares análogos: (i) vermelho e rosa salmão e (ii) verde e amarelo. Esses pares, somados às outras cores, contribuem para a sensação de tranquilidade vivida em uma biblioteca.
 
 ### Tipografia
-Fontes
+
+As fontes escolhidas para a construção da interface foram a Helvetica e Arial, da família sans-serif, que promovem uma sensação de precisão, clareza e objetividade com seus ângulos mais retos.
 
 
 ### Componentes
-botões e inputs
+<img src="img/Wireframe/componentes.png" width="55%"/> 
 
-
+Os componentes padrão da aplicação enfatizam as cores usadas.
 
 ### Ícones
-curtir, descurtir, logo e etc
+<img src="img/Wireframe/icones.png" width="55%"/>
 
+O logotipo foi desenvolvido ao combinar elementos da literatura, como um livro e uma pena usada para escrever, com alguns detalhes do escopo da tecnologia, como o caractere @. Foi feita também uma pequena variação do logo, para que em determinados contextos ele possa ser resumido e melhor posicionado sem afetar a identidade visual da marca.
 
-## Aplicação nas telas e fluxos:
+Os ícones utilizados na avaliação de listas são um livro vermelho fechado que simboliza a negação e um livro verde aberto que simboliza o interesse e curiosidade.
+
+## Fluxo de telas
+
+O fuxo de telas mostra a trilha de uso do usuario pela aplicação.
+<img src="img/Wireframe/Fluxo de telas.PNG" width="55%"/>
+
+## Aplicação nas telas:
 
 Abaixo estão representadas as principais telas desenvolvidas, em suas versões para telas maiores e menores, e a explicação de suas funcionalidades.
 
