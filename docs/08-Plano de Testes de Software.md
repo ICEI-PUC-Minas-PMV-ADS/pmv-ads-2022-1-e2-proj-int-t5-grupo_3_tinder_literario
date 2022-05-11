@@ -48,8 +48,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste | CT-07 – Buscar livros |
 |Requisitos Associados | RF-003 - A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros.	<br> RF-008 - A aplicação deverá permitir buscar livros previamente cadastrados na base de dados.	|
 |Objetivo do Teste | Verificar se o usuário consegue localizar livros. |
-|Passos | - Acessar a aplicação <br> - Digitar o nome de um livro <br> - Visualizar o resultado da busca |
-|Critério de Êxito | - O usuário consegue buscar livros. |
+|Passos | - Acessar a aplicação <br> - Digitar o nome de um livro na barra de pesquisa <br> - Clicar na lupa de busca <br> - Visualizar o resultado da busca |
+|Critério de Êxito | - O usuário consegue buscar e visualizar o livro desejado. |
 |  	|  	|
 | Caso de Teste | CT-08 – Buscar listas |
 |Requisito Associado | RF-007 - A aplicação deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de listas de livros.	|
