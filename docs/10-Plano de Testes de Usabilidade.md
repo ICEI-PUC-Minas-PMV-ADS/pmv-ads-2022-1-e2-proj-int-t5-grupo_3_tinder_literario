@@ -164,7 +164,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 
 A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
 
-| **Usuário** 	| **CTU 1** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Status** |
+| **Usuário** 	| **CTU 1** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Artefato** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
@@ -172,7 +172,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
 
-| **Usuário** 	| **CTU 2** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Status** |
+| **Usuário** 	| **CTU 2** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Artefato** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
