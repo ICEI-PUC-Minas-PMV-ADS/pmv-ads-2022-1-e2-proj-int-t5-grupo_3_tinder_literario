@@ -86,7 +86,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Avaliar a tela de cadastro de novo usuário 	|
 | **Ações necessárias** 	| 1. Acessar a primeira tela do site pelo browser;<br>2. Clicar na opção “Criar Conta”;<br>3. Preencher os campos necessários do formulário;<br>4. Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar". 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-02 – Cadastro/Login de usuário** 	|
+| **Caso de Teste** 	| **CTU-02 – Cadastro/Login de usuário através de Login Social** 	|
 | **Perfil** 	| Usuário (todos)	|
 | **Objetivo do Teste** 	| Avaliar a tela de cadastro/login de novo usuário utilizando Login Social (contas Google ou Facebook) 	|
 | **Ações necessárias** 	| 1. Acessar a primeira tela do site pelo browser, conforme CTU-01;<br>2. Clicar na opção Entrar com conta Google. 	|
@@ -101,7 +101,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Analisar a função de edição e alteração de informações 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Abrir o campo de “Minha Conta”;<br>5. Selecionar a opção "Editar Perfil";<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-05 – Tela Funcionalidades** 	|
+| **Caso de Teste** 	| **CTU-05 – Tela Funcionalidades - Gerenciar Listas| --- | --- | --- | --- | Em desenvolvimento |** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a tela de funcionalidades do usuário 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Preencher o e-mail e a senha ou login Social;<br>6. Verificar a página principal do perfil em Minha Conta. 	|
@@ -121,12 +121,12 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Buscar/pesquisar livros na lista preexistente 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, clicar no botão “Livros”;<br>6. Na tela de Buscar Livros, pesquise o título, autor desejado. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-09 – Cadastro de livros na lista** 	|
+| **Caso de Teste** 	| **CTU-09 – Cadastro de livros na lista selecionando livros na lista preexitente** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Efetuar o cadastro de livros na lista 1 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, clicar no botão “Lista";<br>6. Na tela Lista, clicar no botão da lista criada ou criar outra conforme CTU-07;<br>7. Realizar a busca do livro desejado;<br>8. Selecionar o livro desejado a partir da lista existente;<br>9. Adicionar o livro desejado à lista;<br>10. Clicar no botão ‘Salvar’. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-10 – Cadastro de livros na lista** 	|
+| **Caso de Teste** 	| **CTU-10 – Cadastro de livros na lista pesquisando livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Efetuar o cadastro de livros na lista 2 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, clicar no botão “Livro";<br>6. Na tela Livro, clicar no botão da Pesquisa de Livros conforme CTU-08;<br>7. Realizar a busca do livro desejado;<br>8. Selecionar o livro desejado;<br>9. Adicionar o livro desejado à lista;<br>10. Clicar no botão ‘Salvar’. 	|
@@ -164,7 +164,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 
 A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
 
-| **Usuário** 	| **CTU 1** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Artefato** |
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
@@ -172,7 +172,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
 
-| **Usuário** 	| **CTU 2** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Artefato** |
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
