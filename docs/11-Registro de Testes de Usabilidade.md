@@ -116,11 +116,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-15 | 00:15 | -- | 1 | -- | Usuário realizou no PC utilizando Google Chromme e não observou problemas de responsabilidade |
-| Usuário 2 | CTU-15 | 00:15 | ---  | 1 | --- | Usuário realizou no smartphone com IOS e não observou problemas de responsabilidade |
-| Usuário 3	| CTU-15 | 00:10 | ---  | 1 | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 4	| CTU-15 | --- | ---  | --- | --- | --- |
-| Usuário 5	| CTU-15 | --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-15 | 00:15 | NA | NA | -- | Usuário realizou no PC utilizando Google Chromme e não observou problemas de responsabilidade |
+| Usuário 2 | CTU-15 | 00:15 | NA  | NA | --- | Usuário realizou no smartphone com IOS e não observou problemas de responsabilidade |
+| Usuário 3	| CTU-15 | 00:10 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 4	| CTU-15 | --- | NA  | NA | --- | --- |
+| Usuário 5	| CTU-15 | --- | NA | NA | --- | --- |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
