@@ -23,7 +23,8 @@ O projeto M@TCHBOOK objetiva desenvolver um website com ênfase na linguagem C# 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar a primeira versão da aplicação <a href= "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/src/frontend/inicial/homepage.html ">clique aqui</a>.<br> 
+O estágio atual apresenta a Prova de Conceito da Arquitetura (POC) que demonstra o uso do front-end e back-end nas funcionaidades cadastro, login e buscar livros.
 
 # Documentação
 
