@@ -101,7 +101,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Analisar a função de edição e alteração de informações 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Abrir o campo de “Minha Conta”;<br>5. Selecionar a opção "Editar Perfil";<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-05 – Tela Funcionalidades - Gerenciar Listas| --- | --- | --- | --- | Em desenvolvimento |** 	|
+| **Caso de Teste** 	| **CTU-05 – Tela Funcionalidades - Gerenciar Listas**| --- | --- | --- | --- | Em desenvolvimento |** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a tela de funcionalidades do usuário 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Preencher o e-mail e a senha ou login Social;<br>6. Verificar a página principal do perfil em Minha Conta. 	|
