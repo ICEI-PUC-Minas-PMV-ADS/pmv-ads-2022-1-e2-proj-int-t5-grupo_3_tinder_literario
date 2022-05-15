@@ -106,7 +106,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Avaliar a tela de funcionalidades do usuário 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Preencher o e-mail e a senha ou login Social;<br>6. Verificar a página principal do perfil em Minha Conta. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-06 – Tela Funcionalidades + Exibição da lista preexistente** 	|
+| **Caso de Teste** 	| **CTU-06 – Tela Funcionalidades + Exibição dos livros existentes na aplicação** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a tela de exibição dos livros 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Verificar se a página exibe uma lista de livros preeexistente. 	|
