@@ -46,6 +46,6 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-O site utiliza a plataforma do Github e Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL da GitPages e Heroku.
+O site utiliza a plataforma do Github e Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL da GitPages e Heroku, através do endereço: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/src/frontend/inicial/homepage.html
 
 
