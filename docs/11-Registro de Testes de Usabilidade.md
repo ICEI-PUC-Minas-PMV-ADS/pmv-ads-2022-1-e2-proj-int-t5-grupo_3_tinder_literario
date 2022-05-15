@@ -22,9 +22,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| CTU-03 	| 00:00:22 | 4 | 0 | --- | O Usuário efetuou com tranquilidade o login pois ao finalizar o cadastro direcionou para esta tela de login o que facilitou |
 | Usuário 2 | CTU-03 	| 00:00:15 | 4  | 0 | --- | O usuário achou intuitivo a login |
-| Usuário 3	| CTU-03 	| 00:00:20 | 4  | 0 | --- | O usuário não fez observação|
-| Usuário 4	| CTU-03 	| 00:00:10 | 4  | 0 | --- | Login efetuado com sucesso, dado de email estava gravado em seu PC |
-| Usuário 5	| CTU-03 	| 00:00:17 | 4  | 0 | --- | Usuário efetuou login sem problemas|
+| Usuário 3	| CTU-03 	| 00:00:20 | 4  | 0 | --- | O usuário não fez observação |
+| Usuário 4	| CTU-03 	| 00:00:10 | 4  | 0 | --- | Login efetuado com sucesso |
+| Usuário 5	| CTU-03 	| 00:00:17 | 4  | 0 | --- | Usuário efetuou login sem problemas |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
