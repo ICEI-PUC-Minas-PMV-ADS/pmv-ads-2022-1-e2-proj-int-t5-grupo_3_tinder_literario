@@ -56,8 +56,6 @@
             </div>
         </nav>
     </header>
-    <h2>Gerenciar Perfil</h2>
-      <p>Gerencie seu perfil. Visualize e edite seu dados pessoais e insira uma foto ou avatar</p>
     <div id="login-container">
         <div class="personal-image">
             <label class="label">
@@ -73,9 +71,11 @@
         <h1>Dados Pessoais</h1>
         <form action="/pagina-processa-dados-do-form" method="post">
             <label for="name">Nome</label>
-            <input type="text" name="Nome" id="name" autocomplete="off">
+            <input type="text" name="Nome" id="name" placeholder="Nome" autocomplete="off">
+            <label for="inputEmail">Email</label>
+            <input type="email" name="Email" id="inputEmail" placeholder="Email">
             <label for="msg">Descrição</label>
-            <textarea id="Descrição"></textarea>
+            <textarea id="descricao" placeholder="Descreva sobre você e suas afinidades literárias"></textarea></textarea>
             <input type="submit" value="Salvar" onclick="processaFormLogin(event)">
         </form>
       </div>
@@ -86,111 +86,33 @@
 </body>
 
 </html>
+
 <script>
 
-async function getGoogleAuth(event) {
-    console.log("Função para processar o formulário de login do google...")
-
-    event.preventDefault();
-
-    var username = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    console.log("Obtem os dados de login e senha a partir do formulário de login...")
-
-    let login = {
-        email: "",
-        senha: "",
-    }
-
-    login.email = username;
-    login.senha = password;
-
-    console.log("Chamando a api para verficar login...")
-    let response = {}
-
-    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica/google", {
-        method: "POST", 
-        headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
-            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
-        },
-        body: JSON.stringify(login)
-
-      }).then(res => {
-        this.getResponse(res);
-
-      }).catch(err => {
-        console.log("A resposta da API quebrou...")
-
-        console.log(err)
-    });
-}
-
-async function getFacebookAuth(event) {
-    console.log("Função para processar o formulário de login do facebook...")
-
-    event.preventDefault();
-
-    var username = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    console.log("Obtem os dados de login e senha a partir do formulário de login...")
-
-    let login = {
-        email: "",
-        senha: "",
-    }
-
-    login.email = username;
-    login.senha = password;
-
-    console.log("Chamando a api para verficar login...")
-    let response = {}
-
-    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica/facebook", {
-        method: "POST", 
-        headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
-            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
-        },
-        body: JSON.stringify(login)
-
-      }).then(res => {
-        this.getResponse(res);
-
-      }).catch(err => {
-        console.log("A resposta da API quebrou...")
-
-        console.log(err)
-    });
-}
-
 async function processaFormLogin(event) {
-    console.log("Função para processar o formulário de login...")
+    console.log("Função para processar o formulário do perfil...")
 
     event.preventDefault();
 
+    var name = document.getElementById('name').value;
     var username = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    console.log("Obtem os dados de login e senha a partir do formulário de login...")
+    var descricao = document.getElementById('descricao').value;
+    console.log("Obtem os dados de Nome, Email e Descrição a partir Dados Pessoais...")
 
-    let login = {
+    let perfil = {
+        nome: "",
         email: "",
-        senha: "",
+        descricao: "",
     }
 
-    login.email = username;
-    login.senha = password;
+    perfil.nome = name;
+    perfil.email = username;
+    perfil.descricao = descricao;
 
-    console.log("Chamando a api para verficar login...")
+    console.log("Chamando a api para verficar perfil...")
     let response = {}
 
-    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica-usuario", {
+    fetch("#", {
         method: "POST", 
         headers: {
             'Content-Type': 'application/json',
@@ -199,37 +121,7 @@ async function processaFormLogin(event) {
             'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
             'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
         },
-        body: JSON.stringify(login)
+        body: JSON.stringify(perfil)
+      }
 
-      }).then(res => {
-        this.getResponse(res);
-
-      }).catch(err => {
-        console.log("A resposta da API quebrou...")
-
-        console.log(err)
-    });
-}
-
-async function getResponse(res){
-    console.log("Esperando o callback da API... ")
-
-    response = JSON.parse(await res.text());
-
-    console.log("Callback da API chegou: " + JSON.stringify(response))
-
-    login = {
-            email: "",
-            senha: "",
-        }
-
-    if (response.status) {
-        alert('Usuário logado com sucesso!');
-        console.log(window.location.href)
-        window.location.href = window.location.href.replace('/src/frontend/login/index.html','/src/frontend/estante-lista/estantelivros.html')
-    } else { // Se login falhou, avisa ao usuário
-        alert('Usuário ou senha incorretos!');
-    }
-}
 </script>
-
