@@ -78,11 +78,70 @@
         </form>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <p class="error-validation template"></p>
+
 </body>
 
 </html>
 
 <script>
+
+    function emailValidate(input) {
+        let re = /\S+@\S+\.\S+/;
+
+        let email = input;
+
+        let errorMessage = `Insira um e-mail no padrão matheus@email.com`;
+
+        if (!re.test(email)) {
+            this.printMessage(errorMessage);
+            return false;
+        }
+        return true;
+    }
+
+    function required(input, name) {
+        let inputValue = input;
+        if (inputValue === '') {
+            let errorMessage = `O campo ${name} é obrigatório`;
+            this.printMessage(errorMessage);
+            return false;
+        }
+        return true;
+    }
+
+    function passwordValidate(input) {
+        let charArr = input.split("");
+        let uppercases = 0;
+        let numbers = 0;
+
+        for (let i = 0; charArr.length > i; i++) {
+            if (charArr[i] === charArr[i].toUpperCase() && isNaN(parseInt(charArr[i]))) {
+                uppercases++;
+            } else if (!isNaN(parseInt(charArr[i]))) {
+                numbers++;
+            }
+        }
+
+        if (uppercases === 0 || numbers === 0) {
+            let errorMessage = `A senha precisa um caractere maiúsculo e um número`;
+
+            this.printMessage(errorMessage);
+            return false
+        }
+
+        return true;
+    }
+
+    function passwordSubValidate(password, subpassword){
+        return password === subpassword ? true : false;
+    }
+
+
+    function printMessage(input) {
+        alert(input);
+    }
+
     async function RealizeRegistry(event) {
         event.preventDefault();
 
@@ -106,36 +165,44 @@
             console.error(e)
         }
 
-        console.log("Chamando a api para REALIZAR O CADASTRO...")
+        let valid = true;
 
+        valid = required(user.email, "Email") ? emailValidate(user.email) ? required(user.nome, "Nome") ? required(user.celular, "Celular") ? required(user.documento, "Documento") ? required(user.senha, "Senha") : false : false  : false : false : false;
+        valid = passwordValidate(user.senha) ? passwordSubValidate(document.querySelector('#password').value, document.querySelector('#passwordconfirmation').value) : false;
+        
+        if(valid){
+            console.log("Formulário Válido...")
 
-        fetch("https://matchbookapi.herokuapp.com/api/v1/criar-usuario", {
-            method: "POST",
-            headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
-            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
-            },
-            body: JSON.stringify(user)
-        }).then(res => {
-            console.log("Esperando o callback da API... ")
+            console.log("Chamando a api para REALIZAR O CADASTRO...")
 
-            getResponse(res);
-        }).catch(err => {
-            console.log("A resposta da API quebrou...")
-
-            console.log(err)
-            user = {
-                nome: "",
-                documento: "",
-                email: "",
-                senha: "",
-                celular: ""
-            };
-
-        });
+            fetch("https://matchbookapi.herokuapp.com/api/v1/criar-usuario", {
+                method: "POST",
+                headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+                body: JSON.stringify(user)
+            }).then(res => {
+                console.log("Esperando o callback da API... ")
+            
+                getResponse(res);
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+            
+                console.log(err)
+                user = {
+                    nome: "",
+                    documento: "",
+                    email: "",
+                    senha: "",
+                    celular: ""
+                };
+            
+            });
+        }
     }
 
 
