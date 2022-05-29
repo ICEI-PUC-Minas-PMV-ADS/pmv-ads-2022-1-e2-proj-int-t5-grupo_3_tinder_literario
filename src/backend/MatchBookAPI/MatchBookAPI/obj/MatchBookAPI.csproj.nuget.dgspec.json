@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[4.2.1, )"
             },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[5.0.7, )"

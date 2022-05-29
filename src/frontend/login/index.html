@@ -162,7 +162,10 @@ async function processaFormLogin(event) {
     console.log("Chamando a api para verificar login...")
     let response = {}
 
-    fetch("https://matchbookapi.herokuapp.com/api/v1/autentica-usuario", {
+    let baseURL = "http://localhost:32738"
+    //baseURL = "https://matchbookapi.herokuapp.com/api/"
+
+    fetch(baseURL + "/api/v1/autentica-usuario", {
         method: "POST", 
         headers: {
             'Content-Type': 'application/json',
@@ -197,6 +200,7 @@ async function getResponse(res){
 
     if (response.status) {
         alert('Usuário logado com sucesso!');
+        localStorage.setItem('cache-login-user', JSON.stringify(response));
         console.log(window.location.href)
         window.location.href = window.location.href.replace('/src/frontend/login/index.html','/src/frontend/estante-lista/estantelivros.html')
     } else { // Se login falhou, avisa ao usuário

@@ -290,7 +290,7 @@ namespace MatchBookAPI.Controllers
         [HttpPost]
         public JsonResult verificarLogin(LoginSeacher searcher)
         {
-            string query = "SELECT usr.email, usr.senha FROM public.usuario usr ";
+            string query = "SELECT usr.id, usr.email, usr.senha FROM public.usuario usr ";
 
             query += " WHERE usr.email = '" + searcher.email + "'";
 
@@ -316,6 +316,7 @@ namespace MatchBookAPI.Controllers
 
             for (int i = 0; i < table.Rows.Count; i++)
             {
+                findedLogin.id = table.Rows[i]["id"].ToString();
                 findedLogin.email = table.Rows[i]["email"].ToString();
                 findedLogin.senha = table.Rows[i]["senha"].ToString();
             }
@@ -324,7 +325,7 @@ namespace MatchBookAPI.Controllers
 
              if (findedLogin.email == null)
             {
-                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false, "");
                 return new JsonResult(tokenAutenticacao);
             }
 
@@ -335,13 +336,13 @@ namespace MatchBookAPI.Controllers
                 byte[] chave = Guid.NewGuid().ToByteArray();
                 string token = Convert.ToBase64String(tempo.Concat(chave).ToArray());
 
-                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao(token, DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao(token, DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true, findedLogin.id);
 
                 return new JsonResult(tokenAutenticacao);
             }
             else
             {
-                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false, "");
 
                 return new JsonResult(tokenAutenticacao);
             }

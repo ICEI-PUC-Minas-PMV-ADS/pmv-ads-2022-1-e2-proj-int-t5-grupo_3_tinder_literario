@@ -38,6 +38,7 @@
     <PackageReference Include="Google.Apis.YouTube.v3" Version="1.57.0.2665" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.16" />
     <PackageReference Include="Microsoft.Owin.Security.Facebook" Version="4.2.1" />
+    <PackageReference Include="NodaTime" Version="3.1.0" />
     <PackageReference Include="Npgsql" Version="5.0.7" />
   </ItemGroup>
 
