@@ -45,7 +45,7 @@
         <div id="register-container">
             <p>Ainda não tem uma conta?</p>
             <a href='../cadastro/index.html' style="text-decoration: none; color: #E2A165" target="_blank">Registrar</a>
-            <a href="../inicial/homepage.html" style="text-decoration: none; color: #E2A165" target="_blank">Tela inicial</a>
+            <a href="../recuperar-senha/index.html" style="text-decoration: none; color: #E2A165" target="_blank">Esqueci a Senha</a>
         </div>
     </div>
     <!-- Google api -->
@@ -159,7 +159,7 @@ async function processaFormLogin(event) {
     login.email = username;
     login.senha = password;
 
-    console.log("Chamando a api para verficar login...")
+    console.log("Chamando a api para verificar login...")
     let response = {}
 
     fetch("https://matchbookapi.herokuapp.com/api/v1/autentica-usuario", {

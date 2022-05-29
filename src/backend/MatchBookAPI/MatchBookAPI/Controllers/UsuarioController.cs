@@ -95,6 +95,60 @@ namespace MatchBookAPI.Controllers
             return response;
         }
 
+        [Route("api/v1/atualiza-usuario")]
+        [HttpPatch]
+        public JsonResult AtualizarUsuario(UsuarioEdit usuarioModel)
+        {
+            CadastroStatus cadastroStatus = null;
+            int statusCode = 0;
+
+            try
+            {
+                string query = @"
+                UPDATE Usuario SET senha = @senha
+                WHERE id = @id
+            ";
+
+                DataTable table = new DataTable();
+                string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+                NpgsqlDataReader myReader;
+                using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+                {
+                    myCon.Open();
+
+                    usuarioModel.senha = BCrypt.Net.BCrypt.HashPassword(usuarioModel.senha);
+                    using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                    {
+                        Guid uuid = Guid.NewGuid();
+
+                        myCommand.Parameters.AddWithValue("@id", usuarioModel.id);
+                        myCommand.Parameters.AddWithValue("@senha", usuarioModel.senha);
+
+                        myReader = myCommand.ExecuteReader();
+                        table.Load(myReader);
+
+                        myReader.Close();
+                        myCon.Close();
+
+                    }
+                }
+
+                cadastroStatus = new CadastroStatus("Atualização feita com sucesso!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
+                statusCode = 202;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                cadastroStatus = new CadastroStatus("Erro na hora de realizar atualização!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                statusCode = 500;
+            }
+
+            JsonResult response = new JsonResult(cadastroStatus);
+            response.StatusCode = statusCode;
+
+            return response;
+        }
+
         [Route("api/v1/autentica/google")]
         [HttpPost]
         public JsonResult AutenticaGoogle()
@@ -182,6 +236,53 @@ namespace MatchBookAPI.Controllers
         }
 
 
+
+        [Route("api/v1/verifica-email")]
+        [HttpGet]
+        public JsonResult VerificarEmail([FromQuery(Name = "email")] string email)
+        {
+            if (email is null)
+            {
+                throw new ArgumentNullException(nameof(email));
+            }
+
+            string query = "SELECT usr.email, usr.id FROM public.usuario usr ";
+
+            query += " WHERE usr.email = '" + email + "'";
+
+            DataTable table = new DataTable();
+            string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+            NpgsqlDataReader myReader;
+
+            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+
+                using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                {
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+
+
+            VerificaEmail findedLogin = new VerificaEmail();
+
+            findedLogin.id = "";
+            findedLogin.email = "";
+            findedLogin.existente = false;
+
+
+            for (int i = 0; i < table.Rows.Count; i++)
+            {
+                findedLogin.id = table.Rows[i]["id"].ToString();
+                findedLogin.email = table.Rows[i]["email"].ToString(); 
+                findedLogin.existente = true;
+            }
+            return new JsonResult(findedLogin);
+        }
 
 
 

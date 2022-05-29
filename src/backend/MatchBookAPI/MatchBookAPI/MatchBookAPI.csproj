@@ -27,6 +27,7 @@
     <Compile Remove="Models\Usuario - Cópia.cs" />
     <Compile Remove="Seachers\CodeFile.cs" />
     <Compile Remove="Utils\Class.cs" />
+    <Compile Remove="Utils\VerificaEmail - Cópia.cs" />
     <Compile Remove="WeatherForecast.cs" />
   </ItemGroup>
 
