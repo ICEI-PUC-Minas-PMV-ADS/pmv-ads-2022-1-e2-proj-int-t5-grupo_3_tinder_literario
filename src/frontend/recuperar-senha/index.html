@@ -30,8 +30,64 @@
             <form method="post">
                 <label for="email">E-mail:</label>
                 <input type="text" name="email" id="email" />
-                <input type="submit" value="Recuperar" />
+                <input type="submit" value="Recuperar" onclick="processaForm(event)"/>
             </form>
     </body>
+<script>
 
+async function processaForm(event) {
+    console.log("Função para processar o formulário da recuperacao da senha...")
+
+    event.preventDefault();
+
+    var username = document.getElementById('email').value;
+
+    console.log("Obtem os dados de email a partir da recuperacao da senha...")
+
+    let form = {
+        email: "",
+    }
+
+    form.email = username;
+
+    console.log("Chamando a api para verficar email...")
+    let response = {}
+
+    let baseURL = "https://matchbookapi.herokuapp.com"
+
+    fetch(baseURL + `/api/v1/verifica-email?email=${form.email}`, {
+        method: "GET", 
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+            'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+        },
+      }).then(res => {
+        this.getResponse(res);
+
+      }).catch(err => {
+        console.log("A resposta da API quebrou...")
+
+        console.log(err)
+    });
+}
+
+
+async function getResponse(res) {
+    console.log("Esperando o callback da API... ")
+
+    response = JSON.parse(await res.text());
+
+    if(response.existente){
+        localStorage.setItem('cache-user', JSON.stringify(response));
+        window.location.href = window.location.href.replace('/src/frontend/recuperar-senha/index.html','/src/frontend/cadastro-nova-senha/index.html')
+    }else{
+        alert("Email não encontrado na base!")
+    }
+}
+
+
+</script>
 </html>

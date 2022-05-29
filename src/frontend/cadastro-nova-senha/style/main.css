@@ -1,0 +1,108 @@
+
+body {
+ background-color:linear-gradient;
+}
+.container2{
+        display: none;
+    }
+.container {  display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+    grid-template-rows: 0.9fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". texto logo ."
+      ". rodape rodape .";
+  }
+  
+  .texto { grid-area: texto; } 
+  .logo { grid-area: logo; }
+  .rodape { grid-area: rodape; }
+
+
+.texto {
+    padding-left: 30px;
+}
+
+
+.text1 {
+    position: relative;
+    font-weight: bold;
+    color:#AC663E;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 25%;
+}
+
+.text2{
+    position: relative;
+    color: #E2A165;
+    display: inline-block;
+    font-size: 27px;
+    text-align: justify;
+    
+}
+
+
+.botoes{
+    margin-top: 6%;
+    text-align: left;
+}
+
+.btn1{
+    border: none;
+    background-color: #E2A165;
+    padding: 15px 26px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.btn2{
+    border: none;
+    background-color: #AC663E;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: #AC663E;
+}
+
+.btn2:hover {
+    background-color: #E2A165;
+}
+
+.logo{
+    text-align: right;
+    align-items: center;
+    margin: 35px 0 0 0;
+}
+
+.logo img{
+        width: 105%;
+       }
+
+.text3{
+    color: #E2A165;
+    font-size: 20px;
+}
+
+   
+
+@media screen and (max-width: 700px) {
+       .container{
+            display: flex;
+            flex-direction: column;
+       }
+       .logo img{
+           text-align: center;
+       }
+}

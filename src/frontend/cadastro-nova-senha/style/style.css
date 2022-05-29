@@ -1,0 +1,137 @@
+.owl-carousel {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.owl-carousel img {
+    height: 270px;
+}
+
+@media screen and (max-width: 700px) {
+    .owl-carousel {
+        width: 100%;
+    }
+}
+
+.btn {
+    width: 200px;
+    height: 88px;
+    outline: 0;
+    border: #d7da5e;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.btn:hover {
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn-curtir {
+    padding: 1.5rem 1.5rem 1.5rem 6rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: #d7da5e;
+}
+
+.btn-curtir.curtido {
+    background: #d7da5e;
+    border-color: #75932e;
+}
+
+
+/* Icone do botão */
+
+.btn-icone {
+    display: inline-block;
+    width: 32px;
+    height: 35px;
+    position: absolute;
+    left: 1.5rem;
+    transform: rotate(0deg);
+}
+
+
+/* Cor do icone e pulsar */
+
+.curtido .btn--icone-curtir {
+    transform: scale(2);
+}
+
+.btn:not(.curtido).btn--icone-curtido {
+    transform: scale(-2);
+}
+
+.curtido .btn--icone-curtir,
+.btn--icone-curtido {
+    opacity: 0;
+    background: #d7da5e;
+    position: absolute;
+}
+
+.btn--icone-curtir,
+.curtido .btn--icone-curtido {
+    opacity: 1;
+    background: #d7da5e;
+    left: 1.5rem;
+}
+
+
+/*-- Conteudo do botão -- */
+
+.btn-conteudo {
+    display: inline-block;
+}
+
+
+/* Rotação */
+
+.btn:not(.curtido) .btn-conteudo--curtido {
+    transform: translate(110px);
+}
+
+.btn:not(.curtido) .btn-conteudo--curtir {
+    transform: translate(-99px);
+}
+
+.curtido .btn-conteudo--curtir {
+    transform: translate(40px);
+}
+
+.btn-conteudo--curtido {
+    transform: translate(-11px);
+}
+
+
+/* Classes que utilizam propriedades iguais */
+
+.btn,
+.btn-curtir,
+.btn-icone,
+.curtido,
+.btn-conteudo,
+.btn-conteudo--curtir,
+.btn-conteudo--curtir {
+    transition: 1.5s;
+}
+
+.btn,
+.btn:hover.curtido .btn-conteudo,
+.btn.curtido:hover .btn-icone {
+    color: #32620e;
+}
+
+.btn:hover,
+.btn:hover .btn-icone {
+    color: #32620e;
+}
+
+.curtido .btn--icone-curtir,
+.btn--icone-curtido,
+.curtido .btn-conteudo {
+    color: #32620e;
+}
