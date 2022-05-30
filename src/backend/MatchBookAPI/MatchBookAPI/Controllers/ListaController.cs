@@ -121,52 +121,6 @@ namespace MatchBookAPI.Controllers
         }
 
 
-        [Route("api/v1/verifica-email")]
-        [HttpGet]
-        public JsonResult VerificarEmail([FromQuery(Name = "email")] string email)
-        {
-            if (email is null)
-            {
-                throw new ArgumentNullException(nameof(email));
-            }
-
-            string query = "SELECT usr.email, usr.id FROM public.usuario usr ";
-
-            query += " WHERE usr.email = '" + email + "'";
-
-            DataTable table = new DataTable();
-            string sqlDataSource = _configuration.GetConnectionString("DbConnection");
-            NpgsqlDataReader myReader;
-
-            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
-            {
-                myCon.Open();
-
-                using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
-                {
-                    myReader = myCommand.ExecuteReader();
-                    table.Load(myReader);
-                    myReader.Close();
-                    myCon.Close();
-                }
-            }
-
-
-            VerificaEmail findedLogin = new VerificaEmail();
-
-            findedLogin.id = "";
-            findedLogin.email = "";
-            findedLogin.existente = false;
-
-
-            for (int i = 0; i < table.Rows.Count; i++)
-            {
-                findedLogin.id = table.Rows[i]["id"].ToString();
-                findedLogin.email = table.Rows[i]["email"].ToString(); 
-                findedLogin.existente = true;
-            }
-            return new JsonResult(findedLogin);
-        }
 
 
 
