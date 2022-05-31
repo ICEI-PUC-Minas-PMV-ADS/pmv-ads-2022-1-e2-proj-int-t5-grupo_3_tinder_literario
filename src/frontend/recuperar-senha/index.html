@@ -82,6 +82,7 @@ async function getResponse(res) {
 
     if(response.existente){
         localStorage.setItem('cache-user', JSON.stringify(response));
+        console.log(window.location.href)
         window.location.href = window.location.href.replace('/src/frontend/recuperar-senha/index.html','/src/frontend/cadastro-nova-senha/index.html')
     }else{
         alert("Email não encontrado na base!")
