@@ -9,7 +9,7 @@
     --light-orange: #e8b380;
     --light: #f4e5d6;
     --wrapper: 1000px;
-    --theme-color: #845232;
+    --theme-color: #cc8753;
 }
 
 body {
@@ -202,12 +202,12 @@ body {
     width: 100%;
     height: 50px;
     padding: 15px 29px;
-    background-color: #845232;
+    background-color: #cc8753;
 }
 
 .container__chat .right .top span {
     font-size: 15px;
-    color: var(--light-orange);
+    color: #fff;
 }
 
 .container__chat .right .top span .name {
@@ -282,6 +282,7 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
+
 .container__chat .right .write {
     position: absolute;
     bottom: 29px;
@@ -451,4 +452,86 @@ body {
         margin-right: 0;
         opacity: 1;
    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1000px) {
+    .wrapper__container {
+        width: 425px;
+        height: 600px;
+    }
+
+    .container__chat .left .top {
+        height: 70px;
+        padding: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .container__chat .left input {
+        width: 120px;
+        height: 20px;
+    }
+
+    .container__chat .left a.search {
+        width: 20px;
+        height: 20px;
+        background-image: none;
+        background-repeat: no-repeat;
+    }
+    
+    .container__chat .right .top {
+        padding: 15px 29px;
+    }
+    
+    .container__chat .right .chat {
+        padding: 0 35px 92px;
+    }
+    
+    .container__chat .right .write {
+        bottom: 29px;
+        left: 30px;
+        height: 42px;
+        padding-left: 8px;
+        width: calc(100% - 58px);
+    }
+    
+    .container__chat .right .write input {
+        width: 111px;
+        height: 40px;
+        padding: 0 10px;
+    }
+    
+    .container__chat .right .write .write-link.attach:before {
+        width: 20px;
+        height: 42px;
+    }
+    
+    container__chat .right .write .write-link.smiley:before {
+        width: 20px;
+        height: 42px;
+    }
+    
+    .container__chat .right .write .write-link.send:before { 
+        width: 20px;
+        height: 42px;
+        margin-left: 11px;
+    
+    }
+    
+    .container__chat .right .bubble {
+        margin-bottom: 8px;
+        padding: 13px 14px;
+    }
+
+    .container__chat .right .conversation-start span {
+        font-size: 11px;
+    }
+
+    img {
+        display: none;
+    }
 }
