@@ -154,6 +154,31 @@ body {
 .botaosalvarlista button:hover {
     background-color: #E2A165;
 }
+#botaovermais {
+    height: 30px;
+    background-color: transparent;
+    color: gray;
+    box-shadow: none;
+}
+#botaomodalfechar {
+    height: auto;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    background-color: #E2A165;
+    color: white;
+
+}
+#botaomodaladicionar {
+    height: auto;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    background-color: #AC663E;
+    color: white;
+    
+}
+
 
 @media screen and (max-width: 700px) {
     .owl-carousel {

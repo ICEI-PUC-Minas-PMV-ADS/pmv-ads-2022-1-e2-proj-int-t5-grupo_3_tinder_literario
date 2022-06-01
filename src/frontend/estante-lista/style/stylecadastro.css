@@ -96,6 +96,11 @@ input[type="submit"]:hover {
     transition: .5s;
 }
 
+.navbar {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
 #agreement {
     margin-right: 5px;
 }
