@@ -82,61 +82,31 @@
                     <input type="search" class="form-control" id="caixabusca" placeholder="Buscar Livro"
                         aria-label="Buscar Livro" aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn-outline-secondary" type="button"><img class="lupa" src="img/lupa.png"
-                                alt=""></button>
+                        <button id="botaobusca" class="btn-outline-secondary" type="button"><img class="lupa"
+                                src="img/lupa.png" alt="" onclick="buscaLivro()"> </button>
                     </div>
                 </div>
             </div>
             <div class="sugestaolivros">
-                <span class="titulo">Livros Sugeridos</span>
-                <!--<div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/lista1/livro1.jpeg" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro2.jpeg" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro3.jpeg" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro4.PNG" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro5.PNG" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                    <div class="item"><img src="img/lista1/livro6.PNG" alt=""><button
-                            class="botaoadicionar">Adicionar</button></div>
-                </div>
-            </div>-->
-            <div class="livrosadicionados">
-                <span class="titulo">Livros Adicionados</span>
-                <!--<div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/lista3/livro1.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro2.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro3.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro4.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro5.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro6.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro7.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro8.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro9.PNG" alt=""><button
-                            class="botaoremover">Remover</button></div>
-                    <div class="item"><img src="img/lista3/livro10.PNG" alt=""></div>
-                </div>-->
-            </div>
 
-            <div class="botaosalvarlista">
-                <a href=""><button class="salvarlista">Salvar Lista</button></a>
-            </div>
-        </div>
+                <div class="sugestaolivros">
+                    <span class="titulo">Livros Disponíveis</span>
+                    <div id="livros-carrousel" style="margin-top: 10px" class="owl-carousel owl-theme">
+                    </div>
+                    <div>
+
+                        <div class="livrosadicionados">
+                            <span class="titulo">Livros Adicionados</span>
+                            <div id="livros-add" style="margin-top: 10px"></div>
+                        </div>
+
+                        <div class="botaosalvarlista">
+                            <a href=""><button class="salvarlista" onclick="insercaoLista()">Salvar Lista</button></a>
+                        </div>
+                    </div>
     </main>
 
     <footer>
-        <!-- <span class="rodape">Todos os direitos são reservados - M@TCHBOOK </span>-->
     </footer>
     <script src="lib/jquery/jquery.min.js "></script>
     <script src="js/owl.carousel.min.js "></script>
@@ -144,6 +114,247 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script>
+        listaAdicionadas = []
+
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel();
+            console.log("A tela carregou!")
+            getLivros(event);
+        })
+
+        function limpaGrid() {
+            let i = 1;
+            while (i <= 6) {
+                document.getElementById("carrocel-item-" + i).remove()
+                i++;
+            }
+        }
+
+        function limpaGridSelecionada() {
+            let i = 1;
+            while (i <= 6) {
+                document.getElementById("carrocel-item-div-" + i).remove()
+                i++;
+            }
+        }
+
+        async function buscaLivro() {
+            event.preventDefault();
+
+            console.log("Função para processar a busca de Livro...");
+
+            let nomeLivro = ""
+
+            try {
+                nomeLivro = document.getElementById("caixabusca").value;
+            } catch (e) {
+                console.error(e)
+            }
+
+            console.log("Chamando a api para BUSCAR O LIVRO...")
+
+
+
+            fetch(`https://matchbookapi.herokuapp.com/api/v1/livro?nomeLivro=${nomeLivro}`, {
+                method: "GET",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                    'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+            }).then(res => {
+                limpaGrid();
+                this.getResponse(res);
+
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+
+                console.log(err)
+            });
+        }
+
+        async function getLivros(event) {
+            console.log("Função para processar o GET de Livros.")
+
+            //event.preventDefault();
+
+
+            console.log("Chamando a api para buscar os livros..")
+            let response = {}
+
+            fetch("https://matchbookapi.herokuapp.com/api/v1/livro", {
+                method: "GET",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                    'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+            }).then(res => {
+                this.getResponse(res);
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+
+                console.log(err)
+            });
+        }
+
+        function createDiv(element, id) {
+            let i = 1;
+            let principalDiv = document.getElementById(element)
+            while (i <= 6) {
+                let div = document.createElement("div")
+                div.className = "row"
+                div.id = id + i;
+                principalDiv.appendChild(div)
+                i++;
+            }
+        }
+
+        function adicionarSugeridos(livro) {
+            listaAdicionadas.push(livro)
+            // limpaGridSelecionada()
+            createDiv('livros-add', "carrocel-item-div-");
+            let i = 1
+
+            for (let livro of listaAdicionadas) {
+
+                let imageTag = document.createElement('img')
+                imageTag.src = livro.img_link
+                imageTag.alt = ""
+                imageTag.style = " margin-bottom: 10px; ";
+                imageTag.style = " width: 240px; margin-right: 10px; ";
+
+                if (i / 5 <= 1) {
+                    principalDiv = document.getElementById('carrocel-item-div-1')
+                }
+
+                if (i / 5 <= 2 && i / 5 > 1) {
+                    principalDiv = document.getElementById('carrocel-item-div-2')
+                }
+                if (i / 5 <= 3 && i / 5 > 2) {
+                    principalDiv = document.getElementById('carrocel-item-div-3')
+                }
+                if (i / 5 <= 4 && i / 5 > 3) {
+                    principalDiv = document.getElementById('carrocel-item-div-4')
+                }
+
+                if (i / 5 <= 5 && i / 5 > 4) {
+                    principalDiv = document.getElementById('carrocel-item-div-5')
+                }
+                if (i / 5 <= 6 && i / 5 > 5) {
+                    principalDiv = document.getElementById('carrocel-item-div-6')
+                }
+
+                principalDiv.appendChild(imageTag)
+                principalDiv.style = 'margin-bottom: 10px'
+
+                i++;
+
+            }
+        }
+
+        async function getResponse(res) {
+            console.log("Esperando o callback da API... ")
+            let response = []
+
+            if (localStorage.getItem("listaSugerida") !== null) {
+                response = JSON.parse(localStorage.getItem("listaSugerida"));
+            }
+
+            createDiv('livros-carrousel', "carrocel-item-");
+            let i = 1
+            let principalDiv;
+
+            for (let livro of response) {
+                let imageTag = document.createElement('img')
+                imageTag.src = livro.img_link
+                imageTag.alt = ""
+                imageTag.style = "margin-bottom: 10px;"
+
+                imageTag.style = "width: 240px; margin-right: 10px;"
+
+                imageTag.addEventListener('click', function () {
+                    adicionarSugeridos(livro)
+                })
+
+                if (i / 5 <= 1) {
+                    principalDiv = document.getElementById('carrocel-item-1')
+                }
+
+                if (i / 5 <= 2 && i / 5 > 1) {
+                    principalDiv = document.getElementById('carrocel-item-2')
+                }
+                if (i / 5 <= 3 && i / 5 > 2) {
+                    principalDiv = document.getElementById('carrocel-item-3')
+                }
+                if (i / 5 <= 4 && i / 5 > 3) {
+                    principalDiv = document.getElementById('carrocel-item-4')
+                }
+
+                if (i / 5 <= 5 && i / 5 > 4) {
+                    principalDiv = document.getElementById('carrocel-item-5')
+                }
+
+                if (i / 5 <= 6 && i / 5 > 5) {
+                    principalDiv = document.getElementById('carrocel-item-6')
+                }
+
+                principalDiv.appendChild(imageTag)
+                principalDiv.style = 'margin-bottom: 10px'
+
+                i++;
+
+            }
+
+        }
+
+        async function respostaInsercaoLista(res) {
+            console.log("Esperando o callback da API... ")
+            response = JSON.parse(await res.text());
+            alert("Lista Criada com sucesso!")
+            window.location.href = window.location.href.replace('/src/frontend/estante-lista/criarlista.html','/src/frontend/estante-lista/gerListas.html')
+
+        }
+
+        async function insercaoLista() {
+            let response = {
+                idUsuario: '',
+                descricao: '',
+                nome: '',
+                livroList: []
+            };
+
+            let cache = JSON.parse(localStorage.getItem("cache-user"));
+            response.idUsuario = cache.id;
+            response.descricao = document.getElementById("descricaolista").value;
+            response.nome = document.getElementById("nomelista").value;
+            response.livroList = listaAdicionadas
+
+            console.log(response)
+            let baseURL = "http://localhost:32738"
+
+            fetch(baseURL + "/api/v1/criar-lista", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'POST, GET, PUT, DELETE, OPTIONS',
+                    'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                    'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+                body: JSON.stringify(response)
+            }).then(res => {
+                respostaInsercaoLista(res)
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+                console.log(err)
+            });
+        }
+
+    </script>
 </body>
 
 </html>

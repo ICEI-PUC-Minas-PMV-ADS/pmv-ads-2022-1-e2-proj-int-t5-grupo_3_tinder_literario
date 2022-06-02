@@ -79,11 +79,12 @@
                 <span class="titulo">Livros Disponíveis</span>
                 <div id="livros" style="margin-top: 10px">
 
-                    <!-- Botão para acionar modal -->
+                    <!-- 
                     <button type="button" class="btn btn-primary" id="botaovermais" data-toggle="modal"
                         data-target="#ExemploModalCentralizado">
                         Ver mais
                     </button>
+                    Botão para acionar modal -->
 
                     <!-- Modal -->
                     <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
@@ -91,17 +92,52 @@
                         <div class="modal-dialog modal-dialog-centered" id="tamanhomodal" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="TituloModalCentralizado">Título do livro</h5>
+                                    <h5 class="modal-title" id="TituloModalCentralizado"></h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    autor, ano de publicação, edição, sinopse, editora, isbn
+                                    <div>
+                                        Autor: 
+                                        <p id="modal-autor">
+                                            
+                                        </p>
+                                    </div>
+                                    <div>
+                                        Ano de publicação: 
+                                        <p id="modal-ano-publicacao">
+                                            
+                                        </p>
+                                    </div>
+                                    <div>
+                                        Edição: 
+                                        <p id="modal-edicao">
+                                            
+                                        </p>
+                                    </div>
+                                    <div>
+                                        Sinopse: 
+                                        <p id="modal-sinopse">
+                                            
+                                        </p>
+                                    </div>
+                                    <div>
+                                        Editora: 
+                                        <p id="modal-editora">
+                                            
+                                        </p>
+                                    </div>
+                                    <div>
+                                        Isbn: 
+                                        <p id="modal-isbn">
+                                            
+                                        </p>
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" id="botaomodalfechar" class="btn btn-secondary botaomodal" data-dismiss="modal">Fechar</button>
-                                    <button type="button" id="botaomodaladicionar" class="btn btn-primary botaomodal">Adicionar à lista</button>
+                                    <button type="button" id="botaomodaladicionar" class="btn btn-primary botaomodal" data-dismiss="modal" onclick="adicionarSugeridos()">Adicionar à lista</button>
                                 </div>
                             </div>
                         </div>
@@ -125,10 +161,46 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
    
     <script>
+        let img_src = "";
+
         $(document).ready(function () {
             console.log("A tela carregou!")
             getLivros(event);
         })
+
+        function adicionarSugeridos(){
+            // FEAT: GUARDAR O LIVRO NO BANCO!!!
+
+            let livro = {
+                titulo: '',
+                autor: '',
+                ano_publicacao: '',
+                edicao: '',
+                sinopse: '',
+                editora: '',
+                isbn: '',
+                img_link: ''
+            }
+
+            livro.titulo = document.getElementById('TituloModalCentralizado').textContent
+            livro.autor = document.getElementById('modal-autor').textContent
+            livro.ano_publicacao = document.getElementById('modal-ano-publicacao').textContent
+            livro.edicao = document.getElementById('modal-edicao').textContent
+            livro.sinopse = document.getElementById('modal-sinopse').textContent
+            livro.editora = document.getElementById('modal-editora').textContent
+            livro.isbn = document.getElementById('modal-isbn').textContent 
+            livro.img_link = img_src
+
+            let listaLocalStorage = JSON.parse(localStorage.getItem("listaSugerida"));
+            
+            if(listaLocalStorage === null){
+                listaLocalStorage = []
+            }
+
+            listaLocalStorage.push(livro)
+
+            localStorage.setItem("listaSugerida", JSON.stringify(listaLocalStorage));
+        }
 
         function limpaGrid() {
 
@@ -223,8 +295,6 @@
             }
         }
 
-
-
         async function getResponse(res) {
             console.log("Esperando o callback da API... ")
 
@@ -244,67 +314,19 @@
                 imageTag.style = "margin-bottom: 10px;"
 
                 imageTag.style = "width: 240px; margin-right: 10px;"
-                //let botaoAdicionar = document.createElement('button')
-                //imageTag.class = 'botaoadicionar'
+                imageTag.dataset.target = "#ExemploModalCentralizado";
+                imageTag.dataset.toggle = "modal";
 
-                //divItem.appendChild(imageTag);
-
-                //divItem.appendChild(botaoAdicionar);
-
-
-
-                if (i / 5 <= 1) {
-                    principalDiv = document.getElementById('carrocel-item-1')
-                }
-
-                if (i / 5 <= 2 && i / 5 > 1) {
-                    principalDiv = document.getElementById('carrocel-item-2')
-                }
-                if (i / 5 <= 3 && i / 5 > 2) {
-                    principalDiv = document.getElementById('carrocel-item-3')
-                }
-                if (i / 5 <= 4 && i / 5 > 3) {
-                    principalDiv = document.getElementById('carrocel-item-4')
-                }
-
-                if (i / 5 <= 5 && i / 5 > 4) {
-                    principalDiv = document.getElementById('carrocel-item-5')
-                }
-
-                if (i / 5 <= 6 && i / 5 > 5) {
-                    principalDiv = document.getElementById('carrocel-item-6')
-                }
-
-                principalDiv.appendChild(imageTag)
-                principalDiv.style = 'margin-bottom: 10px'
-                i++;
-
-            }
-
-            console.log("Callback da API chegou: " + JSON.stringify(response))
-        }
-
-        async function getResponse(res) {
-            console.log("Esperando o callback da API... ")
-
-            response = JSON.parse(await res.text());
-            createDiv();
-            let i = 1
-            let principalDiv;
-            for (let livro of response) {
-
-                //let divItem = document.createElement('div')
-                //divItem.className = 'col-lg-4 col-md-12 mb-4 mb-lg-0';
-                //divItem.style = 'display: inline !important;'
-
-                let imageTag = document.createElement('img')
-                imageTag.src = livro.img_link
-                imageTag.alt = ""
-                imageTag.style = "margin-bottom: 10px;"
-
-                imageTag.style = "width: 240px; margin-right: 10px;"
-
-
+                imageTag.addEventListener('click', function (){
+                    document.getElementById('TituloModalCentralizado').textContent = livro.titulo
+                    document.getElementById('modal-autor').textContent = livro.autor
+                    document.getElementById('modal-ano-publicacao').textContent = livro.ano_publicacao
+                    document.getElementById('modal-edicao').textContent = livro.edicao
+                    document.getElementById('modal-sinopse').textContent = livro.sinopse
+                    document.getElementById('modal-editora').textContent = livro.editora
+                    document.getElementById('modal-isbn').textContent = livro.isbn
+                    img_src = livro.img_link;
+                })
 
                 //function clica () {
                 //let modal = document.getElementById ('abremodal')
@@ -341,15 +363,14 @@
                 if (i / 5 <= 6 && i / 5 > 5) {
                     principalDiv = document.getElementById('carrocel-item-6')
                 }
-
+                
                 principalDiv.appendChild(imageTag)
                 principalDiv.style = 'margin-bottom: 10px'
+
                 i++;
 
             }
 
-
-            console.log("Callback da API chegou: " + JSON.stringify(response))
         }
     </script>
 </body>
