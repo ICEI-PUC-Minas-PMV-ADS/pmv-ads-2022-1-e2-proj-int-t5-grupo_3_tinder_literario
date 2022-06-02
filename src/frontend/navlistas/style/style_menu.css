@@ -1,0 +1,150 @@
+body {
+    background-color: #fdfaf0;
+}
+
+
+
+.container-fluid {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: #845232;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+.navbar {
+    padding-top:0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #E2A165;
+    transition: 0.3s !important;;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    opacity: 0.7;
+    color: #fff !important;;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #E2A165;
+    transition: 0.3s;
+    text-align: inherit;
+    text-decoration: none;
+    border: 0;
+    background-color: #845232;
+}
+
+.dropdown-item:hover {
+    opacity: 0.7;
+    color: #fff !important;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: right !important;
+}
+
+.nav-item:hover {
+    color: #fff !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    background-color: #845232;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 200px;
+    margin: 0.8em;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    color: #845232 !important;
+    align-items: right !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6k-WnmY7Fnzuk3u5d7jwEdOGf0GzUtfxypw&usqp=CAU);
+}
+
+.navbar-light .navbar-toggler {
+   border: none !important;
+}
+
+.nav-link li {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+ }
+ 
+ .nav-link:hover {
+     opacity: 0.7;
+     color: #fff;
+ }
+
+
+@media screen and (min-width: 992px) {
+    .dropdown-item:hover {
+        background-color: transparent !important;
+        padding: 15px;
+        border-bottom: 3px double #E2A165;
+        border-top: 3px double #E2A165;
+    }
+
+    .navbar-nav{
+        display: flex !important;
+        margin-left: auto !important;
+        margin-right: 80px;
+    }
+
+    #logo{
+        margin-left: 80px;
+    }
+
+    .rodape{
+        
+    }
+
+}   
+

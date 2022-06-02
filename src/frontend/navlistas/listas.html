@@ -10,6 +10,8 @@
     <link rel="shortcute icon" href="img/imgs/icones/pena.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="style/style_menu.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -43,7 +45,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Livros</a>
+                            <a class="nav-link" href="../estante-lista/estantelivros.html">Livros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../navlistas/listas.html">Listas</a>
@@ -62,17 +64,42 @@
     </header>
 
     <main>
-        <div class="containerlista">
-            <div class="titulo">
-                <span>Minhas Listas</span>
-            </div>
-            <div class="boatocriarlista">
-                <a href="criarlista.html"><button class="criarlista">Criar nova
-                        lista</button></a>
-            </div>
-            <div class="listasSalvas">
-                <span class="nomelista">Nome Lista</span><button class="editarlista">Editar</button>
+
+        <div class="container">
+            <div class="containerresponsivo">
+                <span class="nomelista">Nome Lista</span>               
                 <p class="descricaolista">espaço para descrição da lista</p>
+                <div class="conteudolista">
+                    espaço para exibir os livros da lista
+                </div>
+                <div class="controles">
+                <button class="btn2 btn-naocurti">
+                    <span class="btn-icone btn2--icone-naocurti">
+                        <span class="fa fa-book"></span>
+                    </span>
+                    <span class="btn-icone btn2--icone-naocurtido">
+                        <span class="fa fa-book"></span>
+                    </span>
+                    <span class="btn2-conteudo btn-conteudo--curtido">Pular</span>
+                </button>
+
+                <button class="btn btn-curtir">
+                    <span class="btn-icone btn--icone-curtir">
+                        <span class="fa fa-book"></span>
+                    </span>
+                    <span class="btn-icone btn--icone-curtido">
+                        <span class="fa fa-book"></span>
+                    </span>
+                    <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
+                    <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
+                </button>
+            </div>
+            </div>
+          </div>
+
+        <!--<div class="container">          
+            <div class="container">
+                
                 <div class="carrossellista">
                     <!--<div class="owl-carousel owl-theme">
                         <div class="item"><img src="img/lista2/livro1.jpeg" alt=""></div>
@@ -87,22 +114,7 @@
                 </div>
 
             </div>
-
-            <span class="nomelista">Nome Lista</span><a href="criarlista.html"><button class="editarlista">Editar</button></a>
-            <div class="carrossellista">
-                <p class="descricaolista">espaço para descrição da lista</p>
-                <!--<div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/lista3/livro1.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro2.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro3.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro4.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro5.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro6.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro7.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro8.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro9.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro10.PNG" alt=""></div>
-                </div> -->
+        </div>
             </div>
         </div>
     </main>
@@ -110,6 +122,7 @@
     <footer>
         <!-- <span class="rodape">Todos os direitos são reservados - M@TCHBOOK </span>-->
     </footer>
+    <script src="js/curtir.js "></script>
     <script src="lib/jquery/jquery.min.js "></script>
     <script src="js/owl.carousel.min.js "></script>
     <script src="js/main.js "></script>
