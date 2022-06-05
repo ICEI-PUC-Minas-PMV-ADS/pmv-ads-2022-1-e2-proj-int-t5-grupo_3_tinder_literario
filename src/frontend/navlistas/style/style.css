@@ -63,7 +63,8 @@ body {
     white-space: nowrap;
     
 }
-.listasSalvas {
+.descricaolista {
+    color: #AC663E;
 
 }
 
@@ -195,35 +196,6 @@ body {
 .subtitulomodal {
     font-weight: bold;
 }
-@media screen and (max-width: 700px) {
-    .owl-carousel {
-        width: 100%;
-    }
-
-    .owl-carousel img {
-        height: 200px;
-    }
-
-    .titulo {
-        width: 100%;
-    }
-
-    .criarlista {
-        float:none;
-        margin: 0 20%
-    }
-    .containerlista {
-        margin: 4% 17% 0 17%;
-    }
-    
-    .salvarlista {
-        margin: 20px auto;
-    }
-
-}
-
-
-
 
 
 
@@ -231,6 +203,9 @@ body {
 
 .controles {
     display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
 }
 
 
@@ -255,6 +230,7 @@ body {
 }
 
 .btn-curtir {
+    margin: 10px;
     padding: 1.5rem 1.5rem 1.5rem 6rem;
     font-size: 27px;
     border-radius: 10px;
@@ -379,6 +355,7 @@ body {
 }
 
 .btn-naocurti {
+    margin: 10px;
     padding: 1.5rem 1.5rem 1.5rem 6rem;
     font-size: 25px;
     border-radius: 10px;
@@ -483,3 +460,29 @@ body {
     color: #bc1823;
 }
 
+@media screen and (max-width: 700px) {
+    .owl-carousel {
+        width: 100%;
+    }
+
+    .owl-carousel img {
+        height: 200px;
+    }
+
+    .titulo {
+        width: 100%;
+    }
+
+    .criarlista {
+        float:none;
+        margin: 0 20%
+    }
+    .containerlista {
+        margin: 4% 17% 0 17%;
+    }
+    
+    .salvarlista {
+        margin: 20px auto;
+    }
+
+  }
