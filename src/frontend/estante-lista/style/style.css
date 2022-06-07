@@ -1,6 +1,7 @@
 body {
     background-color: white;
 }
+
 /*Carrossel*/
 
 .owl-carousel {
@@ -13,7 +14,6 @@ body {
 .owl-carousel img {
     height: 260px;
 }
-
 
 /*Gerenciar Listas*/
 
@@ -35,7 +35,6 @@ body {
     margin-right: 40px;
 }
 
-
 .criarlista { 
     border: none;
     background-color: #AC663E;
@@ -50,7 +49,6 @@ body {
     white-space: nowrap;
     
 }
-
 
 .nomelista {
     position: relative;
@@ -94,7 +92,6 @@ body {
     margin-left: 10px;
 }
 #busca {
-    justify-content: center;
     margin-top: 50px;
 }
 #caixabusca:focus {
@@ -342,4 +339,3 @@ body {
 .curtido .btn-conteudo {
     color: #32620e;
 }
-
