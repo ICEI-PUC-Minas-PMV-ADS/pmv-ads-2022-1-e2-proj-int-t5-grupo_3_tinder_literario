@@ -5,25 +5,39 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NovaPasta1\**" />
     <Compile Remove="NovaPasta\**" />
     <Compile Remove="Repository\**" />
     <Compile Remove="Seachers\NovaPasta\**" />
     <Compile Remove="Services\**" />
+    <Compile Remove="Utils\NovaPasta1\**" />
+    <Compile Remove="Utils\NovaPasta\**" />
+    <Content Remove="NovaPasta1\**" />
     <Content Remove="NovaPasta\**" />
     <Content Remove="Repository\**" />
     <Content Remove="Seachers\NovaPasta\**" />
     <Content Remove="Services\**" />
+    <Content Remove="Utils\NovaPasta1\**" />
+    <Content Remove="Utils\NovaPasta\**" />
+    <EmbeddedResource Remove="NovaPasta1\**" />
     <EmbeddedResource Remove="NovaPasta\**" />
     <EmbeddedResource Remove="Repository\**" />
     <EmbeddedResource Remove="Seachers\NovaPasta\**" />
     <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="Utils\NovaPasta1\**" />
+    <EmbeddedResource Remove="Utils\NovaPasta\**" />
+    <None Remove="NovaPasta1\**" />
     <None Remove="NovaPasta\**" />
     <None Remove="Repository\**" />
     <None Remove="Seachers\NovaPasta\**" />
     <None Remove="Services\**" />
+    <None Remove="Utils\NovaPasta1\**" />
+    <None Remove="Utils\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\LivroController - Cópia.cs" />
+    <Compile Remove="DTO\Class.cs" />
     <Compile Remove="Models\Usuario - Cópia.cs" />
     <Compile Remove="Seachers\CodeFile.cs" />
     <Compile Remove="Utils\Class.cs" />

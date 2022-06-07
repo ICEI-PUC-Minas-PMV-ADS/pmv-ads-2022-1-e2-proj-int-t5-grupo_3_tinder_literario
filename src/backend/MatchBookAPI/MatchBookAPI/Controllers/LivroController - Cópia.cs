@@ -18,7 +18,6 @@ namespace MatchBookAPI.Controllers
                 _configuration = configuration;
         }
 
-
         [HttpGet]
         public JsonResult findAllLivros([FromQuery(Name = "nomeLivro")] string nomeLivro)
         {

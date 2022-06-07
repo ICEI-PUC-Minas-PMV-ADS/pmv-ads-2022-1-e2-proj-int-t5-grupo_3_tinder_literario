@@ -22,6 +22,7 @@ using System.Diagnostics;
 using Microsoft.Owin.Security.Facebook;
 using Microsoft.AspNetCore.Server.HttpSys;
 using MatchBookAPI.Utils;
+using MatchBookAPI.DTO;
 
 namespace MatchBookAPI.Controllers
 {
@@ -30,7 +31,6 @@ namespace MatchBookAPI.Controllers
     {
 
         private readonly IConfiguration _configuration;
-
 
         public ListaController(IConfiguration configuration)
         {
@@ -120,9 +120,117 @@ namespace MatchBookAPI.Controllers
             return response;
         }
 
+        [Route("api/v1/minha-lista")]
+        [HttpGet]
+        public List<object> findAllUsuario([FromQuery(Name = "idUsuario")] string idUsuario)
+        {
+            String query = "SELECT lv.id, lv.id_usuario, lv.nome, lv.data_criacao, lv.data_atualizacao, '[' || STRING_AGG( '{' || '\"id\":\"' || li.id || '\",' || '\"titulo\":\"' || li.titulo || '\",' || '\"autor\":\"' || li.autor || '\",' || '\"ano_publicacao\":\"' || li.ano_publicacao || '\",' || '\"sinopse\":\"' || REPLACE(li.sinopse, '\"', '') || '\",' || '\"edicao\":\"' || li.edicao || '\",' || '\"editora\":\"' || li.editora || '\",' || '\"isbn\":\"' || li.isbn || '\",' || '\"img_link\":\"' || li.img_link || '\",' || '\"categoria\":\"' || li.categoria || '\"' || '}',',' ) || ']' as livro_list  FROM public.lista lv  LEFT JOIN livro_lista ll on ll.id_lista = lv.id LEFT JOIN public.livro li on ll.id_livro = li.id WHERE 1=1 ";
+            if (idUsuario != null)
+            {
+                query += " AND lv.id_usuario  IN ('" + idUsuario + "') ";
+            }
+
+            query += " GROUP BY 1,2,3,4,5";
+            query += " ORDER BY 4 DESC,1 DESC";
+
+            DataTable table = new DataTable();
+
+            string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+            NpgsqlDataReader myReader;
+
+            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                {
+
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
 
 
+            List<object> objectList = new List<object>();
 
+            foreach (DataRow dr in table.Rows)
+            {
+                ListaLivro list = new ListaLivro();
+
+                list.id = dr["id"].ToString();
+                list.dataCriacao = dr["data_criacao"].ToString();
+                list.dataAtualizacao = dr["data_atualizacao"].ToString();
+                list.idUsuario = dr["id_usuario"].ToString();
+
+                List<Livro> livro = JsonConvert.DeserializeObject<List<Livro>>(dr["livro_list"].ToString());
+                list.livroList = livro;
+
+                objectList.Add(list);
+            }
+
+
+            return objectList;
+        }
+
+
+        [Route("api/v1/lista/sort")]
+        [HttpGet]
+        public List<object> findSorted([FromQuery(Name = "idUsuario")] string idUsuario)
+        {
+
+            String query = "SELECT lv.id, lv.id_usuario, lv.nome, lv.data_criacao, lv.data_atualizacao, '[' || STRING_AGG( '{' || '\"id\":\"' || li.id || '\",' || '\"titulo\":\"' || li.titulo || '\",' || '\"autor\":\"' || li.autor || '\",' || '\"ano_publicacao\":\"' || li.ano_publicacao || '\",' || '\"sinopse\":\"' || REPLACE(li.sinopse, '\"', '') || '\",' || '\"edicao\":\"' || li.edicao || '\",' || '\"editora\":\"' || li.editora || '\",' || '\"isbn\":\"' || li.isbn || '\",' || '\"img_link\":\"' || li.img_link || '\",' || '\"categoria\":\"' || li.categoria || '\"' || '}',',' ) || ']' as livro_list  FROM public.lista lv  LEFT JOIN livro_lista ll on ll.id_lista = lv.id LEFT JOIN public.livro li on ll.id_livro = li.id WHERE 1=1 ";
+            if (idUsuario != null)
+            {
+                query += " AND lv.id_usuario NOT IN ('" + idUsuario + "') ";
+            }
+
+            query += " GROUP BY 1,2,3,4,5";
+            query += " ORDER BY 4 DESC,1 DESC";
+
+            DataTable table = new DataTable();
+
+            string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+            NpgsqlDataReader myReader;
+
+            using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+            {
+                myCon.Open();
+                using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                {
+
+                    myReader = myCommand.ExecuteReader();
+                    table.Load(myReader);
+
+                    myReader.Close();
+                    myCon.Close();
+                }
+            }
+
+
+            List<object> objectList = new List<object>();
+
+            foreach (DataRow dr in table.Rows)
+            {
+                ListaLivro list = new ListaLivro();
+
+                list.id = dr["id"].ToString();
+                list.dataCriacao = dr["data_criacao"].ToString();
+                list.dataAtualizacao = dr["data_atualizacao"].ToString();
+                list.idUsuario = dr["id_usuario"].ToString();
+
+                List<Livro> livro = JsonConvert.DeserializeObject<List<Livro>>(dr["livro_list"].ToString());
+                list.livroList = livro;
+
+                objectList.Add(list);
+            }
+
+
+            return objectList;
+        }
 
     }
+
+
 }

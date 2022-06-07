@@ -149,6 +149,110 @@ namespace MatchBookAPI.Controllers
             return response;
         }
 
+
+        [Route("api/v1/atualiza-cadastro")]
+        [HttpPatch]
+        public JsonResult AtualizarCadastro(UsuarioForm usuarioModel)
+        {
+            CadastroStatus cadastroStatus = null;
+            int statusCode = 0;
+
+            try
+            {
+                string query = @"
+                UPDATE Usuario SET nome = @nome, email = @email, celular = @celular
+                WHERE id = @id
+            ";
+
+                DataTable table = new DataTable();
+                string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+                NpgsqlDataReader myReader;
+                using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+                {
+                    myCon.Open();
+                    using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                    {
+
+                        myCommand.Parameters.AddWithValue("@id", usuarioModel.id);
+                        myCommand.Parameters.AddWithValue("@nome", usuarioModel.nome);
+                        myCommand.Parameters.AddWithValue("@email", usuarioModel.email);
+                        myCommand.Parameters.AddWithValue("@celular", usuarioModel.celular);
+
+                        myReader = myCommand.ExecuteReader();
+                        table.Load(myReader);
+
+                        myReader.Close();
+                        myCon.Close();
+
+                    }
+                }
+
+                cadastroStatus = new CadastroStatus("Atualização feita com sucesso!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
+                statusCode = 202;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                cadastroStatus = new CadastroStatus("Erro na hora de realizar atualização!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                statusCode = 500;
+            }
+
+            JsonResult response = new JsonResult(cadastroStatus);
+            response.StatusCode = statusCode;
+
+            return response;
+        }
+
+        [Route("api/v1/deleta-usuario")]
+        [HttpDelete]
+        public JsonResult ApagaCadastro([FromQuery(Name = "idUsuario")] string idUsuario)
+        {
+            CadastroStatus cadastroStatus = null;
+            int statusCode = 0;
+
+            try
+            {
+                string query = @"
+                DELETE FROM Usuario
+                WHERE id = @id
+            ";
+
+                DataTable table = new DataTable();
+                string sqlDataSource = _configuration.GetConnectionString("DbConnection");
+                NpgsqlDataReader myReader;
+                using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+                {
+                    myCon.Open();
+                    using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                    {
+
+                        myCommand.Parameters.AddWithValue("@id", idUsuario);
+
+                        myReader = myCommand.ExecuteReader();
+                        table.Load(myReader);
+
+                        myReader.Close();
+                        myCon.Close();
+
+                    }
+                }
+
+                cadastroStatus = new CadastroStatus("Atualização feita com sucesso!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
+                statusCode = 202;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                cadastroStatus = new CadastroStatus("Erro na hora de realizar atualização!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false);
+                statusCode = 500;
+            }
+
+            JsonResult response = new JsonResult(cadastroStatus);
+            response.StatusCode = statusCode;
+
+            return response;
+        }
+
         [Route("api/v1/autentica/google")]
         [HttpPost]
         public JsonResult AutenticaGoogle()
