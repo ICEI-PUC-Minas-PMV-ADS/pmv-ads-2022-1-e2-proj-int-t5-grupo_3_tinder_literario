@@ -49,6 +49,7 @@ a {
 
 img {
 	width: inherit;
+	cursor: pointer;
 }
 
 button {
