@@ -64,7 +64,7 @@
     </header>
 
     <main>
-        <div class="containerlista">
+        <div class="containerlista" style="display: grid; min-width: 71%; margin-right:10; margin-left:10">
             <div class="buscarlviro">
                 <div class="input-group mb-3" id="busca">
                     <input type="search" class="form-control" id="caixabusca" placeholder="Buscar Livro"
@@ -77,7 +77,7 @@
             </div>
             <div class="sugestaolivros">
                 <span class="titulo">Livros Disponíveis</span>
-                <div id="livros" style="margin-top: 10px">
+                <div id="livros" style="margin-top: 10px; margin-left: 0;">
 
                     <!-- 
                     <button type="button" class="btn btn-primary" id="botaovermais" data-toggle="modal"
@@ -287,6 +287,7 @@
                 let div = document.createElement("div")
 
                 div.className = "row"
+                div.style = "display: flex"
                 div.id = "carrocel-item-" + i;
                 principalDiv.appendChild(div)
 
@@ -313,7 +314,7 @@
                 imageTag.alt = ""
                 imageTag.style = "margin-bottom: 10px;"
 
-                imageTag.style = "width: 240px; margin-right: 10px;"
+                imageTag.style = "width: 240px; margin-right: 10px; margin-bottom: 10px;"
                 imageTag.dataset.target = "#ExemploModalCentralizado";
                 imageTag.dataset.toggle = "modal";
 
@@ -342,25 +343,12 @@
 
 
 
-                if (i / 5 <= 1) {
+                if (i / 1 <= 1) {
                     principalDiv = document.getElementById('carrocel-item-1')
-                }
-
-                if (i / 5 <= 2 && i / 5 > 1) {
                     principalDiv = document.getElementById('carrocel-item-2')
-                }
-                if (i / 5 <= 3 && i / 5 > 2) {
                     principalDiv = document.getElementById('carrocel-item-3')
-                }
-                if (i / 5 <= 4 && i / 5 > 3) {
                     principalDiv = document.getElementById('carrocel-item-4')
-                }
-
-                if (i / 5 <= 5 && i / 5 > 4) {
                     principalDiv = document.getElementById('carrocel-item-5')
-                }
-
-                if (i / 5 <= 6 && i / 5 > 5) {
                     principalDiv = document.getElementById('carrocel-item-6')
                 }
                 
