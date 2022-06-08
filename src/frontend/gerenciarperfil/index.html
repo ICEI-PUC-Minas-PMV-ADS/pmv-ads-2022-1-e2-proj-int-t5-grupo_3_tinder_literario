@@ -58,6 +58,7 @@
         </nav>
     </header>
     <div id="login-container">
+        <!--
         <div class="personal-image">
             <label class="label">
               <input type="file" />
@@ -69,6 +70,7 @@
               </figure>
             </label>
         </div>
+        -->
         <h1>Dados Pessoais</h1>
         <form action="/pagina-processa-dados-do-form" method="post">
             <label for="name">Nome</label>
@@ -77,51 +79,10 @@
             <input type="email" name="Email" id="inputEmail" placeholder="Email">
             <label for="inputEmail">Celular</label>
             <input type="tel" name="phoneNumber" id="phoneNumber">
-            <label for="msg">Descrição</label>
-            <textarea id="descricao"></textarea></textarea>
-
             <!-- Botão que irá abrir o modal -->
-            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#meuModal">Editar Perfil</button>
-            <input type="submit" value="Apagar Usuário" onclick="processaFormLogin(event)">
+            <input type="submit" value="Editar Perfil" onclick="editaLogin(event)">
+            <input type="submit" value="Apagar Usuário" onclick="apagaLogin(event)">
         </form>
-        <!-- Modal -->
-        <div id="meuModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <!-- Conteúdo do modal-->
-                <div class="modal-content">
-
-                    <h1>Olá, M@tchusuário!</h1>
-                    <!-- Cabeçalho do modal -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">Dados Pessoais</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <!-- Corpo do modal -->
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="nome" class="col-form-label"><strong>Nome:</strong></label>
-                            <input type="text" class="form-control" id="nome" size="20" maxlenght="30" placeholder=" Nome Completo" required>
-                        </div>
-                        <p></p>
-                        <div class="form-group">
-                            <label for="nome" class="col-form-label"><strong>E-mail:</strong></label>
-                            <input type="text" class="form-control" id="email" size="20" maxlenght="30" placeholder="E-mail" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="telefone" class="col-form-label"><strong>Celular:</strong></label>
-                            <input type="tel" name="phoneNumber" class="form-control" id="Número de Telefone" size="11" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DDD) + nº telefone" required>
-                        </div>
-                        <div class="form-group">
-                            <p><label for="msg"><strong>Descrição:</strong></label>
-                                <textarea name="tMsg" id="mensagem" cols="100" placeholder=" Aqui você pode descrever suas preferências literárias"></textarea></p>
-                        </div>
-                    </div>
-                    <div class="full-box" onclick="RealizeSalvar(event)">
-                        <input id="btn-submit" type="submit" value="Salvar alterações">
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <footer class="rodape" style="padding-top: 25px; padding-bottom: 5px; text-align: center;">
@@ -133,39 +94,105 @@
 </html>
 
 <script>
-    async function processaFormLogin(event) {
+
+    async function apagaLogin(event){
+        console.log("Função para apagar o formulário do perfil...")
+
+        let id = JSON.parse(localStorage.getItem("cache-user")).id;
+
+        console.log("Chamando a api para apagar o perfil......")
+
+        let baseURL = `http://localhost:32738/api/v1/deleta-usuario?idUsuario=${id}`;
+
+        fetch(baseURL, {
+            method: 'DELETE',
+            headers: {
+                'Access-Control-Allow-Methods': 'DELETE',
+                'Content-type': 'application/json; charset=UTF-8', // Indicates the content 
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+            }
+        }).then(res => {
+            alert('Usuário apagado com sucesso!');
+            window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html','/src/frontend/login/index.html')
+        }).catch(err => {
+            console.log("A resposta da API quebrou...")
+            console.log(err)
+        });
+    }
+
+
+    async function getDelete(res) {
+        console.log("Esperando o callback da API... ")
+
+        response = JSON.parse(await res.text());
+    }
+
+
+    async function editaLogin(event) {
         console.log("Função para processar o formulário do perfil...")
 
         event.preventDefault();
 
         var name = document.getElementById('name').value;
-        var username = document.getElementById('email').value;
-        var descricao = document.getElementById('descricao').value;
+        var username = document.getElementById('inputEmail').value;
+        var phoneNumber = document.getElementById('phoneNumber').value;
+
+        id = JSON.parse(localStorage.getItem("cache-user")).id;
+
         console.log("Obtem os dados de Nome, Email e Descrição a partir Dados Pessoais...")
 
         let perfil = {
+            id: "",
             nome: "",
             email: "",
-            descricao: "",
+            celular: "",
         }
 
+        perfil.id = id
         perfil.nome = name;
         perfil.email = username;
-        perfil.descricao = descricao;
+        perfil.celular = phoneNumber;
 
-        console.log("Chamando a api para verficar perfil...")
-        let response = {}
+        console.log("Chamando a api para verificar perfil...")
 
-        fetch("#", {
-            method: "POST",
+        let baseURL = 'http://localhost:32738/api/v1/atualiza-cadastro'
+
+        fetch(baseURL, {
+            method: "PATCH",
             headers: {
                 'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS, PATCH',
                 'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
                 'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
             },
-        })
-        body: JSON.stringify(perfil)
+            body: JSON.stringify(perfil)
+        }).then(res => {
+                this.getResponse(res);
+        }).catch(err => {
+            console.log("A resposta da API quebrou...")
+            console.log(err)
+        });
     }
+
+    async function getResponse(res) {
+            console.log("Esperando o callback da API... ")
+
+            response = JSON.parse(await res.text());
+
+            console.log(response)
+
+            if (response.status === true) {
+                alert('Usuário atualizado com sucesso!');
+                console.log(window.location.href);
+                window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html','/src/frontend/estante-lista/estantelivros.html')
+            } else { // Se login falhou, avisa ao usuário
+                alert('Erro na hora de atualizar!');
+            }
+
+        }
+
+
 </script>

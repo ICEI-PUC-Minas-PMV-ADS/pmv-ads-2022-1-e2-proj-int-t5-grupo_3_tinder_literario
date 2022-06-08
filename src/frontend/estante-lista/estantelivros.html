@@ -41,7 +41,7 @@
                                 Minha Conta
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../gerencialperfil/index.html">Gerenciar Perfil</a>
+                                <li><a class="dropdown-item" href="../gerenciarperfil/index.html">Gerenciar Perfil</a>
                                 </li>
                                 <li><a class="dropdown-item" href="gerListas.html">Gerenciar Lista</a></li>
                             </ul>
@@ -176,8 +176,11 @@
             getLivros(event);
         })
 
+
+        
         function adicionarSugeridos(){
             // FEAT: GUARDAR O LIVRO NO BANCO!!!
+            event.preventDefault();
 
             let livro = {
                 id: '',

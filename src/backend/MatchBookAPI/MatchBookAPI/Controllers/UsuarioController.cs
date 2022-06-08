@@ -159,10 +159,7 @@ namespace MatchBookAPI.Controllers
 
             try
             {
-                string query = @"
-                UPDATE Usuario SET nome = @nome, email = @email, celular = @celular
-                WHERE id = @id
-            ";
+                string query = @" UPDATE Usuario SET nome = @nome, email = @email, celular = @celular WHERE id = @id ";
 
                 DataTable table = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("DbConnection");
