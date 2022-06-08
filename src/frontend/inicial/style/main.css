@@ -96,6 +96,13 @@ body {
 .logo img{
         width: 105%;
        }
+#logo{
+    margin: 35px 0 0 0;
+    height: 10% ;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
 
 .text3{
     color: #E2A165;
@@ -111,5 +118,11 @@ body {
        }
        .logo img{
            text-align: center;
+       }
+       #logo{
+           width: 80%;
+           text-align: center;
+           margin-left: 15px;
+           cursor: pointer;
        }
 }
