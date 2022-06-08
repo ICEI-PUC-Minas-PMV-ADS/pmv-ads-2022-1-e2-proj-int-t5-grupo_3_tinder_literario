@@ -114,7 +114,7 @@
                         </div>
 
                         <div class="botaosalvarlista">
-                            <a href=""><button class="salvarlista" onclick="insercaoLista()">Salvar Lista</button></a>
+                            <a href=""><button class="salvarlista" onclick="insercaoLista(event)">Salvar Lista</button></a>
                         </div>
                     </div>
     </main>
@@ -336,14 +336,16 @@ $('.teste').slick({
         }
 
         async function respostaInsercaoLista(res) {
-            console.log("Esperando o callback da API... ")
+            console.log("Esperando o callback da API de INSERÇÃO LISTA... ")
             response = JSON.parse(await res.text());
             alert("Lista Criada com sucesso!")
             window.location.href = window.location.href.replace('/src/frontend/estante-lista/criarlista.html','/src/frontend/estante-lista/gerListas.html')
 
         }
 
-        async function insercaoLista() {
+        async function insercaoLista(event) {
+            event.preventDefault();
+
             let response = {
                 idUsuario: '',
                 descricao: '',
@@ -371,6 +373,7 @@ $('.teste').slick({
                 },
                 body: JSON.stringify(response)
             }).then(res => {
+                console.log('processando THEN...')
                 respostaInsercaoLista(res)
             }).catch(err => {
                 console.log("A resposta da API quebrou...")
