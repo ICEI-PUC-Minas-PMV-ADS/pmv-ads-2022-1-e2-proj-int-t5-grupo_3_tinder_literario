@@ -74,10 +74,17 @@ body {
 
 .btn1:hover{
     background-color: #AC663E;
+    border: 3px solid #E2A165;
+    transition: 0.3s;
+    font-size: larger;
+
 }
 
 .btn2:hover {
     background-color: #E2A165;
+    border: 3px solid #AC663E;
+    transition: 0.3s;
+    font-size: larger;
 }
 
 .logo{
