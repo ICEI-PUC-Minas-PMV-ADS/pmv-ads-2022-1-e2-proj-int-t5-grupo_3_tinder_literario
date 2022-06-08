@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="style/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl.theme.default.min.css">
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -41,8 +46,10 @@
                                 Minha Conta
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../gerenciarperfil/index.html">Gerenciar Perfil</a></li>
-                                <li><a class="dropdown-item" href="../estante-lista/gerListas.html">Gerenciar Lista</a></li>
+                                <li><a class="dropdown-item" href="../gerenciarperfil/index.html">Gerenciar Perfil</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../estante-lista/gerListas.html">Gerenciar Lista</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -68,55 +75,44 @@
 
         <div class="container">
             <div class="containerresponsivo">
-                <span class="nomelista">Nome Lista</span>               
-                <p class="descricaolista">espaço para descrição da lista</p>
+                <span class="nomelista">Nome Lista</span>
+                <p id="descricao" class="descricaolista">Espaço para descrição da lista</p>
                 <div class="conteudolista">
-                    espaço para exibir os livros da lista
+                    <div id="livros-carrousel" style="margin-top: 10px" class="teste"
+                        data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+
+                        <div id="carrocel-item-div-1"></div>
+
+                    </div>
                 </div>
                 <div class="controles">
-                <button class="btn2 btn-naocurti">
-                    <span class="btn-icone btn2--icone-naocurti">
-                        <span class="fa fa-book"></span>
-                    </span>
-                    <span class="btn-icone btn2--icone-naocurtido">
-                        <span class="fa fa-book"></span>
-                    </span>
-                    <span class="btn2-conteudo btn-conteudo--curtido">Pular</span>
-                </button>
+                    <button class="btn2 btn-naocurti">
+                        <span class="btn-icone btn2--icone-naocurti">
+                            <span class="fa fa-book"></span>
+                        </span>
+                        <span class="btn-icone btn2--icone-naocurtido">
+                            <span class="fa fa-book"></span>
+                        </span>
+                        <span class="btn2-conteudo btn-conteudo--curtido">Pular</span>
+                    </button>
 
-                <button class="btn btn-curtir">
-                    <span class="btn-icone btn--icone-curtir">
-                        <span class="fa fa-book"></span>
-                    </span>
-                    <span class="btn-icone btn--icone-curtido">
-                        <span class="fa fa-book"></span>
-                    </span>
-                    <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
-                    <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
-                </button>
-            </div>
-            </div>
-          </div>
-
-        <!--<div class="container">          
-            <div class="container">
-                
-                <div class="carrossellista">
-                    <!--<div class="owl-carousel owl-theme">
-                        <div class="item"><img src="img/lista2/livro1.jpeg" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro2.jpeg" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro3.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro4.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro5.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro6.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro7.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro8.PNG" alt=""></div>
-                    </div>-->
+                    <button class="btn btn-curtir">
+                        <span class="btn-icone btn--icone-curtir">
+                            <span class="fa fa-book"></span>
+                        </span>
+                        <span class="btn-icone btn--icone-curtido">
+                            <span class="fa fa-book"></span>
+                        </span>
+                        <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
+                        <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
+                    </button>
                 </div>
-
             </div>
         </div>
-            </div>
+
+        </div>
+        </div>
+        </div>
         </div>
     </main>
 
@@ -130,6 +126,65 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+    <script>
+
+//teste que não sei se ajuda em alguma coisa. Fiz fetch com outra api pra testar 
+
+fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(response => response.json())
+  .then(json => {
+      
+    let titulo = document.getElementsByClassName("nomelista");
+    let descricao = document.getElementsById ("descricao");
+    let div = document.getElementById("livros-carrousel");
+    div.innerText = JSON.stringify(json);
+
+   console.log(json)
+  
+})
+
+$('.teste').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+
+
 </body>
 
 </html>
