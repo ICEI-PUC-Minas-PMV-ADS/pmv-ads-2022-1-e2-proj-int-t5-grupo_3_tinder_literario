@@ -159,7 +159,35 @@ namespace MatchBookAPI.Controllers
 
             try
             {
-                string query = @" UPDATE Usuario SET nome = @nome, email = @email, celular = @celular WHERE id = @id ";
+                string query = @" UPDATE Usuario ";
+
+                if (usuarioModel.nome != "")
+                {
+                    query += " SET nome = @nome,";
+                }
+
+                if (usuarioModel.email != "")
+                {
+                    if (usuarioModel.nome == "")
+                    {
+                        query += " SET ";
+                    }
+                    query += " email = @email,";
+                }
+
+                if (usuarioModel.celular != "")
+                {
+                    if (usuarioModel.nome == "" && usuarioModel.email == "")
+                    {
+                        query += " SET ";
+                    }
+                    query += " celular = @celular,";
+                }
+
+                query = query.Substring(0, query.Length - 1);
+
+
+                query += " WHERE id = @id ";
 
                 DataTable table = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("DbConnection");
@@ -169,11 +197,22 @@ namespace MatchBookAPI.Controllers
                     myCon.Open();
                     using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
                     {
+                        if(usuarioModel.nome != "")
+                        {
+                            myCommand.Parameters.AddWithValue("@nome", usuarioModel.nome);
+                        }
+
+                        if (usuarioModel.email != "")
+                        {
+                            myCommand.Parameters.AddWithValue("@email", usuarioModel.email);
+                        }
+
+                        if (usuarioModel.celular != "")
+                        {
+                            myCommand.Parameters.AddWithValue("@celular", usuarioModel.celular);
+                        }
 
                         myCommand.Parameters.AddWithValue("@id", usuarioModel.id);
-                        myCommand.Parameters.AddWithValue("@nome", usuarioModel.nome);
-                        myCommand.Parameters.AddWithValue("@email", usuarioModel.email);
-                        myCommand.Parameters.AddWithValue("@celular", usuarioModel.celular);
 
                         myReader = myCommand.ExecuteReader();
                         table.Load(myReader);
@@ -184,8 +223,53 @@ namespace MatchBookAPI.Controllers
                     }
                 }
 
-                cadastroStatus = new CadastroStatus("Atualização feita com sucesso!", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true);
-                statusCode = 202;
+                query = "SELECT usr.id, usr.email, usr.senha, usr.nome, usr.celular FROM public.usuario usr ";
+
+                query += " WHERE usr.id = '" + usuarioModel.id + "'";
+
+                table = new DataTable();
+                sqlDataSource = _configuration.GetConnectionString("DbConnection");
+
+                using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
+                {
+                    myCon.Open();
+
+                    using (NpgsqlCommand myCommand = new NpgsqlCommand(query, myCon))
+                    {
+                        myReader = myCommand.ExecuteReader();
+                        table.Load(myReader);
+                        myReader.Close();
+                        myCon.Close();
+                    }
+                }
+
+
+                LoginSeacher findedLogin = new LoginSeacher();
+
+                for (int i = 0; i < table.Rows.Count; i++)
+                {
+                    findedLogin.id = table.Rows[i]["id"].ToString();
+                    findedLogin.email = table.Rows[i]["email"].ToString();
+                    findedLogin.senha = table.Rows[i]["senha"].ToString();
+                    findedLogin.nome = table.Rows[i]["nome"].ToString();
+                    findedLogin.celular = table.Rows[i]["celular"].ToString();
+                }
+
+                UserInfo userInfo = new UserInfo();
+                userInfo.id = findedLogin.id;
+                userInfo.email = findedLogin.email;
+                userInfo.nome = findedLogin.nome;
+                userInfo.celular = findedLogin.celular;
+                byte[] tempo = BitConverter.GetBytes(DateTime.UtcNow.ToBinary());
+                byte[] chave = Guid.NewGuid().ToByteArray();
+                string token = Convert.ToBase64String(tempo.Concat(chave).ToArray());
+                TokenAutenticacao tokenAutenticacao = new TokenAutenticacao(token, DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true, findedLogin.id);
+                tokenAutenticacao.userInfo = userInfo;
+
+                JsonResult res = new JsonResult(tokenAutenticacao);
+                res.StatusCode = statusCode;
+                return res;
+
             }
             catch (Exception ex)
             {
@@ -391,7 +475,7 @@ namespace MatchBookAPI.Controllers
         [HttpPost]
         public JsonResult verificarLogin(LoginSeacher searcher)
         {
-            string query = "SELECT usr.id, usr.email, usr.senha FROM public.usuario usr ";
+            string query = "SELECT usr.id, usr.email, usr.senha, usr.nome, usr.celular FROM public.usuario usr ";
 
             query += " WHERE usr.email = '" + searcher.email + "'";
 
@@ -420,11 +504,13 @@ namespace MatchBookAPI.Controllers
                 findedLogin.id = table.Rows[i]["id"].ToString();
                 findedLogin.email = table.Rows[i]["email"].ToString();
                 findedLogin.senha = table.Rows[i]["senha"].ToString();
+                findedLogin.nome = table.Rows[i]["nome"].ToString();
+                findedLogin.celular = table.Rows[i]["celular"].ToString();
             }
 
 
 
-             if (findedLogin.email == null)
+            if (findedLogin.email == null)
             {
                 TokenAutenticacao tokenAutenticacao = new TokenAutenticacao("", DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), false, "");
                 return new JsonResult(tokenAutenticacao);
@@ -432,13 +518,18 @@ namespace MatchBookAPI.Controllers
 
             if (BCrypt.Net.BCrypt.Verify(searcher.senha, findedLogin.senha))
             {
+                UserInfo userInfo = new UserInfo();
+                userInfo.id = findedLogin.id;
+                userInfo.email = findedLogin.email;
+                userInfo.nome = findedLogin.nome;
+                userInfo.celular = findedLogin.celular;
 
                 byte[] tempo = BitConverter.GetBytes(DateTime.UtcNow.ToBinary());
                 byte[] chave = Guid.NewGuid().ToByteArray();
                 string token = Convert.ToBase64String(tempo.Concat(chave).ToArray());
 
                 TokenAutenticacao tokenAutenticacao = new TokenAutenticacao(token, DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture), true, findedLogin.id);
-
+                tokenAutenticacao.userInfo = userInfo;
                 return new JsonResult(tokenAutenticacao);
             }
             else
@@ -447,10 +538,6 @@ namespace MatchBookAPI.Controllers
 
                 return new JsonResult(tokenAutenticacao);
             }
-
-
-
-            return new JsonResult(table);
 
         }
 

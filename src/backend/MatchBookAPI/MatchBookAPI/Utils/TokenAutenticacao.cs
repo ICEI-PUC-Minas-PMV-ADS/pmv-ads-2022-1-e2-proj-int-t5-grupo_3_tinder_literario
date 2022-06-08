@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MatchBookAPI.Utils;
+using System;
 
 namespace MatchBookAPI.Seachers
 {
@@ -10,6 +11,8 @@ namespace MatchBookAPI.Seachers
         public string id { get; set; }
 
         public bool status { get; set; }    
+
+        public UserInfo userInfo { get; set; }
         public TokenAutenticacao(String _token, string _horarioCriacao, bool _status, string _id)
         {
             this.token = _token;

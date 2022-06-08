@@ -71,15 +71,24 @@
             </label>
         </div>
         -->
-        <h1>Dados Pessoais</h1>
+        <h1>Gerenciar Perfil</h1>
         <form action="/pagina-processa-dados-do-form" method="post">
+
+            <label for="name">Nome Cadastrado </label>
+            <input type="text" name="Nome-cadastrado" id="Nome-cadastrado" placeholder="" autocomplete="off" disabled>
+            <label for="inputEmail">Email Cadastrado</label>
+            <input type="email" name="Email-cadastrado" id="inputEmail-cadastrado" placeholder="" disabled>
+            <label for="inputEmail">Celular Cadastrado</label>
+            <input type="tel" name="phoneNumber-cadastrado" id="phoneNumber-cadastrado" disabled>
+
             <label for="name">Nome</label>
             <input type="text" name="Nome" id="name" placeholder="Nome" autocomplete="off">
             <label for="inputEmail">Email</label>
             <input type="email" name="Email" id="inputEmail" placeholder="Email">
             <label for="inputEmail">Celular</label>
-            <input type="tel" name="phoneNumber" id="phoneNumber">
+            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Celular">
             <!-- Botão que irá abrir o modal -->
+
             <input type="submit" value="Editar Perfil" onclick="editaLogin(event)">
             <input type="submit" value="Apagar Usuário" onclick="apagaLogin(event)">
         </form>
@@ -94,6 +103,18 @@
 </html>
 
 <script>
+    $(document).ready(function () {
+        console.log("A tela carregou!")
+        getUserInfo(event);
+    })
+    
+    function getUserInfo(event){
+        let item = JSON.parse(localStorage.getItem("cache-login-user")).userInfo;
+        document.getElementById("Nome-cadastrado").value = item.nome
+        document.getElementById("inputEmail-cadastrado").value = item.email
+        document.getElementById("phoneNumber-cadastrado").value = item.celular
+    }
+
 
     async function apagaLogin(event){
         console.log("Função para apagar o formulário do perfil...")
@@ -182,11 +203,9 @@
 
             response = JSON.parse(await res.text());
 
-            console.log(response)
-
             if (response.status === true) {
                 alert('Usuário atualizado com sucesso!');
-                console.log(window.location.href);
+                localStorage.setItem('cache-login-user', JSON.stringify(response));
                 window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html','/src/frontend/estante-lista/estantelivros.html')
             } else { // Se login falhou, avisa ao usuário
                 alert('Erro na hora de atualizar!');
