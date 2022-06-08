@@ -23,7 +23,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a href="../estante-lista/estantelivros.html"><img src="img/imgs/icones/logomatchbook.png" id="logo" alt="Logo do Matchbook">
+                <a href="../estante-lista/estantelivros.html"><img src="img/imgs/icones/logomatchbook.png" id="logo"
+                        alt="Logo do Matchbook">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -39,7 +40,8 @@
                                 Minha Conta
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../gerenciarperfil/index.html">Gerenciar Perfil</a></li>
+                                <li><a class="dropdown-item" href="../gerenciarperfil/index.html">Gerenciar Perfil</a>
+                                </li>
                                 <li><a class="dropdown-item" href="gerListas.html">Gerenciar Lista</a></li>
                             </ul>
                         </li>
@@ -68,43 +70,24 @@
                 <span>Minhas Listas</span>
             </div>
             <div class="boatocriarlista">
-                <a href="criarlista.html"><button class="criarlista">Criar nova
-                        lista</button></a>
+                <a href="criarlista.html"><button class="criarlista">Criar nova lista</button></a>
             </div>
-            <div class="listasSalvas">
-                <span class="nomelista">Nome Lista</span><button class="editarlista">Editar</button>
-                <p class="descricaolista">espaço para descrição da lista</p>
+
+            <div id="id-lista" class="id-lista">
+                 <!--
+                    <button class="editarlista">Editar</button>
+                    
+                
+    
+                <span class="nomelista">Nome Lista</span><a href="criarlista.html"><button
+                        class="editarlista">Editar</button></a>
                 <div class="carrossellista">
-                    <!--<div class="owl-carousel owl-theme">
-                        <div class="item"><img src="img/lista2/livro1.jpeg" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro2.jpeg" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro3.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro4.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro5.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro6.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro7.PNG" alt=""></div>
-                        <div class="item"><img src="img/lista2/livro8.PNG" alt=""></div>
-                    </div>-->
+                    <p class="descricaolista">espaço para descrição da lista</p>
                 </div>
+             -->
 
             </div>
 
-            <span class="nomelista">Nome Lista</span><a href="criarlista.html"><button class="editarlista">Editar</button></a>
-            <div class="carrossellista">
-                <p class="descricaolista">espaço para descrição da lista</p>
-                <!--<div class="owl-carousel owl-theme">
-                    <div class="item"><img src="img/lista3/livro1.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro2.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro3.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro4.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro5.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro6.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro7.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro8.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro9.PNG" alt=""></div>
-                    <div class="item"><img src="img/lista3/livro10.PNG" alt=""></div>
-                </div> -->
-            </div>
         </div>
     </main>
 
@@ -117,6 +100,102 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function () {
+            console.log("A tela carregou!")
+            getLivros(event);
+        })
+
+        async function getLivros(event) {
+            console.log("Função para processar o GET de Livros.")
+
+            let response = {}
+            let cache = JSON.parse(localStorage.getItem("cache-user"));
+            console.log("Chamando a api para buscar os livros..")
+
+
+            fetch(`http://localhost:32738/api/v1/minha-lista?idUsuario=${cache.id}`, {
+                method: "GET",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
+                    'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                },
+            }).then(res => {
+                this.getResponse(res);
+            }).catch(err => {
+                console.log("A resposta da API quebrou...")
+                console.log(err)
+            });
+        }
+
+        function createDiv(list) {
+            let i = 1;
+            let principalDiv = document.getElementById('id-lista')
+            
+            while (i <= list.length) {
+                let div = document.createElement("div")
+                div.className = "row"
+                div.style = "display: flex"
+                div.id = "listasSalvas-" + i;
+                principalDiv.appendChild(div);
+                i++;
+            }
+        }
+
+        async function getResponse(res) {
+            console.log("Esperando o callback da API... ")
+
+            response = JSON.parse(await res.text());
+            createDiv(response);
+            let i = 1
+
+            for (let lista of response) {
+                let principalDiv = document.getElementById('listasSalvas-' + i)
+
+                let primaryDiv = document.createElement("div")
+                primaryDiv.id = "listasSalvas-primary-div" + i;
+                principalDiv.appendChild(primaryDiv);
+
+                let span = document.createElement("SPAN");
+                span.id = "listasSalvas-SPAN-" + i;
+                span.className = "nomelista"
+                let spanTexto = document.createTextNode(lista.nome);
+                span.className = "descricaolista"
+                span.appendChild(spanTexto);
+                principalDiv.appendChild(span);
+
+                let paragrafo = document.createElement("p");
+                paragrafo.id = "listasSalvas-paragrafo-" + i;
+                paragrafo.className = "descricaolista";
+                let paragrafoTexto = document.createTextNode(lista.descricao);
+                paragrafo.appendChild(paragrafoTexto)
+                principalDiv.appendChild(paragrafo);
+
+                let divAux = document.createElement("div")
+                divAux.className = "row"
+                divAux.style = "display: flex"
+                divAux.id = "listasSalvas-divAux-" + i;
+
+                for(let livro of lista.livroList){
+                    let imageTag = document.createElement('img')
+                    imageTag.src = livro.img_link
+                    imageTag.style = "margin-bottom: 10px;"
+                    imageTag.style = "width: 240px; margin-right: 10px; margin-bottom: 10px;"
+                    principalDiv.appendChild(imageTag)
+                    principalDiv.style = 'margin-bottom: 10px'
+                }
+
+                i++;
+            }
+
+        }
+
+
+
+    </script>
 </body>
 
 </html>

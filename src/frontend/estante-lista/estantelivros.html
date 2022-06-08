@@ -101,6 +101,12 @@
                                 </div>
                                 <div class="modal-body">
                                     <div>
+                                        <span class="id">Id: </span>
+                                        <p id="modal-id">
+                                            
+                                        </p>
+                                    </div>
+                                    <div>
                                         <span class="subtitulomodal">Autor: </span>
                                         <p id="modal-autor">
                                             
@@ -174,6 +180,7 @@
             // FEAT: GUARDAR O LIVRO NO BANCO!!!
 
             let livro = {
+                id: '',
                 titulo: '',
                 autor: '',
                 ano_publicacao: '',
@@ -184,6 +191,7 @@
                 img_link: ''
             }
 
+            livro.id = document.getElementById('modal-id').textContent
             livro.titulo = document.getElementById('TituloModalCentralizado').textContent
             livro.autor = document.getElementById('modal-autor').textContent
             livro.ano_publicacao = document.getElementById('modal-ano-publicacao').textContent
@@ -322,6 +330,7 @@
 
                 imageTag.addEventListener('click', function (){
                     document.getElementById('TituloModalCentralizado').textContent = livro.titulo
+                    document.getElementById('modal-id').textContent = livro.id
                     document.getElementById('modal-autor').textContent = livro.autor
                     document.getElementById('modal-ano-publicacao').textContent = livro.ano_publicacao
                     document.getElementById('modal-edicao').textContent = livro.edicao
