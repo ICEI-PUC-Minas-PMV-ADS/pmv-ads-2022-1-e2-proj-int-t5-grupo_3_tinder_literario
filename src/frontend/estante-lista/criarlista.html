@@ -360,7 +360,7 @@ $('.teste').slick({
             response.livroList = listaAdicionadas
 
             console.log(response)
-            let baseURL = "http://localhost:32738"
+            let baseURL = "https://matchbookapi.herokuapp.com"
 
             fetch(baseURL + "/api/v1/criar-lista", {
                 method: "POST",

@@ -103,7 +103,7 @@
             console.log("Chamando a api para buscar os livros..")
 
 
-            fetch(`http://localhost:32738/api/v1/minha-lista?idUsuario=${cache.id}`, {
+            fetch(`https://matchbookapi.herokuapp.com/api/v1/minha-lista?idUsuario=${cache.id}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',

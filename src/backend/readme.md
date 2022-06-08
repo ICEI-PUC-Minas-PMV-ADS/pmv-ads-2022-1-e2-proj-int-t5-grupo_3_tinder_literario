@@ -16,6 +16,10 @@ docker run -d -p 8080:80 --name matchbookapi matchbookapi
 - Conecta ao Heroku 
 heroku container: login
 
+- Conecta ao registry do docker
+docker login --username=seu_usuario registry.heroku.com
+heroku auth:token
+
 - Empurra para do compose para o heroku
 heroku container:push web -a matchbookapi
 
