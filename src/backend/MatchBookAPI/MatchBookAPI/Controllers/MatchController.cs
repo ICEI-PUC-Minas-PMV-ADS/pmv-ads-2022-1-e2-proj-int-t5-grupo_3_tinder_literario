@@ -1,9 +1,11 @@
-﻿using MatchBookAPI.Utils;
+﻿using MatchBookAPI.Seachers;
+using MatchBookAPI.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System;
 using System.Data;
+using System.Globalization;
 
 namespace MatchBookAPI.Controllers
 {
@@ -23,6 +25,8 @@ namespace MatchBookAPI.Controllers
         public JsonResult CriarMatch([FromBody] MatchForm matchForm)
         {
             int statusCode = 0;
+            Mensagem mensagens = new Mensagem();
+            mensagens.status = false;
 
             try
             {
@@ -52,7 +56,7 @@ namespace MatchBookAPI.Controllers
 
                     }
                 }
-
+                mensagens.status = true;
                 statusCode = 202;
             }
             catch (Exception ex)
@@ -61,7 +65,12 @@ namespace MatchBookAPI.Controllers
                 statusCode = 500;
             }
 
-            JsonResult response = new JsonResult("{}");
+            Guid newUuid = Guid.NewGuid();
+
+            mensagens.horarioCriacao = DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture);
+            mensagens.id = newUuid.ToString();
+
+            JsonResult response = new JsonResult(mensagens);
             response.StatusCode = statusCode;
             return response;
         }

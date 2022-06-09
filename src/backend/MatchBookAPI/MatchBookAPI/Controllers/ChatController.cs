@@ -1,4 +1,5 @@
 ﻿using MatchBookAPI.DTO;
+using MatchBookAPI.Seachers;
 using MatchBookAPI.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +29,8 @@ namespace MatchBookAPI.Controllers
         {
             int statusCode = 0;
 
+            Mensagem mensagens = new Mensagem();
+            mensagens.status = false;
             try
             {
                 string query = @"insert into historico_chat (id, destinatario, remetente, horario_criacao, msg) values (@id, @destinatario, @remetente, CAST(@horario_criacao AS TIMESTAMP), @msg ) ";
@@ -35,6 +38,7 @@ namespace MatchBookAPI.Controllers
                 DataTable table = new DataTable();
                 string sqlDataSource = _configuration.GetConnectionString("DbConnection");
                 NpgsqlDataReader myReader;
+
                 using (NpgsqlConnection myCon = new NpgsqlConnection(sqlDataSource))
                 {
                     myCon.Open();
@@ -57,7 +61,7 @@ namespace MatchBookAPI.Controllers
 
                     }
                 }
-
+                mensagens.status = true;
                 statusCode = 202;
             }
             catch (Exception ex)
@@ -65,8 +69,12 @@ namespace MatchBookAPI.Controllers
                 Console.WriteLine(ex.Message);
                 statusCode = 500;
             }
+            Guid newUuid = Guid.NewGuid();
 
-            JsonResult response = new JsonResult("{}");
+            mensagens.horarioCriacao = DateTime.UtcNow.AddHours(-3).ToString("yyyy-MM-dd HH:mm:ss.fffffff", CultureInfo.InvariantCulture);
+            mensagens.id = newUuid.ToString();
+
+            JsonResult response = new JsonResult(mensagens);
             response.StatusCode = statusCode;
             return response;
         }

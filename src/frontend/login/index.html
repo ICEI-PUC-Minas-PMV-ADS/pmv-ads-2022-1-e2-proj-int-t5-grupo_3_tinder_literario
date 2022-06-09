@@ -204,6 +204,7 @@ async function getResponse(res){
 
     if (response.status) {
         alert('Usuário logado com sucesso!');
+        localStorage.clear();
         localStorage.setItem('cache-login-user', JSON.stringify(response));
         console.log(window.location.href)
         window.location.href = window.location.href.replace('/src/frontend/login/index.html','/src/frontend/estante-lista/estantelivros.html')
