@@ -69,7 +69,7 @@ $(document).ready(function () {
 
 
 async function getUser(event){
-    let user = JSON.parse(localStorage.getItem("cache-user"));
+    let user = JSON.parse(localStorage.getItem("cache-login-user"));
     document.querySelector('#email').value = user.email
     
 }
@@ -92,7 +92,7 @@ async function RealizeRegistry(event) {
         senha: "",
     };
 
-    let cachedUser = JSON.parse(localStorage.getItem("cache-user"));
+    let cachedUser = JSON.parse(localStorage.getItem("cache-login-user"));
 
 
     try {

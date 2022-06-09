@@ -178,13 +178,13 @@ namespace MatchBookAPI.Controllers
         public List<object> findSorted([FromQuery(Name = "idUsuario")] string idUsuario)
         {
 
-            String query = "SELECT lv.id, lv.id_usuario, lv.nome, lv.data_criacao, lv.data_atualizacao, '[' || STRING_AGG( '{' || '\"id\":\"' || li.id || '\",' || '\"titulo\":\"' || li.titulo || '\",' || '\"autor\":\"' || li.autor || '\",' || '\"ano_publicacao\":\"' || li.ano_publicacao || '\",' || '\"sinopse\":\"' || REPLACE(li.sinopse, '\"', '') || '\",' || '\"edicao\":\"' || li.edicao || '\",' || '\"editora\":\"' || li.editora || '\",' || '\"isbn\":\"' || li.isbn || '\",' || '\"img_link\":\"' || li.img_link || '\",' || '\"categoria\":\"' || li.categoria || '\"' || '}',',' ) || ']' as livro_list  FROM public.lista lv  LEFT JOIN livro_lista ll on ll.id_lista = lv.id LEFT JOIN public.livro li on ll.id_livro = li.id WHERE 1=1 ";
+            String query = "SELECT lv.id, lv.id_usuario, lv.nome, lv.data_criacao, lv.data_atualizacao, lv.descricao, '[' || STRING_AGG( '{' || '\"id\":\"' || li.id || '\",' || '\"titulo\":\"' || li.titulo || '\",' || '\"autor\":\"' || li.autor || '\",' || '\"ano_publicacao\":\"' || li.ano_publicacao || '\",' || '\"sinopse\":\"' || REPLACE(li.sinopse, '\"', '') || '\",' || '\"edicao\":\"' || li.edicao || '\",' || '\"editora\":\"' || li.editora || '\",' || '\"isbn\":\"' || li.isbn || '\",' || '\"img_link\":\"' || li.img_link || '\",' || '\"categoria\":\"' || li.categoria || '\"' || '}',',' ) || ']' as livro_list  FROM public.lista lv  LEFT JOIN livro_lista ll on ll.id_lista = lv.id LEFT JOIN public.livro li on ll.id_livro = li.id WHERE 1=1 ";
             if (idUsuario != null)
             {
                 query += " AND lv.id_usuario NOT IN ('" + idUsuario + "') ";
             }
 
-            query += " GROUP BY 1,2,3,4,5";
+            query += " GROUP BY 1,2,3,4,5,6";
             query += " ORDER BY 4 DESC,1 DESC";
 
             DataTable table = new DataTable();
@@ -217,6 +217,9 @@ namespace MatchBookAPI.Controllers
                 list.dataCriacao = dr["data_criacao"].ToString();
                 list.dataAtualizacao = dr["data_atualizacao"].ToString();
                 list.idUsuario = dr["id_usuario"].ToString();
+                list.nome = dr["nome"].ToString();
+                list.descricao = dr["descricao"].ToString();
+                list.id = dr["id"].ToString();
 
                 List<Livro> livro = JsonConvert.DeserializeObject<List<Livro>>(dr["livro_list"].ToString());
                 list.livroList = livro;

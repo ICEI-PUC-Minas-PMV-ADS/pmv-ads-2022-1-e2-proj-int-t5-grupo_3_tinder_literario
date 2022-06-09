@@ -158,7 +158,7 @@
     async function apagaLogin(event){
         console.log("Função para apagar o formulário do perfil...")
 
-        let id = JSON.parse(localStorage.getItem("cache-user")).id;
+        let id = JSON.parse(localStorage.getItem("cache-login-user")).id;
 
         console.log("Chamando a api para apagar o perfil......")
 
@@ -199,7 +199,7 @@
         var username = document.getElementById('inputEmail').value;
         var phoneNumber = document.getElementById('phoneNumber').value;
 
-        id = JSON.parse(localStorage.getItem("cache-user")).id;
+        id = JSON.parse(localStorage.getItem("cache-login-user")).id;
 
         console.log("Obtem os dados de Nome, Email e Descrição a partir Dados Pessoais...")
 
