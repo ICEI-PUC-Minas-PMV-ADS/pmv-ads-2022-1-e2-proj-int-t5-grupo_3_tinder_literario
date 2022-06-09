@@ -86,7 +86,7 @@
             response = JSON.parse(await res.text());
 
             if (response.existente) {
-                localStorage.setItem('cache-user', JSON.stringify(response));
+                localStorage.setItem('cache-login-user', JSON.stringify(response));
                 console.log(window.location.href)
                 window.location.href = window.location.href.replace('/src/frontend/recuperar-senha/index.html', '/src/frontend/cadastro-nova-senha/index.html')
             } else {

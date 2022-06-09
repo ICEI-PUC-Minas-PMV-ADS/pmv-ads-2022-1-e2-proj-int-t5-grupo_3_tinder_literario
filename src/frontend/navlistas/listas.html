@@ -172,7 +172,7 @@
                 idUsuarioRemetente: ""
             }
 
-            let cache = JSON.parse(localStorage.getItem("cache-user"));
+            let cache = JSON.parse(localStorage.getItem("cache-login-user"));
 
             matchForm.idUsuarioRemetente = cache.id;
             matchForm.idUsuarioDestinatario = listaExibida.idUsuario
@@ -220,7 +220,7 @@
                 remetente: ""
             }
 
-            let cache = JSON.parse(localStorage.getItem("cache-user"));
+            let cache = JSON.parse(localStorage.getItem("cache-login-user"));
 
             mensagemAvulsa.remetente = cache.id;
             mensagemAvulsa.destinatario = listaExibida.idUsuario
@@ -277,7 +277,7 @@
             console.log("Função para processar o GET de Livros.")
 
             let response = {}
-            let cache = JSON.parse(localStorage.getItem("cache-user"));
+            let cache = JSON.parse(localStorage.getItem("cache-login-user"));
             console.log("Chamando a api para buscar os livros..")
 
 
