@@ -310,7 +310,6 @@ body {
 
 .container__chat .right .write .write-link.attach:before {
     display: inline-block;
-    float: left;
     width: 20px;
     height: 42px;
     content: '';
@@ -318,7 +317,6 @@ body {
 
 .container__chat .right .write .write-link.smiley:before {
     display: inline-block;
-    float: left;
     width: 20px;
     height: 42px;
     content: '';
@@ -326,7 +324,6 @@ body {
 
 .container__chat .right .write .write-link.send:before {
     display: inline-block;
-    float: left;
     width: 20px;
     height: 42px;
     margin-left: 11px;
