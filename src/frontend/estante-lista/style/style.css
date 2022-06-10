@@ -74,6 +74,12 @@ body {
 
 /*Criar Lista*/
 
+#id-lista {
+    color: #AC663E;
+}
+
+
+
 
 #nomelista, #descricaolista, #caixabusca {
     max-width: 500px;
