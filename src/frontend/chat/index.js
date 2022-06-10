@@ -29,3 +29,12 @@ function setAciveChat(f) {
   friends.name = f.querySelector('.name').innerText
   chat.name.innerHTML = friends.name
 }
+
+fetch('https://matchbookapi.herokuapp.com/api/v1/envia-mensagems', {
+  method: "POST",
+  body: JSON.stringify(mensagem),
+  headers: {"Content-type": "application/json; charset=UTF-8"}
+})
+.then(response => response.json())
+.then(json => console.log(json))
+.catch(err => console.log(err));
