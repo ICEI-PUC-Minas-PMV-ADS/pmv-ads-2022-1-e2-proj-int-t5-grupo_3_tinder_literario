@@ -7,14 +7,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 | Requisito  | Artefato |
 |-----------------------------------------|----|
 | A aplicação  deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. | homepage.html | 
-| A aplicação deve ter um chat para conversação para os usuários interagirem entre si. | em desenvolvimento |
+| A aplicação deve ter um chat para conversação para os usuários interagirem entre si. | index.html |
 | A aplicação  deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros. | estantelivros.html |
-| A aplicação  deve possuir a opção de não mostrar todos os dados do usuário. | em desenvolvimento |
 | A aplicação  deve possuir opção de fazer login, sendo o login endereço de e-mail. | homepage.html |
-| A página web  deve possuir as opções de inserir listas de livros e de salvá-las. | em desenvolvimento |
-| A aplicação  deve permitir mostrar uma parte do perfil de outros usuários para facilitar o encontro de listas de livros. | em desenvolvimento |
-| A aplicação  deverá permitir buscar livros previamente cadastrados na base de dados. | em desenvolvimento |
-| A aplicação  deve permitir a função _match_ quando um usuário se identificou com outro usuário. | em desenvolvimento |
-| A aplicação  deve permitir que usuários façam comentários sobre os livros.	 |em desenvolvimento  |
-| A aplicação  deve listar e reunir os livros com mais _matches_. | em desenvolvimento |
-| A aplicação  deve permitir que o login seja efetuado com a conta Google e com o Facebook. | homepage.html |
+| A página web  deve possuir as opções de inserir listas de livros e de salvá-las. | criarlista.html |
+| A aplicação  deverá permitir buscar livros previamente cadastrados na base de dados. | estantelivros.html |
+| A aplicação  deve permitir a função _match_ quando um usuário se identificou com outro usuário. | gerListas.html |
