@@ -48,31 +48,38 @@ Abaixo estão representadas as principais telas desenvolvidas, em suas versões 
 
 Ao acessar a aplicação, o usuário inicialmente visualiza a página de boas-vindas que contém um pequeno texto de saudação e as opções de entrar ou criar conta.
 
-<img src="img/Wireframe/desktop/paginainicial.png" width="50%"/> <img src="img/Wireframe/celular/Paginainicial.png" width="15%"/>
+<img src="img/Wireframe/Tela inicial.PNG" width="50%"/> <img src="img/Wireframe/tela inicial mobile.PNG" width="15%"/>
 
-### Entrar
+### Cadastro 
 
-Na tela entrar, estão as opções de login via google, facebook, ou email pré-cadastrado.
+Para realizar o primeiro acesso na aplicação, o usuário precisa efetuar o cadastro com seus dados pessoais.
 
-<img src="img/Wireframe/desktop/Entrar.png" width="50%"/> <img src="img/Wireframe/celular/Entrar.png" width="15%"/>
+<img src="img/Wireframe/cadastro desktop.PNG" width="50%"/> <img src="img/Wireframe/tela cadastro mobile.PNG" width="15%"/>
 
-### Livros disponíveis
+### Políticas de Privacidade 
 
-Após a confirmação das credenciais, o usuário é direcionado até a página de livros disponíveis, onde pode visualizar as capas dos livros disponiveis e buscar pelos de sua preferência.
+Para acessar o site é preciso concordar com as políticas determinadas.
 
-<img src="img/Wireframe/desktop/Buscar livros.png" width="50%"/> <img src="img/Wireframe/celular/livros.png" width="15%"/>
+<img src="img/Wireframe/política de privacidade.PNG" width="50%"/> <img src="img/Wireframe/politica mobile.PNG" width="15%"/>
+
+
+### Login
+
+Na tela login é possivel acessar a aplicação com um email pré-cadastrado.
+
+<img src="img/Wireframe/login.PNG" width="50%"/> <img src="img/Wireframe/login mobile.PNG" width="15%"/>
+
+### Estante Livros
+
+Após a confirmação das credenciais, o usuário é direcionado até a página de livros disponíveis, onde pode visualizar as capas dos livros disponiveis, ver detalhes sobre eles e buscar pelos de sua preferência.
+
+<img src="img/Wireframe/estante livros.PNG" width="50%"/> <img src="img/Wireframe/estante livros mobile.PNG" width="15%"/>
 
 ### Detalhes do livro
 
-Ao clicar em alguma das capas, o usuário poderá ler mais detalhes e informações sobre o livro, comentar, ler comentários de outros leitores e adicionar algum título a uma lista pessoal pré existente. 
+Ao clicar em alguma das capas, o usuário poderá ler mais detalhes e informações sobre o livro e adicionar a uma lista de favoritos que poderá ser usada para a criação de uma nova lista. 
 
-<img src="img/Wireframe/desktop/Detalhes Livro.png" width="50%"/> <img src="img/Wireframe/celular/Detalhes Livro.png" width="15%"/>
-
-### Menu de navegação
-
-O usuário pode navegar pelo site por meio de um menu com opções.
-
-<img src="img/Wireframe/desktop/Menu Perfil.png" width="50%"/> <img src="img/Wireframe/celular/Menu 1Perfil.png" width="15%"/>
+<img src="img/Wireframe/detalhes livros.PNG" width="50%"/> <img src="img/Wireframe/detalhes mobile.PNG" width="15%"/>
 
 ### Minha Conta
 
@@ -82,28 +89,31 @@ Nessa aba, o usuario pode alterar as informações presentes na aplicação que 
 
 Aqui, é possível alterar os dados pessoais.
 
-<img src="img/Wireframe/desktop/Editar Perfil.png" width="50%"/> <img src="img/Wireframe/celular/Editar Perfil.png" width="15%"/>
+<img src="img/Wireframe/gerenciar perfil.PNG" width="50%"/> <img src="img/Wireframe/gerenciar perfil mobile.PNG" width="15%"/>
+
+<img src="img/Wireframe/editar perfil.PNG" width="50%"/> <img src="img/Wireframe/editar perfil mobile.PNG" width="15%"/>
 
 #### Gerenciar Listas
 
 Aqui, é possível visualizar e editar as listas literárias criadas previamente, ou criar novas.
 
-<img src="img/Wireframe/desktop/Editar Listas.png" width="50%"/> <img src="img/Wireframe/celular/Lista.png" width="15%"/>
+<img src="img/Wireframe/minhas listas.PNG" width="50%"/> <img src="img/Wireframe/minhas listas mobile.PNG" width="15%"/>
 
-#### Criar/Editar Listas
+#### Criar Listas
 
-Aqui, é possível fazer alterações nas listas.
+Aqui, é possível criar listas com nome e descrição.
 
-<img src="img/Wireframe/desktop/Criar Lista.png" width="50%"/> <img src="img/Wireframe/celular/Criar ista.png" width="15%"/>
+<img src="img/Wireframe/criar lista.PNG" width="50%"/> <img src="img/Wireframe/criar lista mobile.PNG" width="15%"/>
+
 
 ### Listas 
 
-Na página de listas, é possível visualizar as listas de outros usuários, podendo não curtir (clicando no livro vermelho) e visualizar uma nova lista, ou curtir (clicando no verde). Caso o dono da lista curtida, também curta uma lista sua, o chat entre os usuários ficará disponível.
+Na página de listas, é possível visualizar as listas de outros usuários, podendo pular para visualizar uma nova lista, ou curtir caso queira conversar com o dono da lista.
 
-<img src="img/Wireframe/desktop/Lista x.png" width="50%"/> <img src="img/Wireframe/celular/Lista x.png" width="15%"/>
+<img src="img/Wireframe/listasmatch.PNG" width="50%"/> <img src="img/Wireframe/listas match mobile.PNG" width="15%"/>
 
 ### Chat
 
-Aqui os usuários que possuem gostos literários compatíveis podem interagir entre si.
+Aqui os usuários que possuem gostos literários compatíveis podem interagir entre si por meio de uma api whatsapp.
 
-<img src="img/Wireframe/desktop/Chat.png" width="50%"/> <img src="img/Wireframe/celular/Chat.png" width="15%"/> <img src="img/Wireframe/celular/Chat 2.png" width="15%"/>
+<img src="img/Wireframe/chat.PNG" width="50%"/> <img src="img/Wireframe/chat mobile.PNG" width="15%"/> <img src="img/Wireframe/whatsapp.PNG" width="50%"/>
