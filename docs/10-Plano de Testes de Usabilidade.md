@@ -86,76 +86,66 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | **Objetivo do Teste** 	| Avaliar a tela de cadastro de novo usuário 	|
 | **Ações necessárias** 	| 1. Acessar a primeira tela do site pelo browser;<br>2. Clicar na opção “Criar Conta”;<br>3. Preencher os campos necessários do formulário;<br>4. Navegar pelo fluxo de cadastro seguindo os passos orientados na tela e clicar em “Salvar". 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-02 – Cadastro/Login de usuário através de Login Social** 	|
-| **Perfil** 	| Usuário (todos)	|
-| **Objetivo do Teste** 	| Avaliar a tela de cadastro/login de novo usuário utilizando Login Social (contas Google ou Facebook) 	|
-| **Ações necessárias** 	| 1. Acessar a primeira tela do site pelo browser, conforme CTU-01;<br>2. Clicar na opção Entrar com conta Google. 	|
-|  	|  	|
-| **Caso de Teste** 	| **CTU-03 – Login de usuário** 	|
+| **Caso de Teste** 	| **CTU-02 – Login de usuário** 	|
 | **Perfil** 	| Usuário (todos) 	|
 | **Objetivo do Teste** 	| Avaliar a usabilidade da tela de Login 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página de login;<br>4. Preencher e-mail no campo indicado;<br>5. Preencher senha no campo indicado;<br>6. Clicar em ‘Entrar’. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-04 – Editar informações de perfil** 	|
+| **Caso de Teste** 	| **CTU-03 – Editar informações de perfil** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Analisar a função de edição e alteração de informações 	|
 | **Ações necessárias** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Abrir o campo de “Minha Conta”;<br>5. Selecionar a opção "Editar Perfil";<br>6. Realizar as alterações desejadas clicando em cima do campo, deletando e adicionando a nova informação;<br>7. Clicar em salvar 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-05 – Tela Funcionalidades - Gerenciar Listas**| --- | --- | --- | --- | Em desenvolvimento |** 	|
+| **Caso de Teste** 	| **CTU-04 – Tela Funcionalidades - Gerenciar Listas**|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a tela de funcionalidades do usuário 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Preencher o e-mail e a senha ou login Social;<br>6. Verificar a página principal do perfil em Minha Conta. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-06 – Tela Funcionalidades + Exibição dos livros existentes na aplicação** 	|
+| **Caso de Teste** 	| **CTU-05 – Tela Funcionalidades + Exibição dos livros existentes na aplicação** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a tela de exibição dos livros 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Verificar se a página exibe uma lista de livros preeexistente. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-07 – Criação de lista de livros** 	|
+| **Caso de Teste** 	| **CTU-06 – Criação de lista de livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a funcionalidade de criação de lista de livros 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, acesse Minha Conta;<br>6. Clicar no botão “Gerenciar Listas”;<br>7. Clicar em "Criar nova lista"; <br>8. Nomear a lista de livros criada;<br>8. Clicar no botão ‘Salvar lista’. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-08 – Pesquisa/Busca de livros** 	|
+| **Caso de Teste** 	| **CTU-07 – Pesquisa/Busca de livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Buscar/pesquisar livros na lista preexistente 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, clicar no botão “Livros”;<br>6. Na tela de Buscar Livros, pesquise o título, autor desejado. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-09 – Cadastro de livros na lista selecionando livros na lista preexitente** 	|
+| **Caso de Teste** 	| **CTU-08 – Cadastro de livros na lista selecionando livros na lista preexitente** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Efetuar o cadastro de livros na lista 1 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, clicar no botão “Lista";<br>6. Na tela Lista, clicar no botão da lista criada ou criar outra conforme CTU-07;<br>7. Realizar a busca do livro desejado;<br>8. Selecionar o livro desejado a partir da lista existente;<br>9. Adicionar o livro desejado à lista;<br>10. Clicar no botão ‘Salvar’. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-10 – Cadastro de livros na lista pesquisando livros** 	|
+| **Caso de Teste** 	| **CTU-09 – Cadastro de livros na lista pesquisando livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Efetuar o cadastro de livros na lista 2 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Na tela Funcionalidades do Usuário, clicar no botão “Livro";<br>6. Na tela Livro, clicar no botão da Pesquisa de Livros conforme CTU-08;<br>7. Realizar a busca do livro desejado;<br>8. Selecionar o livro desejado;<br>9. Adicionar o livro desejado à lista;<br>10. Clicar no botão ‘Salvar’. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-11 - Atualização da “Lista de livros”** 	|
+| **Caso de Teste** 	| **CTU-10 - Atualização da “Lista de livros”** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar a usabilidade da Lista de livros 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Meus livros";<br>6. Selecionar a lista desejada;<br>7. Selecionar o livro desejado e clicar em Editar;<br>8. Realizar os acertos necessários como inclusão (CTU-09), Exclusão;<br>9. Clicar em salvar. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-12 – Comentar Livros** 	|
-| **Perfil** 	| Usuário 	|
-| **Objetivo do Teste** 	| Comentar algum livro existente na lista da aplicação, ou na lista de outro usuário ou na sua própria lista 	|
-| **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Clicar no botão “Lista”;<br>6. Selecionar o livro desejado;<br>7. Ir na seção de comentários e inserir o seu comentário do livro;<br>8. Clicar em ENVIAR 	|
-|  	|  	|
-| **Caso de Teste** 	| **CTU-13 - Curtir/Match nas Listas de Livros** 	|
+| **Caso de Teste** 	| **CTU-11 - Curtir/Match nas Listas de Livros** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Efetuar a curtida/Match ou não das listas 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Listas";<br>6. Selecionar ou buscar as listas dos usuário;<br>7. Efetuar a curtida/Match através ou não das listas:<br>ícones: Livro fechado vermelho (Não curtir) e livro aberto verde (Curtir) 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-14 - Navegação entre perfis e início do chat** 	|
+| **Caso de Teste** 	| **CTU-12 - Navegação entre perfis e início do chat** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Visualizar o Match das listas e iniciar uma conversa através de chat 	|
 | **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Chat";<br>6. Verificar se existe alguma combinação através da Lista de curtidas;<br>7. Entrar em contato com o perfil combinado através de chat;<br>8. Iniciar uma conversa com o usuário do perfil. 	|
 |  	|  	|
-| **Caso de Teste** 	| **CTU-15 – Verificar se o sistema é responsivo** 	|
+| **Caso de Teste** 	| **CTU-13 – Verificar se o sistema é responsivo** 	|
 | **Perfil** 	| Usuário 	|
 | **Objetivo do Teste** 	| Avaliar se a aplicação é responsiva nos navegadores Chrome, Firefox, Edge, Safari e smartphones android e IOS 	|
 | **Passos** 	| 1. Acessar o navegador;<br>2. Informar o endereço do Site;<br>3. Realizar o login;<br>4. Percorrer as páginas e funcionalidades da aplicação;<br>5. Verificar se as informações estão ordenadas de uma forma clara na tela. 	|
-| **Caso de Teste** 	| **CTU-16 – Acessibilidade** 	|
+| **Caso de Teste** 	| **CTU-14 – Acessibilidade** 	|
 | **Perfil** 	| Usuário com deficiência visual	|
 | **Objetivo do Teste** 	| Verificar se usuários com deficiências visuais conseguem utilizar todas as ferramentas do site 	|
 | **Ações necessárias** 	| 1. Ativar NVDA para acessar o site;<br>2. Acessar a primeira tela do site pelo browser;<br>3. Efetuar login na aplicação;<br>4. Verificar se há atalho de fácil acesso para o retorno à página inicial;<br> 5. Checar se há descrição não redundantes nas imagens; <br> 6.Verificar o contraste entre as cores. 	|
