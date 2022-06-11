@@ -9,16 +9,16 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/167744526-c554da2e-b6f0-4b64-8834-175ce31cc208.mp4"> |
 |  	|  	|
 | Teste 	| CT-03 – Criar listas	|
-|	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/173166243-2e3a9761-8a07-49c3-9b00-c3d60b2cdcfd.mp4"> |
+|	Vídeo 	|  |
 |  	|  	|
 | Teste 	| CT-04 – Salvar listas	|
-|	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/173166306-35c033c3-f72e-47a6-8a00-36ef88faf6f6.mp4"> |
+|	Vídeo 	|  |
 |  	|  	|
 | Teste 	| CT-05 – Interação entre os usuários	|
 |	Vídeo 	|  |
 |  	|  	|
 | Teste 	| CT-06 – Buscar livros	|
-|	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/167744940-606c995f-47b3-4ebd-8086-d1ddc04e76f7.mp4"> |
+|	Vídeo 	|  |
 |  	|  	|
 | Teste 	| CT-07 – Sistema de curtidas (Match)	|
 |	Vídeo 	|  |
