@@ -33,7 +33,7 @@ Os componentes padrão da aplicação enfatizam as cores usadas.
 
 O logotipo foi desenvolvido ao combinar elementos da literatura, como um livro e uma pena usada para escrever, com alguns detalhes do escopo da tecnologia, como o caractere @. Foi feita também uma pequena variação do logo, para que em determinados contextos ele possa ser resumido e melhor posicionado sem afetar a identidade visual da marca.
 
-Os ícones utilizados na avaliação de listas são um livro vermelho fechado que simboliza a negação e um livro verde aberto que simboliza o interesse e curiosidade.
+Os ícones utilizados na avaliação de listas são um livro vermelho que simboliza a negação e um livro verde que simboliza o interesse e curiosidade.
 
 ## Fluxo de telas
 
