@@ -12,7 +12,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/173166243-2e3a9761-8a07-49c3-9b00-c3d60b2cdcfd.mp4"> |
 |  	|  	|
 | Teste 	| CT-05 – Salvar listas	|
-|	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/173166243-2e3a9761-8a07-49c3-9b00-c3d60b2cdcfd.mp4"> |
+|	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/173166306-35c033c3-f72e-47a6-8a00-36ef88faf6f6.mp4"> |
 |  	|  	|
 | Teste 	| CT-07 – Buscar livros	|
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/167744940-606c995f-47b3-4ebd-8086-d1ddc04e76f7.mp4"> |
