@@ -78,7 +78,10 @@ body {
     color: #AC663E;
 }
 
-
+#carrocel-item-1 {
+    display: flex;
+    flex-flow: row;
+}
 
 
 #nomelista, #descricaolista, #caixabusca {
