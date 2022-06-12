@@ -105,63 +105,45 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-10 	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-10 	| 7  | 00:00:38 | --- | --- | Usuário não teve dificuldade e sugeriu ao ser encaminhado para chat uma explicação no botao de Iniciar a conversa |
+| Usuário 2 | CTU-10 	| 17 | 00:00:55  | --- | --- | Usuário explorou as listas e gostou da ideia da curtida |
+| Usuário 3	| CTU-10 	| 11 | 00:00:42  | --- | --- | Usuário gostou de observar as listas de outras pessoas |
+| Usuário 4	| CTU-10 	| 3  | 00:00:15  | --- | --- | Usuário não teve dificuldade |
+| Usuário 5	| CTU-10 	| 15 | 00:00:47  | --- | --- | Usuário sugeriu maiores informações da funcionalidade |
+| Usuário 6	| CTU-10  | 14 | 00:00:51 | --- | --- | Usuário não teve dificuldade |
+| Usuário 7	| CTU-10  | 10 | 00:00:37 | --- | --- | Usuário gostou de ser informado que a curtida funcionou |
+| Usuário 8	| CTU-10  | 5  | 00:00:31  | --- | --- | Usuário ficou um pouco confuso sobre o que fazer em seguida |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-11 	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| CTU-11  	| 14 | 00:00:51 | --- | --- | Usuário não teve dificuldade |
-| Usuário 7	| CTU-11  	| 10 | 00:00:37 | --- | --- | Usuário gostou de ser informado que a curtida funcionou |
-| Usuário 8	| CTU-11  	| 5 | 00:00:31  | --- | --- | Usuário ficou um pouco confuso sobre o que fazer em seguida |
+| Usuário 1	| CTU-11  | 00:00:15 | NA | --- | -- | Usuário realizou no PC utilizando Google Chromme e não observou problemas de responsabilidade |
+| Usuário 2 | CTU-11  | 00:00:15 | NA  | --- | --- | Usuário realizou no smartphone com IOS e não observou problemas de responsabilidade |
+| Usuário 3	| CTU-11  | 00:00:10 | NA  | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 4	| CTU-11  | 00:00:12 | NA  | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 5	| CTU-11  | 00:00:17 | NA | --- | --- | Usuário realizou no PC utilizando Microsoft Edge e não observou problemas de responsabilidade |
+| Usuário 6	| CTU-11  | 00:00:19 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 7	| CTU-11	| 00:00:20 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 8	| CTU-11  | 00:00:22 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-12 	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-13 | 00:00:15 | NA | NA | -- | Usuário realizou no PC utilizando Google Chromme e não observou problemas de responsabilidade |
-| Usuário 2 | CTU-13 | 00:00:15 | NA  | NA | --- | Usuário realizou no smartphone com IOS e não observou problemas de responsabilidade |
-| Usuário 3	| CTU-13 | 00:00:10 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 4	| CTU-13 | 00:00:12 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 5	| CTU-13 | 00:00:17 | NA | NA | --- | Usuário realizou no PC utilizando Microsoft Edge e não observou problemas de responsabilidade |
-| Usuário 6	| CTU-13 | 00:00:19 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 7	| CTU-13	| 00:00:20 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 8	| CTU-13 | 00:00:22 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-14	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| CTU-14	| 00:02:22 | 20  | --- | --- | Leiror não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes |
-| Usuário 7	| CTU-14	| 00:03:30 | 25  | --- | --- | Bom reconhecimento dos campos de texto, com instruções claras de como preencher. Alguns campos do login foram lidos em inglês |
-| Usuário 8	| CTU-14	| 00:04:00 | 22  | --- | --- | Boa leitura dos botões |
+| Usuário 1	| CTU-12	| 00:03:43 | 20 | --- | --- | Leitor não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes |
+| Usuário 2 | CTU-12	| 00:08:00 | 2  | --- | --- | Leitor utilizou Iphone com IOS 15.5 e Safari para realizar os testes e imagens também foram lidas |
+| Usuário 3	| CTU-12 	| 00:05:22 | 23  | --- | --- | Boa leitura dos campos de perfil e listas  |
+| Usuário 4	| CTU-12 	| 00:04:37 | 21  | --- | --- | Leitor não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes  |
+| Usuário 5	| CTU-12 	| 00:07:25 | 6  | --- | --- | Leitor do Microsoft Edge não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes |
+| Usuário 6	| CTU-12	| 00:02:22 | 20  | --- | --- | Leitor não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes |
+| Usuário 7	| CTU-12	| 00:03:30 | 25  | --- | --- | Bom reconhecimento dos campos de texto, com instruções claras de como preencher. Alguns campos do login foram lidos em inglês |
+| Usuário 8	| CTU-12	| 00:04:00 | 22  | --- | --- | Boa leitura dos botões |
 
 
 <h2>Observações e conclusão</h2>
 A partir do teste realizado com os artefatos CTU -01, 03, 06, 08 e 15, observou-se que tanto a funcionalidade do artefato 08 e 15, necessitam de maiores explicações e informações sobre sobre a aplicação e sua funcionalidade.
+
 Nesta segunda etapa dos testes de usabilidade foram adicionadas 3 usuários além dos 4 que realizaram o teste anteriormente, os quais testaram a aplicação em sua totalidade, os quais são representados na tabela a partir do Usuário 6.
 
-Para realizar aos testes de acessibilidade, os usuários 6, 7 e 8 usaram a função acessibilidade do Android, que inclui o TalkBack do Google.
+Para realizar aos testes de acessibilidade, os usuários 1, 3, 4, 5, 6, 7 e 8 usaram a função acessibilidade do Android, que inclui o TalkBack do Google. Já o usuário 2 utilizou IOS 15.5 e Safari para realizar testes mas teve que habilitar as opções de acessibilidade no telefone.
 
+A partir dos testes realizados, observou-se que a aplicação precisa da inclusão de textos para direcionar seus usuários e acertar alguns erros de direcionamento e processos não conclusivos como nos casos de teste 3, 7 e 9.
+
+Estes problemas serão acertados na próxima etapa.
