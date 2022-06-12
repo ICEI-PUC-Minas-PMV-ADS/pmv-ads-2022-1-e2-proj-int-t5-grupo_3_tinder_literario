@@ -97,9 +97,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-09	| 00:00:52 | 8 | --- | --- | Usuário teve mais facilidade ao criar a segunda lista |
+| Usuário 7	| CTU-09 	| 00:00:45 | 15 | --- | --- | Usuário não fez comentários |
+| Usuário 8	| CTU-09 	| 00:00:41 | 10 | --- | --- | Usuário entendeu melhor a aplicação enquanto interagia com ela |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -119,9 +119,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| CTU-11  	| --- | ---  | --- | --- | --- |
-| Usuário 7	| CTU-11  	| --- | ---  | --- | --- | --- |
-| Usuário 8	| CTU-11  	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-11  	| 14 | 00:00:51 | --- | --- | Usuário não teve dificuldade |
+| Usuário 7	| CTU-11  	| 10 | 00:00:37 | --- | --- | Usuário gostou de ser informado que a curtida funcionou |
+| Usuário 8	| CTU-11  	| 5 | 00:00:31  | --- | --- | Usuário ficou um pouco confuso sobre o que fazer em seguida |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -136,49 +136,30 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-13 	| --- | --- | --- | --- | Em desenvolvimento |
+| Usuário 1	| CTU-13 | 00:00:15 | NA | NA | -- | Usuário realizou no PC utilizando Google Chromme e não observou problemas de responsabilidade |
+| Usuário 2 | CTU-13 | 00:00:15 | NA  | NA | --- | Usuário realizou no smartphone com IOS e não observou problemas de responsabilidade |
+| Usuário 3	| CTU-13 | 00:00:10 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 4	| CTU-13 | 00:00:12 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 5	| CTU-13 | 00:00:17 | NA | NA | --- | Usuário realizou no PC utilizando Microsoft Edge e não observou problemas de responsabilidade |
+| Usuário 6	| CTU-13 | 00:00:19 | ---  | --- | --- | --- |
+| Usuário 7	| CTU-13	| 00:00:20 | ---  | --- | --- | --- |
+| Usuário 8	| CTU-13 | 00:00:22 | ---  | --- | --- | --- |
+
+| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-14	| --- | --- | --- | --- | Em desenvolvimento |
 | Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
 | Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-14	| 00:02:22 | 20  | --- | --- | Leiror não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes |
+| Usuário 7	| CTU-14	| 00:03:30 | 25  | --- | --- | Bom reconhecimento dos campos de texto, com instruções claras de como preencher. Alguns campos foram lidos em inglês |
+| Usuário 8	| CTU-14	| 00:04:00 | 22  | --- | --- | Boa leitura dos botões |
 
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-14 	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-15 | 00:00:15 | NA | NA | -- | Usuário realizou no PC utilizando Google Chromme e não observou problemas de responsabilidade |
-| Usuário 2 | CTU-15 | 00:00:15 | NA  | NA | --- | Usuário realizou no smartphone com IOS e não observou problemas de responsabilidade |
-| Usuário 3	| CTU-15 | 00:00:10 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 4	| CTU-15 | 00:00:12 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
-| Usuário 5	| CTU-15 | 00:00:17 | NA | NA | --- | Usuário realizou no PC utilizando Microsoft Edge e não observou problemas de responsabilidade |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
-
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-16 	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
 
 <h2>Observações e conclusão</h2>
 A partir do teste realizado com os artefatos CTU -01, 03, 06, 08 e 15, observou-se que tanto a funcionalidade do artefato 08 e 15, necessitam de maiores explicações e informações sobre sobre a aplicação e sua funcionalidade.
-Nesta segunda etapa dos testes de usabilidade foram adicionadas 3 usuários além dos 4 que realizaram o teste anteriormente, os quais testaram a aplicação em sua totalidade, os quais são representados na tabela a partir do Usuário 6. 
+Nesta segunda etapa dos testes de usabilidade foram adicionadas 3 usuários além dos 4 que realizaram o teste anteriormente, os quais testaram a aplicação em sua totalidade, os quais são representados na tabela a partir do Usuário 6.
+
+Para realizar aos testes de acessibilidade, os usuários 6, 7 e 8 usaram a função acessibilidade do android, que inclui o TalkBack do google.
 
