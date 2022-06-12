@@ -1,14 +1,16 @@
 # Registro de Testes de Usabilidade
 
+Registro de Testes de Usabilidade
+
 A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro uma tabela conforme abaixo:
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-01	| 00:02:50 | 11  | 0 | --- | Usuário achou a tela intuitiva |
+| Usuário 1	| CTU-01 	| 00:02:50 | 11  | 0 | --- | Usuário achou a tela intuitiva |
 | Usuário 2 | CTU-01 	| 00:02:00 | 11  | 0 | --- | Usuário ficou satisfeito |
-| Usuário 3	| CTU-01	| 00:01:30 | 11  | 0 | --- | Percebeu-se que o usuário não leu o termo de uso por completo |
+| Usuário 3	| CTU-01	 | 00:01:30 | 11  | 0 | --- | Percebeu-se que o usuário não leu o termo de uso por completo |
 | Usuário 4	| CTU-01 	| 00:02:15 | 11  | 0 | --- | Usuário conseguiu realizar todo o teste sem dificuldade |
-| Usuário 5	| CTU-01	| 00:03:00 | 11  | 0 | --- | Usuário atento, realizou todo o processo com atenção e cautela |
+| Usuário 5	| CTU-01  | 00:03:00 | 11  | 0 | --- | Usuário atento, realizou todo o processo com atenção e cautela |
 | Usuário 6	| CTU-01 	| 00:02:35 | 11  | 0 | --- | Usuário não leu a página inicial |
 | Usuário 7	| CTU-01 	| 00:01:57 | 11  | 0 | --- | Conseguiu efetuar o cadastro sem problemas |
 | Usuário 8	| CTU-01 	| 00:03:10 | 11  | 0 | --- | Gostou de visualizar a mensagem de confirmação do cadastro |
@@ -20,39 +22,39 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-02 	| 00:00:20 | 4  | 0 | --- | O usuário não fez observação |
 | Usuário 4	| CTU-02 	| 00:00:10 | 4  | 0 | --- | Login efetuado com sucesso |
 | Usuário 5	| CTU-02 	| 00:00:17 | 4  | 0 | --- | Usuário efetuou login sem problemas |
- Usuário 6	| CTU-02 	| 00:00:30 | 4  | 0 | --- | Não houve comentários |
+| Usuário 6	| CTU-02  | 00:00:30 | 4  | 0 | --- | Não houve comentários |
 | Usuário 7	| CTU-02 	| 00:00:35 | 4  | 0 | --- | Achou a tela de login fácil de usar |
 | Usuário 8	| CTU-02 	| 00:00:41 | 4  | 0 | --- | Gostou do design da tela |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-03	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | CTU-03	| --- | ---  | --- | --- | --- |
-| Usuário 3	| CTU-03 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| CTU-03 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| CTU-03 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| CTU-03 	| 00:00:32 | 5  | 1 | não | Usuário não conseguiu apagar a conta |
+| Usuário 1	| CTU-03 	| 00:00:23 | 4 | 1 | sim | A mensagem de alterações dos dados demorou aparecer e foi visualizada após retornar a tela |
+| Usuário 2 | CTU-03 	| 00:00:27 | 5  | 1 | não | Erro 405 Not Allowed na tentativa de Apagar usuário |
+| Usuário 3	| CTU-03 	| 00:00:30 | 5  | 2 | não | Usuário não conseguiu editar e apagar usuário |
+| Usuário 4	| CTU-03 	| 00:00:31 | 5  | 1 | não | Usuário notou que ao clicar em apagar usuário, a mensagem de erro é visualizada e ao voltar a tela vem a mensagem do sistema que o usuário foi apagado com sucesso |
+| Usuário 5	| CTU-03 	| 00:00:25 | 4  | 1 | não | Dados não foram salvos |
+| Usuário 6	| CTU-03 	| 00:00:32 | 5  | 1 | não | Usúario não conseguiu apagar a conta |
 | Usuário 7	| CTU-03 	| 00:00:37 | 5  | 1 | não | Usuário não conseguiu alterar os dados salvos, botão não funcionou |
-| Usuário 8	| CTU-03 	| 00:00:35 | 5  | 0 | --- | Usuário gostou de poder acessar os dados salvos |
+| Usuário 8	| CTU-03 	| 00:00:35 | 5  | 0 | --- | Usúario gostou de poder acessar os dados salvos |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-04  | --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | CTU-04 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| CTU-04 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| CTU-04 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| CTU-04 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-04  | 00:00:08 | 2 | --- | Usuário não entendeu o porque da página, deveria ser testado após a criação de listas|
+| Usuário 2 | CTU-04 	| 00:00:07 | 1  | --- | --- | Usuário não soube o que fazer |
+| Usuário 3	| CTU-04 	| 00:00:09 | 2  | --- | --- | Usuário não soube o que fazer |
+| Usuário 4	| CTU-04 	| 00:00:10 | 2  | --- | --- | Usuário sugeriu que a tela precisa de maiores informações ou ser testada após criar listas |
+| Usuário 5	| CTU-04 	| 00:00:11 | 2  | --- | --- | Usuário ficou perdido |
 | Usuário 6	| CTU-04 	| 00:00:15 | 2  | --- | --- | Usuário conseguiu acessar a aba de gerenciar listas sem problemas |
-| Usuário 7	| CTU-04 	| 00:00:10 | 2  | --- | --- | Usuário não entendeu bem o proposito da página |
+| Usuário 7	| CTU-04 	| 00:00:10 | 2  | --- | --- | Usuário não entendeu bem o propósito da página |
 | Usuário 8	| CTU-04 	| 00:00:06 | 2  | --- | --- | Usuário clicou no botão criar lista e ficou confuso porque não havia livros para adicionar |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-05 | --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | CTU-05 | --- | ---  | --- | --- | --- |
-| Usuário 3	| CTU-05 | --- | ---  | --- | --- | --- |
-| Usuário 4	| CTU-05 | --- | ---  | --- | --- | --- |
-| Usuário 5	| CTU-05| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-05  | 00:00:28 | 11 | --- | --- | Usuário observou a tela e clicou nos livros  |
+| Usuário 2 | CTU-05  | 00:00:47 | 16  | --- | --- | Usuário adicionou à lista de favoritos , observou detalhes dos livros mas gostaria de maiores informações quanto à utilidade da funcionalidade  |
+| Usuário 3 | CTU-05  | 00:00:35 | 13  | --- | --- | Usuário gostou da funcionalidade |
+| Usuário 4	| CTU-05  | 00:00:50 | 19 | --- | --- | Usuário teve facilidade em utilizar a aplicação e explorou bastante a página |
+| Usuário 5	| CTU-05  | 00:00:45 | 20  | --- | --- | Usuário explorou a funcionalidade mas gostaria de maior direcionamento |
 | Usuário 6	| CTU-05 	| 00:00:26 | 6  | --- | --- | Usuário achou intuitivo |
 | Usuário 7	| CTU-05 	| 00:00:38 | 8  | --- | --- | Usuário adicionou à lista de favoritos mas ficou confuso sobre a utilidade, gostaria de mais informação |
 | Usuário 8	| CTU-05 	| 00:00:40 | 10  | --- | --- | Usuário gostou da seleção de livros e ficou lendo os detalhes de cada um |
@@ -61,44 +63,44 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| CTU-06 | 00:00:45 | 2 | 0 | --- | Usuário acredita que ajudaria se fosse incluído um termo explicativo sobre a funcionalidade|
 | Usuário 2 | CTU-06 | 00:00:30 | 2  | 0 | --- | Usuário fez observação de desenvolver a opção de clicar no título ou passar o mouse e as informações do livro ser exibida |
-| Usuário 3	| CTU-06 | 00:00:40 | 2  | 0 | --- | Usuário acredita que ajudaria se fosse incluído um termo explicativo sobre a funcionalidade|
-| Usuário 4	| CTU-06 | 00:00:35 | 2  | 0 | --- | Usuário correu o mouse sobre as imagens acreditando que mais informações seriam exibidas |
-| Usuário 5	| CTU-06 | 00:01:00 | 4  | 0 | --- | Usuário analisou a página e sugeri que a funcionalidade tenha maiores informações |
+| Usuário 3	| CTU-06  | 00:00:40 | 2  | 0 | --- | Usuário acredita que ajudaria se fosse incluído um termo explicativo sobre a funcionalidade|
+| Usuário 4	| CTU-06  | 00:00:35 | 2  | 0 | --- | Usuário correu o mouse sobre as imagens acreditando que mais informações seriam exibidas |
+| Usuário 5	| CTU-06  | 00:01:00 | 4  | 0 | --- | Usuário analisou a página e sugeri que a funcionalidade tenha maiores informações |
 | Usuário 6	| CTU-06 	| 00:00:34 | 5  | 1 | não | Usuário notou que os livros adicionados estavam duplicados |
 | Usuário 7	| CTU-06 	| 00:00:42 | 7 | --- | --- | Apenas nesse ponto o usuário entendeu a razão de favoritar livros, sugeriu que isso fosse explicado |
-| Usuário 8	| CTU-06 	| 00:00:29 | 9  | 1 | não | Campo de busca não funcionou. Conseguiu criar uma lista sem livros |
+| Usuário 8	| CTU-06 	| 00:00:29 | 9  | 1 | não | Campo de busca não funcionou. conseguiu criar uma lista sem livros |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-07 | --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | CTU-07 | --- | ---  | --- | --- | --- |
-| Usuário 3	| CTU-07 | --- | ---  | --- | --- | --- |
-| Usuário 4	| CTU-07 | --- | ---  | --- | --- | --- |
-| Usuário 5	| CTU-07 | --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-07  | 00:00:14 | 2 | --- | --- | Usuário pesquisou e recuperou a informação |
+| Usuário 2 | CTU-07  | 00:00:20 | 4  | --- | --- | Usuário realizou mais de uma pesquisa e recuperou a informação |
+| Usuário 3	| CTU-07  | 00:00:26 | 5  | --- | --- | A busca foi realizada com sucesso |
+| Usuário 4	| CTU-07  | 00:00:13 | 2  | --- | --- | Não houve comentários |
+| Usuário 5	| CTU-07  | 00:00:38 | 6  | 1 | não | Usuário realizou o teste e recuperou as informações e, também, pesquisou na tela de criar lista que não recuperou as informações |
 | Usuário 6	| CTU-07 	| 00:00:29 | 2  | --- | --- | Usuário pesquisou livros que não tinham |
 | Usuário 7	| CTU-07 	| 00:00:30 | 2  | --- | --- | Usuário consequiu fazer a busca sem problemas |
 | Usuário 8	| CTU-07 	| 00:00:15 | 2  | --- | --- | Não houve comentários |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-08 | 00:00:30 | 2 | 1 | Sim | Usuário sugere um texto explicativo para pesquisa de livros |
-| Usuário 2 | CTU-08 | 00:00:20 | 2  | 0 | 0 | Usuário sugere um texto explicativo para pesquisa de livros |
-| Usuário 3	| CTU-08 | 00:00:24 | 2  | 0 | 0 | Usuário sugere um texto explicativo para pesquisa de livros |
-| Usuário 4	| CTU-08 | 00:00:27 | 2  | --- | --- | Usuário realizou a pesquisa intuitivamente mas clicou nas imagens acreditando que mais dados seriam exibidos |
-| Usuário 5	| CTU-08 | 00:00:40 | 2  | --- | --- | Usuário demorou a realizar a pesquisa pois relata que precisa de ter maiores informações e instruções na página |
+| Usuário 1	| CTU-08  | 00:00:30 | 2 | 1 | Sim | Usuário sugere um texto explicativo para pesquisa de livros |
+| Usuário 2 | CTU-08  | 00:00:20 | 2  | 0 | 0 | Usuário sugere um texto explicativo para pesquisa de livros |
+| Usuário 3	| CTU-08  | 00:00:24 | 2  | 0 | 0 | Usuário sugere um texto explicativo para pesquisa de livros |
+| Usuário 4	| CTU-08  | 00:00:27 | 2  | --- | --- | Usuário realizou a pesquisa intuitivamente mas clicou nas imagens acreditando que mais dados seriam exibidos |
+| Usuário 5	| CTU-08  | 00:00:40 | 2  | --- | --- | Usuário demorou a realizar a pesquisa pois relata que precisa de ter maiores informações e instruções na página |
 | Usuário 6	| CTU-08 	| 00:00:27 | 3  | --- | --- | Usuário achou confuso |
 | Usuário 7	| CTU-08 	| 00:00:25 | 3  | --- | --- | Usuário precisou de explicação |
 | Usuário 8	| CTU-08 	| 00:00:33 | 3  | --- | --- | Usuário não conseguiu avançar |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-09 | --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| CTU-09	| 00:00:52 | 8 | --- | --- | Usuário teve mais facilidade ao criar a segunda lista |
-| Usuário 7	| CTU-09 	| 00:00:45 | 15 | --- | --- | Não houve comentários |
+| Usuário 1	| CTU-09  | 00:00:49 | 8 | --- | --- | Usuário executou a funcionalidade mas tive que explicar como executar |
+| Usuário 2 | CTU-09 	| 00:00:40 | 6  | --- | --- | Usuário não fez comentários |
+| Usuário 3	| CTU-09 	| 00:00:58 | 14  | --- | --- | Usuário sugeriu que as listas criadas ficassem disponíveis por links |
+| Usuário 4	| CTU-09 	| 00:00:55 | 15  | --- | --- | Usuário sugeriu que houvesse uma explicação sobre como criar a lista  |
+| Usuário 5	| CTU-09 	| 00:00:48 | 12  | --- | --- | Usuário executou com sucesso a funcionalidade |
+| Usuário 6	| CTU-09 	| 00:00:52 | 8 | --- | --- | Usuário teve mais facilidade ao criar a segunda lista |
+| Usuário 7	| CTU-09 	| 00:00:45 | 15 | --- | --- | Não fez comentários |
 | Usuário 8	| CTU-09 	| 00:00:41 | 10 | --- | --- | Usuário entendeu melhor a aplicação enquanto interagia com ela |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
@@ -161,5 +163,5 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 A partir do teste realizado com os artefatos CTU -01, 03, 06, 08 e 15, observou-se que tanto a funcionalidade do artefato 08 e 15, necessitam de maiores explicações e informações sobre sobre a aplicação e sua funcionalidade.
 Nesta segunda etapa dos testes de usabilidade foram adicionadas 3 usuários além dos 4 que realizaram o teste anteriormente, os quais testaram a aplicação em sua totalidade, os quais são representados na tabela a partir do Usuário 6.
 
-Para realizar aos testes de acessibilidade, os usuários 6, 7 e 8 usaram a função acessibilidade do android, que inclui o TalkBack do google.
+Para realizar aos testes de acessibilidade, os usuários 6, 7 e 8 usaram a função acessibilidade do Android, que inclui o TalkBack do Google.
 
