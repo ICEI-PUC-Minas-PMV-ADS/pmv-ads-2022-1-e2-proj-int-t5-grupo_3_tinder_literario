@@ -141,9 +141,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-13 | 00:00:10 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
 | Usuário 4	| CTU-13 | 00:00:12 | NA  | NA | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
 | Usuário 5	| CTU-13 | 00:00:17 | NA | NA | --- | Usuário realizou no PC utilizando Microsoft Edge e não observou problemas de responsabilidade |
-| Usuário 6	| CTU-13 | 00:00:19 | ---  | --- | --- | --- |
-| Usuário 7	| CTU-13	| 00:00:20 | ---  | --- | --- | --- |
-| Usuário 8	| CTU-13 | 00:00:22 | ---  | --- | --- | --- |
+| Usuário 6	| CTU-13 | 00:00:19 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 7	| CTU-13	| 00:00:20 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
+| Usuário 8	| CTU-13 | 00:00:22 | NA | --- | --- | Usuário realizou no smartphone com Android e não observou problemas de responsabilidade |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
