@@ -31,9 +31,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-03 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| CTU-03 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| CTU-03 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| CTU-03 	| 00:00:32 | 5  | 1 | não | Usúario não conseguiu apagar a conta |
+| Usuário 6	| CTU-03 	| 00:00:32 | 5  | 1 | não | Usuário não conseguiu apagar a conta |
 | Usuário 7	| CTU-03 	| 00:00:37 | 5  | 1 | não | Usuário não conseguiu alterar os dados salvos, botão não funcionou |
-| Usuário 8	| CTU-03 	| 00:00:35 | 5  | 0 | --- | Usúario gostou de poder acessar os dados salvos |
+| Usuário 8	| CTU-03 	| 00:00:35 | 5  | 0 | --- | Usuário gostou de poder acessar os dados salvos |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -66,7 +66,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 5	| CTU-06 | 00:01:00 | 4  | 0 | --- | Usuário analisou a página e sugeri que a funcionalidade tenha maiores informações |
 | Usuário 6	| CTU-06 	| 00:00:34 | 5  | 1 | não | Usuário notou que os livros adicionados estavam duplicados |
 | Usuário 7	| CTU-06 	| 00:00:42 | 7 | --- | --- | Apenas nesse ponto o usuário entendeu a razão de favoritar livros, sugeriu que isso fosse explicado |
-| Usuário 8	| CTU-06 	| 00:00:29 | 9  | 1 | não | Campo de busca não funcionou. conseguiu criar uma lista sem livros |
+| Usuário 8	| CTU-06 	| 00:00:29 | 9  | 1 | não | Campo de busca não funcionou. Conseguiu criar uma lista sem livros |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -88,7 +88,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 5	| CTU-08 | 00:00:40 | 2  | --- | --- | Usuário demorou a realizar a pesquisa pois relata que precisa de ter maiores informações e instruções na página |
 | Usuário 6	| CTU-08 	| 00:00:27 | 3  | --- | --- | Usuário achou confuso |
 | Usuário 7	| CTU-08 	| 00:00:25 | 3  | --- | --- | Usuário precisou de explicação |
-| Usuário 8	| CTU-08 	| 00:00:33 | 3  | --- | --- | Usuário não conseguir avançar |
+| Usuário 8	| CTU-08 	| 00:00:33 | 3  | --- | --- | Usuário não conseguiu avançar |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -98,7 +98,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 6	| CTU-09	| 00:00:52 | 8 | --- | --- | Usuário teve mais facilidade ao criar a segunda lista |
-| Usuário 7	| CTU-09 	| 00:00:45 | 15 | --- | --- | Usuário não fez comentários |
+| Usuário 7	| CTU-09 	| 00:00:45 | 15 | --- | --- | Não houve comentários |
 | Usuário 8	| CTU-09 	| 00:00:41 | 10 | --- | --- | Usuário entendeu melhor a aplicação enquanto interagia com ela |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
@@ -153,7 +153,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 6	| CTU-14	| 00:02:22 | 20  | --- | --- | Leiror não reconheceu as imagens dos livros, mas leu sem problemas seus detalhes |
-| Usuário 7	| CTU-14	| 00:03:30 | 25  | --- | --- | Bom reconhecimento dos campos de texto, com instruções claras de como preencher. Alguns campos foram lidos em inglês |
+| Usuário 7	| CTU-14	| 00:03:30 | 25  | --- | --- | Bom reconhecimento dos campos de texto, com instruções claras de como preencher. Alguns campos do login foram lidos em inglês |
 | Usuário 8	| CTU-14	| 00:04:00 | 22  | --- | --- | Boa leitura dos botões |
 
 
