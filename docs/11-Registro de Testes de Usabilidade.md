@@ -9,31 +9,31 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-01	| 00:01:30 | 11  | 0 | --- | Percebeu-se que o usuário não leu o termo de uso por completo |
 | Usuário 4	| CTU-01 	| 00:02:15 | 11  | 0 | --- | Usuário conseguiu realizar todo o teste sem dificuldade |
 | Usuário 5	| CTU-01	| 00:03:00 | 11  | 0 | --- | Usuário atento, realizou todo o processo com atenção e cautela |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-01 	| 00:02:35 | 11  | 0 | --- | Usuário não leu a página inicial |
+| Usuário 7	| CTU-01 	| 00:01:57 | 11  | 0 | --- | Conseguiu efetuar o cadastro sem problemas |
+| Usuário 8	| CTU-01 	| 00:03:10 | 11  | 0 | --- | Gostou de visualizar a mensagem de confirmação do cadastro |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-02	| --- | --- | --- | --- | Em desenvolvimento |
-| Usuário 2 | CTU-02	| --- | ---  | --- | --- | --- |
-| Usuário 3	| CTU-02 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| CTU-02 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| CTU-02 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-02 	| 00:00:22 | 4 | 0 | --- | O Usuário efetuou com tranquilidade o login pois ao finalizar o cadastro direcionou para esta tela de login o que facilitou |
+| Usuário 2 | CTU-02 	| 00:00:15 | 4  | 0 | --- | O usuário achou intuitivo a login |
+| Usuário 3	| CTU-02 	| 00:00:20 | 4  | 0 | --- | O usuário não fez observação |
+| Usuário 4	| CTU-02 	| 00:00:10 | 4  | 0 | --- | Login efetuado com sucesso |
+| Usuário 5	| CTU-02 	| 00:00:17 | 4  | 0 | --- | Usuário efetuou login sem problemas |
+ Usuário 6	| CTU-02 	| 00:00:30 | 4  | 0 | --- | Não houve comentários |
+| Usuário 7	| CTU-02 	| 00:00:35 | 4  | 0 | --- | Achou a tela de login fácil de usar |
+| Usuário 8	| CTU-02 	| 00:00:41 | 4  | 0 | --- | Gostou do design da tela |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-03 	| 00:00:22 | 4 | 0 | --- | O Usuário efetuou com tranquilidade o login pois ao finalizar o cadastro direcionou para esta tela de login o que facilitou |
-| Usuário 2 | CTU-03 	| 00:00:15 | 4  | 0 | --- | O usuário achou intuitivo a login |
-| Usuário 3	| CTU-03 	| 00:00:20 | 4  | 0 | --- | O usuário não fez observação |
-| Usuário 4	| CTU-03 	| 00:00:10 | 4  | 0 | --- | Login efetuado com sucesso |
-| Usuário 5	| CTU-03 	| 00:00:17 | 4  | 0 | --- | Usuário efetuou login sem problemas |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| CTU-03	| --- | --- | --- | --- | Em desenvolvimento |
+| Usuário 2 | CTU-03	| --- | ---  | --- | --- | --- |
+| Usuário 3	| CTU-03 	| --- | ---  | --- | --- | --- |
+| Usuário 4	| CTU-03 	| --- | ---  | --- | --- | --- |
+| Usuário 5	| CTU-03 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-03 	| 00:00:32 | 5  | 1 | não | Usúario não conseguiu apagar a conta |
+| Usuário 7	| CTU-03 	| 00:00:37 | 5  | 1 | não | Usuário não conseguiu alterar os dados salvos, botão não funcionou |
+| Usuário 8	| CTU-03 	| 00:00:35 | 5  | 0 | --- | Usúario gostou de poder acessar os dados salvos |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -42,9 +42,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-04 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| CTU-04 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| CTU-04 	| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-04 	| 00:00:15 | 2  | --- | --- | Usuário conseguiu acessar a aba de gerenciar listas sem problemas |
+| Usuário 7	| CTU-04 	| 00:00:10 | 2  | --- | --- | Usuário não entendeu bem o proposito da página |
+| Usuário 8	| CTU-04 	| 00:00:06 | 2  | --- | --- | Usuário clicou no botão criar lista e ficou confuso porque não havia livros para adicionar |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -53,9 +53,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-05 | --- | ---  | --- | --- | --- |
 | Usuário 4	| CTU-05 | --- | ---  | --- | --- | --- |
 | Usuário 5	| CTU-05| --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-05 	| 00:00:26 | 6  | --- | --- | Usuário achou intuitivo |
+| Usuário 7	| CTU-05 	| 00:00:38 | 8  | --- | --- | Usuário adicionou à lista de favoritos mas ficou confuso sobre a utilidade, gostaria de mais informação |
+| Usuário 8	| CTU-05 	| 00:00:40 | 10  | --- | --- | Usuário gostou da seleção de livros e ficou lendo os detalhes de cada um |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -64,9 +64,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-06 | 00:00:40 | 2  | 0 | --- | Usuário acredita que ajudaria se fosse incluído um termo explicativo sobre a funcionalidade|
 | Usuário 4	| CTU-06 | 00:00:35 | 2  | 0 | --- | Usuário correu o mouse sobre as imagens acreditando que mais informações seriam exibidas |
 | Usuário 5	| CTU-06 | 00:01:00 | 4  | 0 | --- | Usuário analisou a página e sugeri que a funcionalidade tenha maiores informações |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-06 	| 00:00:34 | 5  | 1 | não | Usuário notou que os livros adicionados estavam duplicados |
+| Usuário 7	| CTU-06 	| 00:00:42 | 7 | --- | --- | Apenas nesse ponto o usuário entendeu a razão de favoritar livros, sugeriu que isso fosse explicado |
+| Usuário 8	| CTU-06 	| 00:00:29 | 9  | 1 | não | Campo de busca não funcionou. conseguiu criar uma lista sem livros |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -75,9 +75,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-07 | --- | ---  | --- | --- | --- |
 | Usuário 4	| CTU-07 | --- | ---  | --- | --- | --- |
 | Usuário 5	| CTU-07 | --- | ---  | --- | --- | --- |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-07 	| 00:00:29 | 2  | --- | --- | Usuário pesquisou livros que não tinham |
+| Usuário 7	| CTU-07 	| 00:00:30 | 2  | --- | --- | Usuário consequiu fazer a busca sem problemas |
+| Usuário 8	| CTU-07 	| 00:00:15 | 2  | --- | --- | Não houve comentários |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -86,9 +86,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| CTU-08 | 00:00:24 | 2  | 0 | 0 | Usuário sugere um texto explicativo para pesquisa de livros |
 | Usuário 4	| CTU-08 | 00:00:27 | 2  | --- | --- | Usuário realizou a pesquisa intuitivamente mas clicou nas imagens acreditando que mais dados seriam exibidos |
 | Usuário 5	| CTU-08 | 00:00:40 | 2  | --- | --- | Usuário demorou a realizar a pesquisa pois relata que precisa de ter maiores informações e instruções na página |
-| Usuário 6	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 7	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 8	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-08 	| 00:00:27 | 3  | --- | --- | Usuário achou confuso |
+| Usuário 7	| CTU-08 	| 00:00:25 | 3  | --- | --- | Usuário precisou de explicação |
+| Usuário 8	| CTU-08 	| 00:00:33 | 3  | --- | --- | Usuário não conseguir avançar |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
@@ -119,6 +119,9 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 6	| CTU-11  	| --- | ---  | --- | --- | --- |
+| Usuário 7	| CTU-11  	| --- | ---  | --- | --- | --- |
+| Usuário 8	| CTU-11  	| --- | ---  | --- | --- | --- |
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
