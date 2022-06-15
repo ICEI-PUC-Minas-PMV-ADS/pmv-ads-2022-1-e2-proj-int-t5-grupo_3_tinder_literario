@@ -124,6 +124,11 @@ input[type="submit"]:hover {
     float: right;
 }
 
+h2, h3 {
+    text-align: center;
+    color: #744225;
+}
+
 @media screen and (max-width: 500px) {
     #main-container {
         width: auto;
