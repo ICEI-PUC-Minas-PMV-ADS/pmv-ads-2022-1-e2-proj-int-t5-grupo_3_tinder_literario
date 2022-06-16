@@ -2,6 +2,31 @@
     box-sizing: border-box;
 }
 
+#botaobusca:focus {
+    border: none;
+    box-shadow: none;
+}
+#nomelista, #descricaolista, #caixabusca {
+    max-width: 500px !important;
+}
+#caixabusca:focus {
+    border-color: #AC663E;
+    box-shadow: 0 0 0 0.1rem #AC663E;
+} 
+
+#caixabusca:focus {
+    border-color: #AC663E;
+    box-shadow: 0 0 0 0.1rem #AC663E;
+}
+#caixabusca {
+    max-width: 200px;
+    border-radius: 10px; 
+    border-color: #AC663E;
+    color: gray;
+    font-style: italic;
+    font-size: .8rem;
+}
+
 :root {
     --white: #fff;
     --black: #000;

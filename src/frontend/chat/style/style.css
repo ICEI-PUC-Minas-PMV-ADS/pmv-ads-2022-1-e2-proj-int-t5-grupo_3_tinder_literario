@@ -1,0 +1,352 @@
+body {
+    background-color: white;
+}
+
+/*Carrossel*/
+
+.owl-carousel {
+    width: 90%;
+    
+    
+    text-align: right;
+}
+
+.owl-carousel img {
+    height: 260px;
+}
+
+/*Gerenciar Listas*/
+
+.containerlista {
+    margin: 4% 17% 0 17%;
+}
+
+.titulo {
+    font-weight: bold;
+    color:#AC663E;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.botaocriarlista {
+    display: flex;
+    width: 80%;
+    margin-right: 40px;
+}
+
+.criarlista { 
+    border: none;
+    background-color: #AC663E;
+    padding: 15px 26px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    white-space: nowrap;
+    
+}
+
+.nomelista {
+    position: relative;
+    color: #E2A165;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.editarlista {
+    background: none;
+    border: none;
+    font-style: italic;
+    color: gray;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+
+/*Criar Lista*/
+
+#id-lista {
+    color: #AC663E;
+}
+
+/* #carrocel-item-1 {
+    display: flex;
+    flex-flow: row;
+} */
+
+
+#nomelista, #descricaolista, #caixabusca {
+    max-width: 500px;
+}
+
+#descricaolista {
+    border-bottom: 2px solid #AC663E;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    font-size: .9rem;
+}
+
+.lupa {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#busca {
+    margin-top: 35px;
+
+}
+
+#caixabusca:focus {
+    border-color: #AC663E;
+    box-shadow: 0 0 0 0.1rem #AC663E;
+} 
+
+#caixabusca:focus {
+    border-color: #AC663E;
+    box-shadow: 0 0 0 0.1rem #AC663E;
+}
+#caixabusca {
+    max-width: 200px;
+    border-radius: 10px; 
+    border-color: #AC663E;
+    color: gray;
+    font-style: italic;
+    font-size: .8rem;
+}
+
+#botaobusca:focus {
+    border: none;
+    box-shadow: none;
+}
+.btn-outline-secondary:hover {
+    background-color: transparent;
+}
+
+
+.botaoremover, .botaoadicionar {
+    color: gray;
+    margin: 5px 25% 0 25%;
+    
+}
+
+
+.salvarlista { 
+    border: none;
+    background-color: #AC663E;
+    padding: 15px 26px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin: 20px 60% 20px 38%;
+    white-space: nowrap;  
+}
+
+.botaosalvarlista a:hover {
+    text-decoration: none;
+}
+
+.botaosalvarlista button:hover {
+    background-color: #E2A165;
+}
+#botaovermais {
+    height: 30px;
+    background-color: transparent;
+    color: gray;
+    box-shadow: none;
+}
+#botaomodalfechar {
+    height: auto;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    background-color: #E2A165;
+    color: white;
+
+}
+#botaomodaladicionar {
+    height: auto;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+    background-color: #AC663E;
+    color: white;
+    
+}
+
+.subtitulomodal {
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    .owl-carousel {
+        width: 100%;
+    }
+
+    .owl-carousel img {
+        height: 200px;
+    }
+
+    .titulo {
+        width: 100%;
+    }
+
+    .criarlista {
+        float:none;
+        margin: 0 20%
+    }
+    .containerlista {
+        margin: 4% 17% 0 17%;
+    }
+    
+    .salvarlista {
+        margin: 20px auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    width: 200px;
+    height: 88px;
+    outline: 0;
+    border: #d7da5e;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.btn:hover {
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn-curtir {
+    padding: 1.5rem 1.5rem 1.5rem 6rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: #d7da5e;
+}
+
+.btn-curtir.curtido {
+    background: #d7da5e;
+    border-color: #75932e;
+}
+
+
+/* Icone do botão */
+
+.btn-icone {
+    display: inline-block;
+    width: 32px;
+    height: 35px;
+    position: absolute;
+    left: 1.5rem;
+    transform: rotate(0deg);
+}
+
+
+/* Cor do icone e pulsar */
+
+.curtido .btn--icone-curtir {
+    transform: scale(2);
+}
+
+.btn:not(.curtido).btn--icone-curtido {
+    transform: scale(-2);
+}
+
+.curtido .btn--icone-curtir,
+.btn--icone-curtido {
+    opacity: 0;
+    background: #d7da5e;
+    position: absolute;
+}
+
+.btn--icone-curtir,
+.curtido .btn--icone-curtido {
+    opacity: 1;
+    background: #d7da5e;
+    left: 1.5rem;
+}
+
+
+/*-- Conteudo do botão -- */
+
+.btn-conteudo {
+    display: inline-block;
+}
+
+
+/* Rotação */
+
+.btn:not(.curtido) .btn-conteudo--curtido {
+    transform: translate(110px);
+}
+
+.btn:not(.curtido) .btn-conteudo--curtir {
+    transform: translate(-99px);
+}
+
+.curtido .btn-conteudo--curtir {
+    transform: translate(40px);
+}
+
+.btn-conteudo--curtido {
+    transform: translate(-11px);
+}
+
+
+/* Classes que utilizam propriedades iguais */
+
+.btn,
+.btn-curtir,
+.btn-icone,
+.curtido,
+.btn-conteudo,
+.btn-conteudo--curtir,
+.btn-conteudo--curtir {
+    transition: 1.5s;
+}
+
+.btn,
+.btn:hover.curtido .btn-conteudo,
+.btn.curtido:hover .btn-icone {
+    color: #32620e;
+}
+
+.btn:hover,
+.btn:hover .btn-icone {
+    color: #32620e;
+}
+
+.curtido .btn--icone-curtir,
+.btn--icone-curtido,
+.curtido .btn-conteudo {
+    color: #32620e;
+}

@@ -89,9 +89,9 @@ namespace MatchBookAPI.Controllers
                 "'" +
                 idUsuario +
                 "'" +
-                " or destinatario = '@idUsuario' order by horario_criacao) select distinct u.id, u.nome, '[' || STRING_AGG( '{' || '\"id\":\"' || phc.id || '\",' || '\"destinatario\":\"' || phc.destinatario || '\",' || '\"remetente\":\"' || phc.remetente || '\",' || '\"horarioCriacao\":\"' ||  phc.horario_criacao - interval '3 hour'  || '\",' || '\"msg\":\"' || phc.msg || '\"}',',' ) || ']' as todas_mensagens FROM phsc phc left join public.usuario u on phc.destinatario = u.id OR phc.remetente  = u.id where u.id not in ('" +
+                " or destinatario = '@idUsuario' order by horario_criacao) select distinct u.id, u.nome, u.celular, u.email, '[' || STRING_AGG( '{' || '\"id\":\"' || phc.id || '\",' || '\"destinatario\":\"' || phc.destinatario || '\",' || '\"remetente\":\"' || phc.remetente || '\",' || '\"horarioCriacao\":\"' ||  phc.horario_criacao - interval '3 hour'  || '\",' || '\"msg\":\"' || phc.msg || '\"}',',' ) || ']' as todas_mensagens FROM phsc phc left join public.usuario u on phc.destinatario = u.id OR phc.remetente  = u.id where u.id not in ('" +
                 idUsuario +
-                "') GROUP BY 1,2 ";
+                "') GROUP BY 1,2,3,4 ";
 
             DataTable table = new DataTable();
 
@@ -120,6 +120,8 @@ namespace MatchBookAPI.Controllers
 
                 contatos.id = dr["id"].ToString();
                 contatos.nome = dr["nome"].ToString();
+                contatos.celular = dr["celular"].ToString();
+                contatos.email = dr["email"].ToString();
 
 
                 List<HistoricoChat> historicoChats = JsonConvert.DeserializeObject<List<HistoricoChat>>(dr["todas_mensagens"].ToString());
