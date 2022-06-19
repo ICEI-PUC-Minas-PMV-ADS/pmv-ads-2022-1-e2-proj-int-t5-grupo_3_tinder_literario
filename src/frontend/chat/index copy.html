@@ -12,11 +12,6 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../menu/style/style_menu.css">
     <link rel="shortcute icon" href="img/imgs/icones/pena.png">
-    <link rel="stylesheet" href="style/style_menu.css">
-    <link rel="stylesheet" href="style/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/styleimputscriarlista.css">
 </head>
 
 <header>
@@ -65,24 +60,54 @@
 </header>
 
 <body>
-    <div class="containerlista" style="display: grid; min-width: 71%; margin-right:10; margin-left:10">
-        <div class="buscarlviro" style="padding-bottom: 15px;">
-            <div class="input-group mb-3" id="busca">
-                <input type="search" class="form-control" id="caixabusca" placeholder="Buscar Contatos"
-                    aria-label="Buscar Contato" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button id="botaobusca" class="btn-outline-secondary" type="button"><img class="lupa"
-                            src="../estante-lista/img/lupa.png" alt="" onclick="busca()"> </button>
+    <div class="wrapper__container">
+        <div class="container__chat">
+            <div class="left">
+                <div class="top">
+                    <input type="text" placeholder="Buscar combinação" />
+                    <a href="#" class="search"></a>
+                </div>
+
+                <ul class="people">
+                </ul>
+
+            </div>
+            <div class="right">
+                <div class="top"><span>To: <span class="name">Pessoa 2</span></span></div>
+
+                <div class="chat" data-chat="person1">
+                    <div class="conversation-start">
+                        <span>Hoje, 6:48</span>
+                    </div>
+                    <div class="bubble you">
+                        Olá!
+                    </div>
+                    <div class="bubble you">
+                        Eu estava imaginando...
+                    </div>
+                    <div class="bubble you">
+                        Você realmente gostou de "Bly Manor"?
+                    </div>
+                </div>
+
+                <div class="chat" data-chat="person2">
+                    <div class="conversation-start">
+                        <span>Hoje, 15:38 </span>
+                    </div>
+                    <div class="bubble you">
+                        Boa tarde!
+                    </div>
+                </div>
+
+                <div class="write">
+                    <input type="text" id="mensagem" />
+                    <button class="btn__sendMessage" onclick="gotowhatsapp()" type="submit" id="mensagem">
+                        <a
+                            href='https://api.whatsapp.com/send/?text=Gostaria+de+saber+mais+sobre+seu+gosto+literario&app_absent=0'>
+                            > </a>
+                    </button>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="sugestaolivros">
-        <span class="titulo">Contatos Disponíveis</span>
-        <p class="Instrucao" style="margin-top: 20px; margin-bottom: 40px;" >Apareceram aqui os usuários que realizaram match com a sua lista ou vice-versa</p>
-        <div id="chat" style="margin-top: 10px; margin-left: 0;">
-        
         </div>
     </div>
 </body>
@@ -93,6 +118,7 @@
 
 </html>
 
+<script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
@@ -113,11 +139,9 @@
 
         //event.preventDefault();
         console.log("Chamando a api para buscar os Conversas..")
-        let user = JSON.parse(localStorage.getItem('cache-login-user'));
+        let user = localStorage.getItem('cache-login-user');
 
-        let baseUrl = "http://localhost:5000"
-        // baseUrl = "https://matchbookapi.herokuapp.com"
-        fetch(`${baseUrl}/api/v1/mensagem?idUsuario=${user.id}`, {
+        fetch(`https://matchbookapi.herokuapp.com/api/v1/mensagem?idUsuario=${user.id}`, {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json',
@@ -133,52 +157,38 @@
         });
     }
 
-    function busca(){
-
-    }
+    function createDiv(element, id, size) {
+            let i = 1;
+            let principalDiv = document.getElementById(element)
+            while (i <= size) {
+                let li = document.createElement("li")
+                li.className = id
+                li.id = id + i;
+                li.
+                principalDiv.appendChild(div)
+                i++;
+            }
+        }
 
     async function getResponse(res) {
         console.log("Esperando o callback da API... ")
         let response = []
         response = JSON.parse(await res.text());
+        createDiv('people', "person", response.lenght);
 
-        let principalDiv = document.getElementById('chat')
-        let i = 0;
-        for (let res of response){
+        <ul class="people">
+                    <li class="person" data-chat="person1">
+                        <img src="../../../docs/img/personas/persona1.PNG" alt="" />
+                        <span class="name">Pessoa 1</span>
+                    </li>
 
-            let miniDiv = document.createElement('div')
-            miniDiv.id = `mini-div-res` + i
-            miniDiv.style = `background-color: #ecf0f1`
+                    <li class="person" data-chat="person2">
+                        <img src="../../../docs/img/personas/persona3.PNG" alt="" />
+                        <span class="name">Pessoa 2</span>
+                    </li>
+                    
+                </ul>
 
-            let h3 = document.createElement("h3");
-            h3.style = "color: #23527c";
-            h3.textContent = `${res.nome}`
-
-            let span1 = document.createElement("span");
-            span1.textContent = `Celular: ${res.celular}`
-
-            let br1 = document.createElement("br");
-            let br2 = document.createElement("br");
-
-            let span2 = document.createElement("span");
-            span2.textContent = `Email: ${res.email}`
-
-            miniDiv.appendChild(h3);
-            miniDiv.appendChild(br1);
-            miniDiv.appendChild(span1);
-            miniDiv.appendChild(br2);
-            miniDiv.appendChild(span2);
-
-            miniDiv.addEventListener('click', function (){
-                window.open('https://api.whatsapp.com/send?phone=55'+res.celular);
-            })
-            let br3 = document.createElement("br");
-
-            principalDiv.appendChild(miniDiv);
-            principalDiv.appendChild(br3);
-
-            i++;
-        }
         console.log(response)
     }
 
