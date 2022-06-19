@@ -128,8 +128,8 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 |  	|  	|
 | **Caso de Teste** 	| **CTU-10 - Curtir/Match nas Listas de Livros** 	|
 | **Perfil** 	| Usuário 	|
-| **Objetivo do Teste** 	| Efetuar a curtida/Match ou não das listas 	|
-| **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Listas";<br>6. Selecionar ou buscar as listas dos usuário;<br>7. Efetuar a curtida/Match através ou não das listas:<br>ícones: Livro fechado vermelho (Não curtir) e livro aberto verde (Curtir) 	|
+| **Objetivo do Teste** 	| Efetuar a curtida/Match ou não das listas e acessar o link para whatsApp 	|
+| **Passos** 	| 1. Acessar o Navegador;<br>2. Informar o endereço do Site;<br>3. Visualizar a página principal;<br>4. Clicar em Entrar;<br>5. Acessar a seção "Listas";<br>6. Selecionar ou buscar as listas dos usuário;<br>7. Efetuar a curtida/Match através ou não das listas:<br>ícones: Livro fechado vermelho (Não curtir) e livro aberto verde (Curtir);<br>8. Ser direcionado para a página de chat;<br>9. Iniciar conversa via WhatsApp.	|
 |  	|  	|
 | **Caso de Teste** 	| **CTU-11 – Verificar se o sistema é responsivo** 	|
 | **Perfil** 	| Usuário 	|
