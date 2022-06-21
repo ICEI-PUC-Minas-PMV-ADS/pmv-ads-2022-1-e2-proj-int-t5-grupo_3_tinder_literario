@@ -152,7 +152,7 @@ Estes problemas serão acertados na próxima etapa.
 
 **Teste de Usabilidade da aplicação M@tchBook: estudo de caso**
 
-A tecnologia e as redes sociais ganharam o mundo num piscar de olhos, a pandemia do Covid-19 acelerou e dinamizou este processo, tendo as redes sociais à função de criar relações entre pessoas através do diálogo e troca de ideias. Este teste tem o objetivo de analisar e avaliar os resultados obtidos através do teste de usabilidade da aplicação M@tchBook.
+A tecnologia e as redes sociais ganharam o mundo num piscar de olhos, a pandemia do Covid-19 acelerou e dinamizou este processo, o tempo de navegação cresceu 20% no mundo todo, tendo as redes sociais à função de criar relações entre pessoas através do diálogo e troca de ideias. Segundo Santos (2022), no Brasil, oito em cada 10 brasileiros estão conectados de alguma maneira, ou seja, são presentes digitalmete Este teste tem o objetivo de analisar e avaliar os resultados obtidos através do teste de usabilidade da aplicação M@tchBook.
 
 O método utilizado foi a observação do uso da ferramenta com parâmetros de tempo, clicks, erros e observações. A partir dos dados coletados realizamos o mapeamento dos padrões de comportamento, possíveis problemas e soluções.
 
@@ -186,7 +186,6 @@ Teste bem explorado pelos usuários, o tempo de pesquisa ficou entre 26 a 50 seg
 
 Página da aplicação necessita de melhorias pois todos os usuários sentiram que estava faltando informações.
 
-**Sugestões:**
 **7-	Pesquisa e busca de livros**
 
 Teste realizado com sucesso por todos usuários.
@@ -215,7 +214,21 @@ Somente no teste realizado com Iphone e Safari toda a tela foi lida, inclusive a
 
 Melhoria: Verificar como as imagens podem ser reconhecidas nos navegadores Edge, Chrome e sistema Android.
 
-**Problemas de usabilidade:** 
+**Problemas de usabilidade** 
+
+Os problemas de usabilidade presentes em uma aplicação podem impedir que os usuários concluam uma tarefa.
+Os principais problemas de usabilidade levantados a partir dos testes foram:
+- Tempo de resposta ou falta da mesma em Editar Perfil;
+- A interação da interface com o usuário.
 
 **Plano de correção:**
 
+As seguintes ações foram previstas e algumas já foram todas para correção dos problemas de usabilidade. Seguem:
+- Inclusão de informação/instruções nas interfaces: Livros disponíveis, Gerenciar Listas e Criar listas (Implementado);
+- Melhoria no tempo de resposta e acerto dos erros de execução em Gerenciar/editar Perfil/Salvar e Apagar usuário (implementado);
+- Melhoria: Verificar como as imagens podem ser reconhecidas nos navegadores Edge, Chrome e sistema Android. (a ser implementado);
+- Criação de links nas listas dos usuário.
+
+**Conclusão**
+
+Os resultados dos testes de usabilidade mantem a aplicação viva e interativa, fazendo que a mesma atenda as necessidades do usuáarios e evolua com os resultados levantados.
