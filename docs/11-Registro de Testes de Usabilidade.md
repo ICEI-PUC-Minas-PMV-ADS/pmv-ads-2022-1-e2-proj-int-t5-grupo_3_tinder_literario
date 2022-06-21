@@ -158,3 +158,64 @@ O método utilizado foi a observação do uso da ferramenta com parâmetros de t
 
 O teste foi realizado em duas etapas: em um primeiro momento 5 usuários testaram os casos de testes 01, 02, 05, 07 e 11 e, na, segunda etapa, os primeiros 5 usuários testaram o restante dos casos  03, 04, 06, 08, 09, 10 e 12 e, os outros 3 testaram a aplicação em sua totalidade.
 
+Seguem resultados:
+
+**1-	Cadastro de usuário**
+
+Todos os usuários deram a mesma quantidade de clicks para efetuar a ação e não tiveram problemas e nem sugestões.
+
+**2-	Login de usuário**
+
+Todos os usuários deram a mesma quantidade de clicks para efetuar a ação e não tiveram problemas e nem sugestões.
+
+**3-	Editar informações de perfil**
+
+Essa funcionalidade precisa ser revista pois alguns usuários não conseguiram salvar as alterações ou apagar seus dados e, também foi detectado o erro 405 Not Alowed por um usuário na tentativa de Apagar usuário. A quantidade de clicks variaram de 4 a 5 e, de erros entre 1 e 2.
+
+**4-	Gerenciar Listas**
+
+A maioria dos usuários não soube o que fazer nesta página, ficando perdidos ou confusos.
+
+**Sugestão:** Inserir informações explicativas.
+
+**5-	Exibição dos livros existentes**
+
+Teste bem explorado pelos usuários, o tempo de pesquisa ficou entre 26 a 50 segundos, bem executada, o que mostrou que a página é intuitiva. 
+
+**6-	Criação de lista de livros**
+
+Página da aplicação necessita de melhorias pois todos os usuários sentiram que estava faltando informações.
+
+**Sugestões:**
+**7-	Pesquisa e busca de livros**
+
+Teste realizado com sucesso por todos usuários.
+
+**8-	Cadastro de livros na lista, selecionando-os na lista preexistente**
+
+Página da aplicação foi relatada na maioria dos testes como confusa, precisa de explicação.
+
+**Sugestão**: Inclusão de informações na página.
+
+**9-	Cadastro de livros na lista pesquisando livros**
+
+A maioria dos testes foi realizado sem necessidade de explicações e, houve sugestão da lista ficar como link, o que será implementado posteriormente.
+
+**10-	Curtir/Match nas Listas de Livros**
+
+Página de interação e mais apreciada pelos usuários. 
+
+**11-	Verificar se o sistema é responsivo**
+
+Os testes demonstraram que a aplicação é responsiva em todos os ambientes testados.
+
+**12-	Acessibilidade**
+
+Somente no teste realizado com Iphone e Safari toda a tela foi lida, inclusive as imagens, no Edge e Chrome, as imagens não foram reconhecidasmas os detalhes dos livros sim.
+
+Melhoria: Verificar como as imagens podem ser reconhecidas nos navegadores Edge, Chrome e sistema Android.
+
+**Problemas de usabilidade:** 
+
+**Plano de correção:**
+
