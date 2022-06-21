@@ -138,12 +138,23 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 
 <h2>Observações e conclusão</h2>
-A partir do teste realizado com os artefatos CTU -01, 03, 06, 08 e 15, observou-se que tanto a funcionalidade do artefato 08 e 15, necessitam de maiores explicações e informações sobre sobre a aplicação e sua funcionalidade.
+A partir do teste realizado com os artefatos CTU - 01, 02, 05, 07 e 11, observou-se que tanto a funcionalidade do artefato 08 e 15, necessitam de maiores explicações e informações sobre sobre a aplicação e sua funcionalidade.
 
-Nesta segunda etapa dos testes de usabilidade foram adicionadas 3 usuários além dos 4 que realizaram o teste anteriormente, os quais testaram a aplicação em sua totalidade, os quais são representados na tabela a partir do Usuário 6.
+Nesta segunda etapa dos testes de usabilidade foram adicionadas 3 usuários além dos 5 que realizaram o teste anteriormente, os quais testaram a aplicação em sua totalidade, os quais são representados na tabela a partir do Usuário 6.
 
 Para realizar aos testes de acessibilidade, os usuários 1, 3, 4, 5, 6, 7 e 8 usaram a função acessibilidade do Android, que inclui o TalkBack do Google. Já o usuário 2 utilizou IOS 15.5 e Safari para realizar testes mas teve que habilitar as opções de acessibilidade no telefone.
 
 A partir dos testes realizados, observou-se que a aplicação precisa da inclusão de textos para direcionar seus usuários e acertar alguns erros de direcionamento e processos não conclusivos como nos casos de teste 3, 7 e 9.
 
 Estes problemas serão acertados na próxima etapa.
+
+<h2>Relatório</h2>
+
+**Teste de Usabilidade da aplicação M@tchBook: estudo de caso**
+
+A tecnologia e as redes sociais ganharam o mundo num piscar de olhos, a pandemia do Covid-19 acelerou e dinamizou este processo, tendo as redes sociais à função de criar relações entre pessoas através do diálogo e troca de ideias. Este teste tem o objetivo de analisar e avaliar os resultados obtidos através do teste de usabilidade da aplicação M@tchBook.
+
+O método utilizado foi a observação do uso da ferramenta com parâmetros de tempo, clicks, erros e observações. A partir dos dados coletados realizamos o mapeamento dos padrões de comportamento, possíveis problemas e soluções.
+
+O teste foi realizado em duas etapas: em um primeiro momento 5 usuários testaram os casos de testes 01, 02, 05, 07 e 11 e, na, segunda etapa, os primeiros 5 usuários testaram o restante dos casos  03, 04, 06, 08, 09, 10 e 12 e, os outros 3 testaram a aplicação em sua totalidade.
+
