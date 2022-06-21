@@ -39,7 +39,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 | **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| CTU-04  | 00:00:08 | 2 | --- | Usuário não entendeu o porque da página, deveria ser testado após a criação de listas|
+| Usuário 1	| CTU-04  | 00:00:08 | 2 | --- | --- | Usuário não entendeu o porque da página, deveria ser testado após a criação de listas|
 | Usuário 2 | CTU-04 	| 00:00:07 | 1  | --- | --- | Usuário não soube o que fazer |
 | Usuário 3	| CTU-04 	| 00:00:09 | 2  | --- | --- | Usuário não soube o que fazer |
 | Usuário 4	| CTU-04 	| 00:00:10 | 2  | --- | --- | Usuário sugeriu que a tela precisa de maiores informações ou ser testada após criar listas |
