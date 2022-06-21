@@ -20,4 +20,4 @@ MARIA, Luzia de. **O clube do livro**: ser leitor - que diferença faz? São Pau
 
 PATEL, Neil. Teste de Usabilidade: O que é e como fazer passo a passo. *In*: PATEL, Neil. **Blog Neil Patel**. c2022. Disponível em: https://neilpatel.com/br/blog/teste-de-usabilidade/. Acesso em: 27 mar. 2022.
 
-SANTOS, Flávio. **A economia da influência**: transforme a narrativa da sua marca em seu maior ativo e adapte seu negócio parab ter resultados escaláveis. São Paulo: Gente, 2022.
+SANTOS, Flávio. **Economia da influência**: transforme a narrativa da sua marca em seu maior ativo e adapte seu negócio parab ter resultados escaláveis. São Paulo: Gente, 2022.
