@@ -32,19 +32,19 @@ O objetivo deste relatório é indicar se a aplicação M@tchbook atende aos req
 | 1 	| Cadastrar perfil 	|
 |:---:	|:---:	|
 |	Requisito	| RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Observação | xxxxxx |
+| Observação | Na página inicial, a aplicação apresenta a funcionalidade de cadastro, este que pode ser realizado ao clicar em "criar conta". Após o preenchimento de informações cadastrais (e-mail, nome, CPF, por exemplo) e aceitar os termos de uso, o usuário recebe o feedback de que o cadastro foi realizado com sucesso. Além disso, é possível fazer alterações posteriores a respeito dessas informações (por exemplo, a troca de e-mail e a alteração de número de telefone). Assim, o M@tchbook atende ao requisito <b> cadastrar perfil . |
 |  	|  	|
 | 2| Efetuar login	|
 | Requisito | RF-005	- A aplicação deve possuir opção de fazer login, sendo o login endereço de e-mail. |
-| Observação | xxxxxx |
+| Observação | Também na página inicial, a aplicação apresenta a funcionalidade de login. Após o preenchimento dos campos de e-mail e senha o usuário é redirecionado para a tela de livros disponíveis no banco da aplicação. O M@tchbook, então, atende ao requisito <b> efetuar login. |
 |  	|  	|
 | 3 | Criar listas |
 |Requisito | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
-| Observação | xxxxxx |
+| Observação | A aplicação permite aos usuários, primeiramente, favoritar e, em seguida, usar os livros favoritados na criação de listas. A função/ação "favoritar" pode passar despercebida pelo usuário, que, sem ela, não consegue inserir livros em uma lista. Assim, o M@tchbook atende parcialmente ao requisito <b> criar listas. |
 |  	|  	|
 | 4 | Salvar listas |
 |Requisito | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
-| Observação | xxxxxx |
+| Observação | Após a criação da lista, o usuário consegue salvá-la sem problemas. Dessa forma, a aplicação atende ao requisito <b> salvar listas.  |
 |  	|  	|
 | 5 | Interação entre usuários |
 |Requisito | RF-002 - A aplicação deve ter um chat para conversação para os usuários interagirem entre si.	|
