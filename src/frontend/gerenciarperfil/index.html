@@ -73,17 +73,15 @@
         </div>
         -->
         <h1>Gerenciar Perfil</h1>
-        <form action="/pagina-processa-dados-do-form" method="post">
-
+        <form>
             <label for="name">Nome Cadastrado </label>
             <input type="text" name="Nome-cadastrado" id="Nome-cadastrado" placeholder="" autocomplete="off" disabled>
             <label for="inputEmail">Email Cadastrado</label>
             <input type="email" name="Email-cadastrado" id="inputEmail-cadastrado" placeholder="" disabled>
             <label for="inputEmail">Celular Cadastrado</label>
             <input type="tel" name="phoneNumber-cadastrado" id="phoneNumber-cadastrado" disabled>
-
-        <!-- Botão que irá abrir o modal -->
-            <input type="submit" data-toggle="modal" data-target="#meuModal"value="Editar Perfil" onclick="editaLogin(event)">
+             <!-- Botão que irá abrir o modal -->
+            <input type="button" data-toggle="modal" data-target="#meuModal" value="Editar Usuário">
             <input type="submit" value="Apagar Usuário" onclick="apagaLogin(event)">
         </form>
 
@@ -122,9 +120,9 @@
                         </div>
                         <div class="form-group">
                             <label for="telefone" class="col-form-label"><strong>Celular:</strong></label>
-                            <input type="tel" name="phoneNumber" class="form-control" id="Número de Telefone" size="11" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DDD) + nº telefone" required>
+                            <input type="tel" name="phoneNumber" class="form-control" id="phoneNumber" size="11" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(DDD) + nº telefone" required>
                         </div>
-                        <div class="full-box" onclick="RealizeSalvar(event)">
+                        <div class="full-box" onclick="editaLogin(event)">
                             <input id="btn-submit" type="submit" value="Salvar alterações">
                         </div>
                     </div>
@@ -196,8 +194,8 @@
 
         event.preventDefault();
 
-        var name = document.getElementById('name').value;
-        var username = document.getElementById('inputEmail').value;
+        var name = '';
+        var username = document.getElementById('email').value;
         var phoneNumber = document.getElementById('phoneNumber').value;
 
         id = JSON.parse(localStorage.getItem("cache-login-user")).id;
@@ -220,12 +218,15 @@
 
         let baseURL = 'https://matchbookapi.herokuapp.com/api/v1/atualiza-cadastro'
 
+        baseURL = 'http://localhost:5000/api/v1/atualiza-cadastro';
+        
         fetch(baseURL, {
             method: "PATCH",
             headers: {
-                'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS, PATCH',
+                'Host': 'https://matchbookapi.herokuapp.com',
+                'Access-Control-Allow-Methods': 'PATCH',
+                'Content-type': 'application/json; charset=UTF-8', // Indicates the content 
                 'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
                 'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
             },

@@ -91,6 +91,26 @@ input[type="submit"] {
     font-weight: bold;
 }
 
+input[type="button"] {
+    text-align: center !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+    margin-top: 30px !important; 
+    cursor: pointer !important;
+    color: #FFF !important;
+    background-color: #AC663E !important;
+    font-weight: bold !important;
+}
+
+input[type="button"]:hover {
+    background-color: #E2A165 !important;
+    transition: .5s !important;
+}
+
+
+
 input[type="submit"]:hover {
     background-color: #E2A165;
     transition: .5s;
