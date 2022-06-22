@@ -22,3 +22,50 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |  	|  	|
 | Teste 	| CT-07 – Sistema de curtidas (Match)	|
 |	Vídeo 	| <video src="https://user-images.githubusercontent.com/81396458/173191781-7710756b-11ac-433c-9bfd-33b763c119ee.mp4"> |
+
+<h2>Relatório de Testes de Software</h2>
+  
+O objetivo deste relatório é indicar se a aplicação M@tchbook atende aos requisitos previamente propostos e sugerir possíveis pontos de correção.
+
+<br> 
+  
+| 1 	| Cadastrar perfil 	|
+|:---:	|:---:	|
+|	Requisito	| RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+| Observação | xxxxxx |
+|  	|  	|
+| 2| Efetuar login	|
+| Requisito | RF-005	- A aplicação deve possuir opção de fazer login, sendo o login endereço de e-mail. |
+| Observação | xxxxxx |
+|  	|  	|
+| 3 | Criar listas |
+|Requisito | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
+| Observação | xxxxxx |
+|  	|  	|
+| 4 | Salvar listas |
+|Requisito | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
+| Observação | xxxxxx |
+|  	|  	|
+| 5 | Interação entre usuários |
+|Requisito | RF-002 - A aplicação deve ter um chat para conversação para os usuários interagirem entre si.	|
+| Observação | xxxxxx |
+|  	|  	|
+| 6 | Buscar livros |
+|Requisitos | RF-003 - A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros.	<br> RF-008 - A aplicação deverá permitir buscar livros previamente cadastrados na base de dados.	|
+| Observação | xxxxxx |
+|  	|  	|
+| 7 | Sistema de curtidas (_Match_) |
+|Requisito | RF-009 - A aplicação deve permitir a função _match_ quando um usuário se identificou com outro usuário.	 |
+| Observação | xxxxxx |
+|  	|  	|
+| 8 | Reunir _matches_ |
+|Requisito | RF-011 - A aplicação deve reunir as listas com mais _matches_	 |
+| Observação | xxxxxx |
+
+<br>
+
+**Possíveis pontos de correção:**
+  
+<br>
+
+**Conclusão**
