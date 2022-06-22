@@ -48,19 +48,19 @@ O objetivo deste relatório é indicar se a aplicação M@tchbook atende aos req
 |  	|  	|
 | 5 | Interação entre usuários |
 |Requisito | RF-002 - A aplicação deve ter um chat para conversação para os usuários interagirem entre si.	|
-| Observação | xxxxxx |
+| Observação | Inicialmente, a interação entre os usuários deveria ocorrer dentro da própria aplicação. No entanto, com o decorrer do desenvolvimento das demais funcionalidades do M@tchbook,  a decisão tomada foi permitir que o usuário, após ter dado _match_ em uma lista, fosse redirecionado ao WhatsApp, isto é, com um clique é possível mandar uma mensagem para a combinação por meio de outro aplicativo, caso o telefone cadastrado dessa combinação estiver correto e também cadastrado no WhatsApp. Dessa forma, o M@tchbook atende insatisfatoriamente ao requisito <b> interação entre usuários. |
 |  	|  	|
 | 6 | Buscar livros |
 |Requisitos | RF-003 - A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros.	<br> RF-008 - A aplicação deverá permitir buscar livros previamente cadastrados na base de dados.	|
-| Observação | xxxxxx |
+| Observação | Após o login, o usuário é redirecionado para a tela de livros disponíveis. Há, nela, uma barra de pesquisa que filtra a busca diante do que foi digitado, que retorna com sucesso o livro pesquisado, mesmo que esse tenha sido digitado em caixa alta ou com fragmentos do título faltando. O M@tchbook atende ao requisito <b> buscar livros. |
 |  	|  	|
 | 7 | Sistema de curtidas (_Match_) |
 |Requisito | RF-009 - A aplicação deve permitir a função _match_ quando um usuário se identificou com outro usuário.	 |
-| Observação | xxxxxx |
+| Observação | A aplicação apresenta o botão de "curtir", que, quando clicado, realiza a função _match_. O M@tchbook atende ao requisito <b> sistema de curtidas. |
 |  	|  	|
 | 8 | Reunir _matches_ |
 |Requisito | RF-011 - A aplicação deve reunir as listas com mais _matches_	 |
-| Observação | xxxxxx |
+| Observação | A aplicação, até o momento, não reúne as listas com mais _matches_. Dessa maneira, o M@tchbook não atende ao requisito <b> reunir _matches_. |
 
 <br>
 
