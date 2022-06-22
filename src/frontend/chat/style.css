@@ -46,6 +46,21 @@ body {
     font-weight: 300;
 }
 
+#mini-div-res0 {
+    padding: 30px;
+    background-color: #f3f3f3 !important;
+    color: #AC663E !important;
+}
+
+h3 {
+    color: #AC663E !important;
+    font-weight: bold !important;
+}
+
+.titulo {
+    text-align: center !important;
+}
+
 .preview {
     color: rgb(222, 222, 222);
     font-style: italic;
