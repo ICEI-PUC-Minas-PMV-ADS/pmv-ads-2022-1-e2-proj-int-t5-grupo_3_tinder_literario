@@ -66,6 +66,7 @@ O objetivo deste relatório é indicar se a aplicação M@tchbook atende aos req
 
 **Possíveis pontos de correção:**
   
-<br>
-
-**Conclusão**
+Como possíveis pontos de correção, sugerimos as seguintes ações:
+- a equipe deve cadastrar, periodicamente, mais livros no banco para permitir uma maior e mais variada criação de listas;
+- a equipe deve proporcionar que a interação entre os usuários seja realizada dentro da própria aplicação, com um chat próprio; 
+- a equipe deve permitir que os livros possam ser inseridos em uma lista sem que seja necessários favoritá-los previamente.
