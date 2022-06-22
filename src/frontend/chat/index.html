@@ -116,7 +116,7 @@
         let user = JSON.parse(localStorage.getItem('cache-login-user'));
 
         let baseUrl = "http://localhost:5000"
-        // baseUrl = "https://matchbookapi.herokuapp.com"
+        baseUrl = "https://matchbookapi.herokuapp.com"
         fetch(`${baseUrl}/api/v1/mensagem?idUsuario=${user.id}`, {
             method: "GET",
             headers: {
