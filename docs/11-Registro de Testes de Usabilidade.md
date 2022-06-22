@@ -152,9 +152,9 @@ Estes problemas serão acertados na próxima etapa.
 
 **Teste de Usabilidade da aplicação M@tchBook: estudo de caso**
 
-A tecnologia e as redes sociais ganharam o mundo num piscar de olhos, a pandemia do Covid-19 acelerou e dinamizou este processo, o tempo de navegação cresceu 20% no mundo todo, tendo as redes sociais à função de criar relações entre pessoas através do diálogo e troca de ideias. Segundo Santos (2022), no Brasil, oito em cada 10 brasileiros estão conectados de alguma maneira, ou seja, são presentes digitalmete Este teste tem o objetivo de analisar e avaliar os resultados obtidos através do teste de usabilidade da aplicação M@tchBook.
+A tecnologia e as redes sociais ganharam o mundo num piscar de olhos, a pandemia da Covid-19 acelerou e dinamizou este processo, o tempo de navegação cresceu 20% no mundo todo, tendo as redes sociais a função de criar relações entre pessoas por meio do diálogo e da troca de ideias. Segundo Santos (2022), no Brasil, oito em cada 10 brasileiros estão conectados de alguma maneira, ou seja, são presentes digitalmete. Este teste tem o objetivo de analisar e avaliar os resultados obtidos mediante o teste de usabilidade da aplicação M@tchBook.
 
-O método utilizado foi a observação do uso da ferramenta com parâmetros de tempo, clicks, erros e observações. A partir dos dados coletados realizamos o mapeamento dos padrões de comportamento, possíveis problemas e soluções.
+O método utilizado foi a observação do uso da ferramenta com parâmetros de tempo, clicks, erros e observações. A partir dos dados coletados, realizamos o mapeamento dos padrões de comportamento, possíveis problemas e soluções.
 
 O teste foi realizado em duas etapas: em um primeiro momento 5 usuários testaram os casos de testes 01, 02, 05, 07 e 11 e, na, segunda etapa, os primeiros 5 usuários testaram o restante dos casos  03, 04, 06, 08, 09, 10 e 12 e, os outros 3 testaram a aplicação em sua totalidade.
 
