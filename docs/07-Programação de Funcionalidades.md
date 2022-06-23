@@ -13,3 +13,5 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 | A página web  deve possuir as opções de inserir listas de livros e de salvá-las. | criarlista.html |
 | A aplicação  deverá permitir buscar livros previamente cadastrados na base de dados. | estantelivros.html |
 | A aplicação  deve permitir a função _match_ quando um usuário se identificou com outro usuário. | gerListas.html |
+| A aplicação deve oferecer a funcionalidade de favoritar livros. | estantelivros.html |
+| A aplicação deve permitir que o usuário recupere sua senha. | index.html |
