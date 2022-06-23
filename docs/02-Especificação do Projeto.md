@@ -62,6 +62,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| A página web  deve possuir as opções de inserir listas de livros e de salvá-las. | ALTA |
 |RF-006| A aplicação  deverá permitir buscar livros previamente cadastrados na base de dados. | BAIXA |
 |RF-007| A aplicação  deve permitir a função _match_ quando um usuário se identificou com outro usuário. | ALTA |
+|RF-008| A aplicação deve oferecer a funcionalidade de favoritar livros. | ALTA |
+|RF-009| A aplicação deve permitir que o usuário recupere sua senha. | ALTA |
 
 
 
