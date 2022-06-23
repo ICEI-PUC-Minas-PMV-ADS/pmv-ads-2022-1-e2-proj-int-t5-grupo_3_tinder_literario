@@ -57,10 +57,6 @@ O objetivo deste relatório é indicar se a aplicação M@tchbook atende aos req
 | 7 | Sistema de curtidas (_Match_) |
 |Requisito | RF-009 - A aplicação deve permitir a função _match_ quando um usuário se identificou com outro usuário.	 |
 | Observação | A aplicação apresenta o botão de "curtir", que, quando clicado, realiza a função _match_. O M@tchbook atende ao requisito <b> sistema de curtidas. |
-|  	|  	|
-| 8 | Reunir _matches_ |
-|Requisito | RF-011 - A aplicação deve reunir as listas com mais _matches_	 |
-| Observação | A aplicação, até o momento, não reúne as listas com mais _matches_. Dessa maneira, o M@tchbook não atende ao requisito <b> reunir _matches_. |
 
 <br>
 
