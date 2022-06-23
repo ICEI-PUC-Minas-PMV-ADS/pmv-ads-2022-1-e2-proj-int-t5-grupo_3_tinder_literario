@@ -210,7 +210,7 @@ Os testes demonstraram que a aplicação é responsiva em todos os ambientes tes
 
 **12-	Acessibilidade**
 
-Somente no teste realizado com Iphone e Safari toda a tela foi lida, inclusive as imagens, no Edge e Chrome, as imagens não foram reconhecidasmas os detalhes dos livros sim.
+Somente no teste realizado com Iphone e Safari toda a tela foi lida, inclusive as imagens, no Edge e Chrome, as imagens não foram reconhecidasmas os detalhes dos livros sim. Testado com usuários sem PCD.
 
 Melhoria: Verificar como as imagens podem ser reconhecidas nos navegadores Edge, Chrome e sistema Android.
 
@@ -227,7 +227,8 @@ As seguintes ações foram previstas e algumas já foram todas para correção d
 - Inclusão de informação/instruções nas interfaces: Livros disponíveis, Gerenciar Listas e Criar listas (Implementado);
 - Melhoria no tempo de resposta e acerto dos erros de execução em Gerenciar/editar Perfil/Salvar e Apagar usuário (implementado);
 - Melhoria: Verificar como as imagens podem ser reconhecidas nos navegadores Edge, Chrome e sistema Android. (a ser implementado);
-- Criação de links nas listas dos usuário.
+- Criação de links nas listas dos usuário;
+- Testar usabilidade de acessibilidade com usuário portador de deficiência visual.
 
 **Conclusão**
 
