@@ -36,7 +36,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste | CT-05 – Interação entre usuários |
 |Requisito Associado | RF-002 - A aplicação deve ter um chat para conversação para os usuários interagirem entre si.	|
 |Objetivo do Teste | Verificar se o chat consegue ser utilizado pelos usuários. |
-|Passos | -  Acessar a aplicação <br> - Acessar a lista de usuários curtidos <br> - Selecionar um usuário para abrir o chat <br> - Enviar mensagens <br> - Receber mensagens |
+|Passos | -  Acessar a aplicação <br> - Acessar a lista de usuários curtidos <br> - Selecionar um usuário para abrir o chat <br> - Ser redirecionado para o What'sApp <br> - Enviar mensagens <br> - Receber mensagens |
 |Critério de Êxito | - Os usuários são capazes de interagir no chat da aplicação. |
 |  	|  	|
 | Caso de Teste | CT-06 – Buscar livros |
@@ -60,5 +60,5 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste | CT-09 –  Recuperar senha |
 |Requisito Associado | RF-009 - A aplicação deve permitir que o usuário recupere sua senha  	 |
 |Objetivo do Teste | Verificar se o usuário consegue recuperar sua senha de acesso |
-|Passos | -   |
+|Passos | - Acessar a página de login <br> - Clicar em "Esqueci a Senha" <br> - Preencher o e-mail da conta cadastrada e clicar no botão "Recuperar" <br> - Preencher os dados necessários e clicar em "Registrar"  |
 |Critério de Êxito | - O usuário consegue recuperar sua senha com sucesso. |
