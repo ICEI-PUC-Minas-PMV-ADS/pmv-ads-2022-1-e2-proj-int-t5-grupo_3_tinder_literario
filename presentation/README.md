@@ -1,3 +1,4 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+## Vídeo Final
+Para assistir o vídeo com a apresentação da solução desenvolvida [clique aqui](https://youtu.be/2HzHJOSmEhY).
