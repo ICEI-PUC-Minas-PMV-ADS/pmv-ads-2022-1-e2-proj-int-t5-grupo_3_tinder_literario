@@ -24,7 +24,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Caso de Teste | CT-03 – Criar listas |
 |Requisito Associado | RF-006 - A página web deve possuir as opções de inserir listas de livros e de salvá-las.	|
 |Objetivo do Teste | Verificar se o usuário consegue criar listas de livros. |
-|Passos | - Acessar o navegador <br> - Informar o endereço do site <br> - Realizar login com a conta cadastrada <br> - Visitar os livros disponíveis <br> - Selecionar os livros que quer em uma lista <br> - Criar uma lista |
+|Passos | - Acessar o navegador <br> - Informar o endereço do site <br> - Realizar login com a conta cadastrada <br> - Visitar os livros disponíveis <br> - Selecionar os livros que quer em uma lista <br> - Favoritar os livros que quer em uma lista <br> - Visitar a página de "Listas" <br> - Criar uma lista |
 |Critério de Êxito | - O usuário consegue criar suas listas.  |
 |  	|  	|
 | Caso de Teste | CT-04 – Salvar listas |
@@ -51,8 +51,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Passos | - Fazer login <br> - Visualizar listas de outros usuários <br> - Curtir a lista <br> - Receber a informação de _match_ realizado |
 |Critério de Êxito | - A curtida entre usuários é realizada. |
 |  	|  	|
-| Caso de Teste | CT-08 – Reunir _matches_ |
-|Requisito Associado | RF-011 - A aplicação deve reunir as listas com mais _matches_	 |
-|Objetivo do Teste | Verificar se as listas com mais _matches_ são disponibilizadas para os usuários |
-|Passos | - Fazer login <br> - Acessar o menu da aplicação <br> - Observar as listas com mais curtidas |
-|Critério de Êxito | - A aplicação reúne as listas com mais _matches_. |
+| Caso de Teste | CT-08 –  Favoritar livros |
+|Requisito Associado | RF-008 - A aplicação deve oferecer a funcionalidade de favoritar livros 	 |
+|Objetivo do Teste | Verificar se o usuário consegue favoritar livros |
+|Passos | - Fazer login <br> - Acessar o menu da aplicação <br> - Visitar a página de livros disponíveis <br> - Clicar no livro desejado para abrir o modal com detalhes dos livros <br> - Clicar em "Adicionar aos favoritos"  |
+|Critério de Êxito | - O usuário consegue favoritar seus livros desejados. |
+|  	|  	|
+| Caso de Teste | CT-09 –  Recuperar senha |
+|Requisito Associado | RF-009 - A aplicação deve permitir que o usuário recupere sua senha  	 |
+|Objetivo do Teste | Verificar se o usuário consegue recuperar sua senha de acesso |
+|Passos | -   |
+|Critério de Êxito | - O usuário consegue recuperar sua senha com sucesso. |
