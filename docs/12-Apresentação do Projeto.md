@@ -7,7 +7,9 @@ Apresentação do projeto contemplando todos os itens trabalhados e os artefatos
 
 ## Conjunto de Slides
 
-Para visualizar [clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/main/presentation/ADS%20PUC%20-%20MG%202022.pdf).
+Para visualizar [clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/blob/7a531a338a7ba40df01cebfe4ceaa48c88c1e3ef/presentation/ADS%20PUC%20-%20MG%202022.pdf).
+
+
 
 
 ## Vídeo  
