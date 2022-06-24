@@ -37,11 +37,10 @@ namespace MatchBookAPI
         {
             // global cors policy
             app.UseCors(x => x
+                .WithOrigins("http://localhost:3000/", "https://icei-puc-minas-pmv-ads.github.io/")
+                .AllowAnyOrigin()
                 .AllowAnyMethod()
-                .AllowAnyHeader()
-                .SetIsOriginAllowed(origin => true) // allow any origin
-                                                    //.WithOrigins("https://localhost:44351")); // Allow only this origin can also have multiple origins separated with comma
-                .AllowCredentials()); // allow credentials
+                .AllowAnyHeader()); // allow credentials
 
             if (env.IsDevelopment())
             {
