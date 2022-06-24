@@ -155,6 +155,8 @@
 
 
     async function apagaLogin(event){
+        event.preventDefault();
+
         console.log("Função para apagar o formulário do perfil...")
 
         let id = JSON.parse(localStorage.getItem("cache-login-user")).id;
@@ -166,15 +168,14 @@
         fetch(baseURL, {
             method: 'DELETE',
             headers: {
-                'Access-Control-Allow-Methods': 'DELETE',
-                'Content-type': 'application/json; charset=UTF-8', // Indicates the content 
                 'Access-Control-Allow-Origin': '*',
-                'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
-                'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
+                'Access-Control-Allow-Headers': '*',
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Methods': 'DELETE',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
             }
         }).then(res => {
-            alert('Usuário apagado com sucesso!');
-            window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html','/src/frontend/login/index.html')
+            this.getDelete()
         }).catch(err => {
             console.log("A resposta da API quebrou...")
             console.log(err)
@@ -182,10 +183,9 @@
     }
 
 
-    async function getDelete(res) {
-        console.log("Esperando o callback da API... ")
-
-        response = JSON.parse(await res.text());
+    async function getDelete() {
+        alert('Usuário apagado com sucesso!');
+        window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html','/src/frontend/inicial/homepage.html')
     }
 
 
@@ -223,10 +223,9 @@
         fetch(baseURL, {
             method: "PATCH",
             headers: {
+                'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*',
-                'Host': 'https://matchbookapi.herokuapp.com',
-                'Access-Control-Allow-Methods': 'PATCH',
-                'Content-type': 'application/json; charset=UTF-8', // Indicates the content 
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS, PATCH',
                 'Access-Control-Request-Headers': 'access-control-allow-origin,content-type',
                 'Access-Control-Request-Method': 'access-control-allow-origin,content-type'
             },
@@ -247,7 +246,7 @@
             if (response.status === true) {
                 alert('Usuário atualizado com sucesso!');
                 localStorage.setItem('cache-login-user', JSON.stringify(response));
-                window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html','/src/frontend/estante-lista/estantelivros.html')
+                window.location.href = window.location.href.replace('/src/frontend/gerenciarperfil/index.html?','/src/frontend/estante-lista/estantelivros.html')
             } else { // Se login falhou, avisa ao usuário
                 alert('Erro na hora de atualizar!');
             }
