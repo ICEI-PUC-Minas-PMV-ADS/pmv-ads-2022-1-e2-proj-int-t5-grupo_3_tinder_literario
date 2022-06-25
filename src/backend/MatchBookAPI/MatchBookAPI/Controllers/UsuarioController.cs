@@ -159,6 +159,8 @@ namespace MatchBookAPI.Controllers
 
             try
             {
+
+                
                 string query = @" UPDATE Usuario ";
 
                 if (usuarioModel.nome != "")
@@ -181,10 +183,8 @@ namespace MatchBookAPI.Controllers
                     {
                         query += " SET ";
                     }
-                    query += " celular = @celular,";
+                    query += " celular = @celular ";
                 }
-
-                query = query.Substring(0, query.Length - 1);
 
 
                 query += " WHERE id = @id ";
@@ -283,6 +283,7 @@ namespace MatchBookAPI.Controllers
 
             return response;
         }
+
 
         [Route("api/v1/deleta-usuario")]
         [HttpDelete]

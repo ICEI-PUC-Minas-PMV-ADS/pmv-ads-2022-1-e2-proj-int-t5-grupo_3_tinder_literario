@@ -37,7 +37,12 @@ namespace MatchBookAPI
         {
             // global cors policy
             app.UseCors(x => x
-                .WithOrigins("http://localhost:3000/", "https://icei-puc-minas-pmv-ads.github.io/")
+                .WithOrigins("http://localhost:3000/",
+                "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e2-proj-int-t5-grupo_3_tinder_literario/src/frontend/gerenciarperfil/index.html",
+                "https://icei-puc-minas-pmv-ads.github.io/",
+                "http://127.0.0.1:5501/src/frontend/gerenciarperfil/index.html",
+                "https://matchbookapi.herokuapp.com/api/v1/edita-cadastro",
+                "*")
                 .AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader()); // allow credentials
